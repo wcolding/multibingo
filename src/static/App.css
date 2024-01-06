@@ -1,0 +1,10 @@
+body {
+    margin-left: 40%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.gameChecksSelect {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+}

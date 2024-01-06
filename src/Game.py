@@ -4,6 +4,7 @@ class BingoCheck():
     name = ''
     obj_type = 0
     img_path = ''
+    enabled = False
 
     def __init__(self, name: str, obj_type: int):
         self.name = name
@@ -12,6 +13,7 @@ class BingoCheck():
 class BingoGame():
     name = ''
     checks_list = []
+    show_checks = False
 
     def __init__(self, json_data: str):
         self.checks_list = []

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multibingo Generator</title>
+    <link rel="stylesheet" href="../static/App.css" />
+</head>
+<body>
+    <div id="gameSelection">
+        {% for game in games %}
+        
+        <div class="gameSelect">
+            <input type=checkbox>{{game.name}} - ({{game.checks_list|length}} checks)</checkbox>
+        </div>
+
+        {% if game.show_checks %}
+        <div class="gameChecksSelect">
+            {% for check in game.checks_list %}
+            <input type=checkbox>{{check.name}}</checkbox>
+            <br>
+            {% endfor %}
+        </div>
+        {% endif %}
+        
+        {% endfor %}
+    </div>
+    
+</body>
+</html>
