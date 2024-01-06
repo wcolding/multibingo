@@ -5,9 +5,9 @@ from Game import *
 
 games = []
 
-game_dirs = os.listdir('../Games')
+game_dirs = os.listdir('../games')
 for game in game_dirs:
-    subdir = '../Games/{folder}'.format(folder=game)
+    subdir = '../games/{folder}'.format(folder=game)
     game_files = os.listdir(subdir)
     if 'data.json' in game_files:
         file_path = '{_subdir}/data.json'.format(_subdir = subdir)
