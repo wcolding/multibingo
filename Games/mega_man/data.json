@@ -1,0 +1,29 @@
+{
+    "game": "Mega Man",
+    "checks": [
+        {
+            "name": "Guts Man",
+            "obj_type": 1
+        },
+        {
+            "name": "Cut Man",
+            "obj_type": 2
+        },
+        {
+            "name": "Elec Man",
+            "obj_type": 3
+        },
+        {
+            "name": "Ice Man",
+            "obj_type": 4
+        },
+        {
+            "name": "Fire Man",
+            "obj_type": 5
+        },
+        {
+            "name": "Bomb Man",
+            "obj_type": 6
+        }
+    ]
+}
