@@ -27,3 +27,12 @@ class BingoGame():
                 new_check.img_path = check["img_path"]
             
             self.checks_list.append(new_check)
+
+    def get_obj_type_count(self) -> int:
+        ids = []
+
+        for check in self.checks_list:
+            if check.obj_type not in ids:
+                ids.append(check.obj_type)
+        
+        return len(ids)

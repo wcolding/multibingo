@@ -8,3 +8,17 @@ body {
     margin-bottom: 5px;
     margin-left: 20px;
 }
+
+.checksCount {
+    display: inline;
+    font-size: smaller;
+    font-style: italic;
+    color: darkblue;
+}
+
+.objectivesCount {
+    display: inline;
+    font-size: smaller;
+    font-style: italic;
+    color:green
+}
