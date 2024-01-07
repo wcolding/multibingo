@@ -1,0 +1,609 @@
+{
+    "game": "Pok\u00e9mon (Kanto)",
+    "checks": [
+        {
+            "name": "Bulbasaur",
+            "obj_type": 2
+        },
+        {
+            "name": "Ivysaur",
+            "obj_type": 2
+        },
+        {
+            "name": "Venusaur",
+            "obj_type": 2
+        },
+        {
+            "name": "Charmander",
+            "obj_type": 3
+        },
+        {
+            "name": "Charmeleon",
+            "obj_type": 3
+        },
+        {
+            "name": "Charizard",
+            "obj_type": 3
+        },
+        {
+            "name": "Squirtle",
+            "obj_type": 4
+        },
+        {
+            "name": "Wartortle",
+            "obj_type": 4
+        },
+        {
+            "name": "Blastoise",
+            "obj_type": 4
+        },
+        {
+            "name": "Caterpie",
+            "obj_type": 5
+        },
+        {
+            "name": "Metapod",
+            "obj_type": 5
+        },
+        {
+            "name": "Butterfree",
+            "obj_type": 5
+        },
+        {
+            "name": "Weedle",
+            "obj_type": 6
+        },
+        {
+            "name": "Kakuna",
+            "obj_type": 6
+        },
+        {
+            "name": "Beedrill",
+            "obj_type": 6
+        },
+        {
+            "name": "Pidgey",
+            "obj_type": 7
+        },
+        {
+            "name": "Pidgeotto",
+            "obj_type": 7
+        },
+        {
+            "name": "Pidgeot",
+            "obj_type": 7
+        },
+        {
+            "name": "Rattata",
+            "obj_type": 8
+        },
+        {
+            "name": "Raticate",
+            "obj_type": 8
+        },
+        {
+            "name": "Spearow",
+            "obj_type": 9
+        },
+        {
+            "name": "Fearow",
+            "obj_type": 9
+        },
+        {
+            "name": "Ekans",
+            "obj_type": 10
+        },
+        {
+            "name": "Arbok",
+            "obj_type": 10
+        },
+        {
+            "name": "Pikachu",
+            "obj_type": 11
+        },
+        {
+            "name": "Raichu",
+            "obj_type": 11
+        },
+        {
+            "name": "Sandshrew",
+            "obj_type": 12
+        },
+        {
+            "name": "Sandslash",
+            "obj_type": 12
+        },
+        {
+            "name": "Nidoran \u2640",
+            "obj_type": 13
+        },
+        {
+            "name": "Nidorina",
+            "obj_type": 13
+        },
+        {
+            "name": "Nidoqueen",
+            "obj_type": 13
+        },
+        {
+            "name": "Nidoran \u2642",
+            "obj_type": 14
+        },
+        {
+            "name": "Nidorino",
+            "obj_type": 14
+        },
+        {
+            "name": "Nidoking",
+            "obj_type": 14
+        },
+        {
+            "name": "Clefairy",
+            "obj_type": 15
+        },
+        {
+            "name": "Clefable",
+            "obj_type": 15
+        },
+        {
+            "name": "Vulpix",
+            "obj_type": 16
+        },
+        {
+            "name": "Ninetales",
+            "obj_type": 16
+        },
+        {
+            "name": "Jigglypuff",
+            "obj_type": 17
+        },
+        {
+            "name": "Wigglytuff",
+            "obj_type": 17
+        },
+        {
+            "name": "Zubat",
+            "obj_type": 18
+        },
+        {
+            "name": "Golbat",
+            "obj_type": 18
+        },
+        {
+            "name": "Oddish",
+            "obj_type": 19
+        },
+        {
+            "name": "Gloom",
+            "obj_type": 19
+        },
+        {
+            "name": "Vileplume",
+            "obj_type": 19
+        },
+        {
+            "name": "Paras",
+            "obj_type": 20
+        },
+        {
+            "name": "Parasect",
+            "obj_type": 20
+        },
+        {
+            "name": "Venonat",
+            "obj_type": 21
+        },
+        {
+            "name": "Venomoth",
+            "obj_type": 21
+        },
+        {
+            "name": "Diglett",
+            "obj_type": 22
+        },
+        {
+            "name": "Dugtrio",
+            "obj_type": 22
+        },
+        {
+            "name": "Meowth",
+            "obj_type": 23
+        },
+        {
+            "name": "Persian",
+            "obj_type": 23
+        },
+        {
+            "name": "Psyduck",
+            "obj_type": 24
+        },
+        {
+            "name": "Golduck",
+            "obj_type": 24
+        },
+        {
+            "name": "Mankey",
+            "obj_type": 25
+        },
+        {
+            "name": "Primeape",
+            "obj_type": 25
+        },
+        {
+            "name": "Growlithe",
+            "obj_type": 26
+        },
+        {
+            "name": "Arcanine",
+            "obj_type": 26
+        },
+        {
+            "name": "Poliwag",
+            "obj_type": 27
+        },
+        {
+            "name": "Poliwhirl",
+            "obj_type": 27
+        },
+        {
+            "name": "Poliwrath",
+            "obj_type": 27
+        },
+        {
+            "name": "Abra",
+            "obj_type": 28
+        },
+        {
+            "name": "Kadabra",
+            "obj_type": 28
+        },
+        {
+            "name": "Alakazam",
+            "obj_type": 28
+        },
+        {
+            "name": "Machop",
+            "obj_type": 29
+        },
+        {
+            "name": "Machoke",
+            "obj_type": 29
+        },
+        {
+            "name": "Machamp",
+            "obj_type": 29
+        },
+        {
+            "name": "Bellsprout",
+            "obj_type": 30
+        },
+        {
+            "name": "Weepinbell",
+            "obj_type": 30
+        },
+        {
+            "name": "Victreebel",
+            "obj_type": 30
+        },
+        {
+            "name": "Tentacool",
+            "obj_type": 31
+        },
+        {
+            "name": "Tentacruel",
+            "obj_type": 31
+        },
+        {
+            "name": "Geodude",
+            "obj_type": 32
+        },
+        {
+            "name": "Graveler",
+            "obj_type": 32
+        },
+        {
+            "name": "Golem",
+            "obj_type": 32
+        },
+        {
+            "name": "Ponyta",
+            "obj_type": 33
+        },
+        {
+            "name": "Rapidash",
+            "obj_type": 33
+        },
+        {
+            "name": "Slowpoke",
+            "obj_type": 34
+        },
+        {
+            "name": "Slowbro",
+            "obj_type": 34
+        },
+        {
+            "name": "Magnemite",
+            "obj_type": 35
+        },
+        {
+            "name": "Magneton",
+            "obj_type": 35
+        },
+        {
+            "name": "Farfetch'd",
+            "obj_type": 200
+        },
+        {
+            "name": "Doduo",
+            "obj_type": 36
+        },
+        {
+            "name": "Dodrio",
+            "obj_type": 36
+        },
+        {
+            "name": "Seel",
+            "obj_type": 37
+        },
+        {
+            "name": "Dewgong",
+            "obj_type": 37
+        },
+        {
+            "name": "Grimer",
+            "obj_type": 38
+        },
+        {
+            "name": "Muk",
+            "obj_type": 38
+        },
+        {
+            "name": "Shellder",
+            "obj_type": 39
+        },
+        {
+            "name": "Cloyster",
+            "obj_type": 39
+        },
+        {
+            "name": "Gastly",
+            "obj_type": 40
+        },
+        {
+            "name": "Haunter",
+            "obj_type": 40
+        },
+        {
+            "name": "Gengar",
+            "obj_type": 40
+        },
+        {
+            "name": "Onix",
+            "obj_type": 41
+        },
+        {
+            "name": "Drowzee",
+            "obj_type": 42
+        },
+        {
+            "name": "Hypno",
+            "obj_type": 42
+        },
+        {
+            "name": "Krabby",
+            "obj_type": 43
+        },
+        {
+            "name": "Kingler",
+            "obj_type": 43
+        },
+        {
+            "name": "Voltorb",
+            "obj_type": 44
+        },
+        {
+            "name": "Electrode",
+            "obj_type": 44
+        },
+        {
+            "name": "Exeggcute",
+            "obj_type": 45
+        },
+        {
+            "name": "Exeggutor",
+            "obj_type": 45
+        },
+        {
+            "name": "Cubone",
+            "obj_type": 46
+        },
+        {
+            "name": "Marowak",
+            "obj_type": 46
+        },
+        {
+            "name": "Hitmonlee",
+            "obj_type": 87
+        },
+        {
+            "name": "Hitmonchan",
+            "obj_type": 87
+        },
+        {
+            "name": "Lickitung",
+            "obj_type": 201
+        },
+        {
+            "name": "Koffing",
+            "obj_type": 47
+        },
+        {
+            "name": "Weezing",
+            "obj_type": 47
+        },
+        {
+            "name": "Rhyhorn",
+            "obj_type": 48
+        },
+        {
+            "name": "Rhydon",
+            "obj_type": 48
+        },
+        {
+            "name": "Chansey",
+            "obj_type": 49
+        },
+        {
+            "name": "Tangela",
+            "obj_type": 202
+        },
+        {
+            "name": "Kangaskhan",
+            "obj_type": 203
+        },
+        {
+            "name": "Horsea",
+            "obj_type": 50
+        },
+        {
+            "name": "Seadra",
+            "obj_type": 50
+        },
+        {
+            "name": "Goldeen",
+            "obj_type": 51
+        },
+        {
+            "name": "Seaking",
+            "obj_type": 51
+        },
+        {
+            "name": "Staryu",
+            "obj_type": 52
+        },
+        {
+            "name": "Starmie",
+            "obj_type": 52
+        },
+        {
+            "name": "Mr. Mime",
+            "obj_type": 204
+        },
+        {
+            "name": "Scyther",
+            "obj_type": 53
+        },
+        {
+            "name": "Jynx",
+            "obj_type": 54
+        },
+        {
+            "name": "Electabuzz",
+            "obj_type": 55
+        },
+        {
+            "name": "Magmar",
+            "obj_type": 56
+        },
+        {
+            "name": "Pinsir",
+            "obj_type": 205
+        },
+        {
+            "name": "Tauros",
+            "obj_type": 206
+        },
+        {
+            "name": "Magikarp",
+            "obj_type": 57
+        },
+        {
+            "name": "Gyarados",
+            "obj_type": 57
+        },
+        {
+            "name": "Lapras",
+            "obj_type": 207
+        },
+        {
+            "name": "Ditto",
+            "obj_type": 208
+        },
+        {
+            "name": "Eevee",
+            "obj_type": 58
+        },
+        {
+            "name": "Vaporeon",
+            "obj_type": 58
+        },
+        {
+            "name": "Jolteon",
+            "obj_type": 58
+        },
+        {
+            "name": "Flareon",
+            "obj_type": 58
+        },
+        {
+            "name": "Porygon",
+            "obj_type": 59
+        },
+        {
+            "name": "Omanyte",
+            "obj_type": 60
+        },
+        {
+            "name": "Omastar",
+            "obj_type": 60
+        },
+        {
+            "name": "Kabuto",
+            "obj_type": 61
+        },
+        {
+            "name": "Kabutops",
+            "obj_type": 61
+        },
+        {
+            "name": "Aerodactyl",
+            "obj_type": 209
+        },
+        {
+            "name": "Snorlax",
+            "obj_type": 210
+        },
+        {
+            "name": "Articuno",
+            "obj_type": 211
+        },
+        {
+            "name": "Zapdos",
+            "obj_type": 212
+        },
+        {
+            "name": "Moltres",
+            "obj_type": 213
+        },
+        {
+            "name": "Dratini",
+            "obj_type": 62
+        },
+        {
+            "name": "Dragonair",
+            "obj_type": 62
+        },
+        {
+            "name": "Dragonite",
+            "obj_type": 62
+        },
+        {
+            "name": "Mewtwo",
+            "obj_type": 214
+        },
+        {
+            "name": "Mew",
+            "obj_type": 215
+        }
+    ]
+}
