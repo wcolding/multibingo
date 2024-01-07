@@ -10,17 +10,17 @@ class TestDataFormatting(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
-        cls.game_dirs = os.listdir('games')
+        cls.game_dirs = os.listdir('Games')
 
     def test_a_json_named_correctly(self):
         for game in self.game_dirs:
-            subdir = 'games/{folder}'.format(folder=game)
+            subdir = 'Games/{folder}'.format(folder=game)
             game_files = os.listdir(subdir)
             self.assertIn('data.json', game_files)
     
     def test_b_json_format(self):
         for game in self.game_dirs:
-            subdir = 'games/{folder}'.format(folder=game)
+            subdir = 'Games/{folder}'.format(folder=game)
             file_path = '{_subdir}/data.json'.format(_subdir = subdir)
 
             file = io.open(file_path, 'r')
@@ -33,7 +33,7 @@ class TestDataFormatting(unittest.TestCase):
 
     def test_c_checks_format(self):
         for game in self.game_dirs:
-            subdir = 'games/{folder}'.format(folder=game)
+            subdir = 'Games/{folder}'.format(folder=game)
             file_path = '{_subdir}/data.json'.format(_subdir = subdir)
 
             file = io.open(file_path, 'r')
