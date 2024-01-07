@@ -28,4 +28,5 @@ jobs:
         pip install -U pytest
     - name: Test with pytest
       run: |
+        ls
         pytest -v
