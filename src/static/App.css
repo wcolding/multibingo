@@ -1,12 +1,17 @@
 body {
-    margin-left: 40%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .gameChecksSelect {
-    margin-top: 5px;
+    margin-top: 2px;
     margin-bottom: 5px;
-    margin-left: 20px;
+    margin-left: 26px;
+    font-size: small;
+}
+
+.gameSelectionBox {
+    margin-left: 40%;
+    width: 25%;
 }
 
 .checksCount {

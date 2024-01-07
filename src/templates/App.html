@@ -8,7 +8,7 @@
     </head>
     <body>
         <script type="text/javascript" src="../static/App.js"></script>
-        <div id="gameSelection">
+        <div class="gameSelectionBox" id="gameSelection">
             {% for game in games %}
             
             <div class="gameSelect">
@@ -17,6 +17,7 @@
             </div>
 
             <div class="gameChecksSelect" id="{{game.name}}_checks" style="display: none;">
+                <hr>
                 {% for check in game.checks_list %}
                 <input type=checkbox>{{check.name}}</checkbox>
                 <br>
