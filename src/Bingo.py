@@ -48,6 +48,7 @@ def GenerateBoard(data: list, target: int, balancing = True) -> str:
         if len(board) >= target:
             generating = False
 
+    random.shuffle(board)
     return json.dumps(board)
 
     
