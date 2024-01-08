@@ -1,6 +1,7 @@
 let selectCounter = 0;
 let objectivesList = [];
 let randoCount = 25;
+let selectedChecks = [];
 
 function showGameChecks(game) {
     let checks = document.getElementById(game + "_checks");
@@ -30,12 +31,31 @@ function setAllGameChecks(game) {
 function tallyChecks() {
     selectCounter = 0;
     objectivesList = [];
+    selectedChecks = [];
     let checkElements = document.getElementsByClassName("checkElement");
     for (let i = 0; i < checkElements.length; i++) {
         let check = checkElements[i].getElementsByTagName("input")[0];
         if (check.checked) {
             let checkGame = check.parentElement.getElementsByClassName("checkGame")[0].innerHTML;
+            let checkName = check.parentElement.getElementsByTagName("label")[0].innerHTML;
             let checkObjType = check.parentElement.getElementsByClassName("checkObjType")[0].innerHTML;
+
+            let newCheck = { name: checkName, obj_type: parseInt(checkObjType) };
+            const checksIterator = selectedChecks.values();
+            let gameExists = false;
+
+            for (const checkVal of checksIterator) {
+                if (checkVal.game == checkGame){
+                    gameExists = true;
+                    checkVal.checks.push(newCheck);
+                    break;
+                }
+            }
+
+            if (!gameExists) {
+                selectedChecks.push({ game: checkGame, checks: [newCheck] });
+            }
+
             let newObjType = `${checkGame}:${checkObjType}`;
             if (!objectivesList.includes(newObjType)) {
                 objectivesList.push(newObjType);
@@ -44,6 +64,8 @@ function tallyChecks() {
         }
     }
 
+    let jsonDataHolder = document.getElementById("checksJSONData");
+    jsonDataHolder.value = JSON.stringify({game_check_data: selectedChecks});
     updateCounterDisplay();
 }
 

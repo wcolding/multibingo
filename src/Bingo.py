@@ -1,5 +1,6 @@
 import os
 import io
+import random
 
 from Game import *
 
@@ -20,3 +21,33 @@ for game in games:
     print(f'{game.name} - {str(len(game.checks_list))} checks found:')
     for check in game.checks_list:
         print(f'{game.name}: {check.name}')
+
+def GenerateBoard(data: list, target: int, balancing = True) -> str:
+    generating = True
+    board = []
+    used_objectives = []
+    
+    for game in data:
+        random.shuffle(game['checks'])
+
+    while (generating):
+        if balancing:
+            for game in data:
+                if len(board) < target:
+                    if game['checks']:
+                        next_check = game['checks'].pop()
+                        obj_string = '{game_name}:{obj_id}'.format(game_name = game['game'], obj_id = str(next_check['obj_type']))
+                        if obj_string not in used_objectives:
+                            used_objectives.append(obj_string)
+                            new_check = {}
+                            new_check["name"] = next_check["name"]
+                            board.append(new_check)
+        else:
+            pass # todo: make one new big list from which to generate
+
+        if len(board) >= target:
+            generating = False
+
+    return json.dumps(board)
+
+    
