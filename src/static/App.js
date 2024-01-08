@@ -54,9 +54,8 @@ function updateCounterDisplay() {
     objsCounter.innerHTML = `Objectives: ${objectivesList.length}`;
     setColor(checksCounter, selectCounter, randoCount);
     let enoughObjectives = setColor(objsCounter, objectivesList.length, randoCount);
-    if (enoughObjectives) {
-        // Todo: Enable generation
-    }
+    let generateButton = document.getElementById("generateButton");
+    generateButton.disabled = !enoughObjectives;
 }
 
 function setColor(object, counter, required) {

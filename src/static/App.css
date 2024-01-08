@@ -32,6 +32,13 @@ body {
     width: 25%;
 }
 
+.genButton {
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: large;
+}
+
 .checksCount {
     display: inline;
     font-size: smaller;
