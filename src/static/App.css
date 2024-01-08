@@ -2,11 +2,29 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.gameName {
+    display: inline;
+}
+
 .gameChecksSelect {
     margin-top: 2px;
     margin-bottom: 5px;
     margin-left: 26px;
     font-size: small;
+}
+
+.checkElement {
+    margin: 0px;
+    padding: 0px;
+    display: inline;
+}
+
+.checkGame {
+    display: none;
+}
+
+.checkObjType {
+    display: none;
 }
 
 .gameSelectionBox {
