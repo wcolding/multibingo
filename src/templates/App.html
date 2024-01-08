@@ -8,37 +8,41 @@
     </head>
     <body>
         <script type="text/javascript" src="../static/App.js"></script>
-        <div class="counterSection">
-            <div class="checksCounter">Checks: 0</div>
-            <div class="objsCounter">Objectives: 0</div>
-        </div>
         <div class="gameSelectionBox" id="gameSelection">
-            {% for game in games %}
-            
-            <div class="gameSelect">
-                <button class="expandButton" onclick="showGameChecks('{{game.name}}')" style="display: inline;" id="{{game.name}}_expandButton">+</button>
-                <input type=checkbox 
-                       id="{{game.name}}_allSelect" 
-                       onclick="setAllGameChecks('{{game.name}}')">
-                <div class="gameName">{{game.name}}</div>
-                <div class="checksCount">({{game.checks_list|length}} checks)</div>
-                <div class="objectivesCount">({{game.get_obj_type_count()}} objectives)</div></checkbox>
+            <div class="counterSection">
+                <div class="checksCounter">Checks: 0</div>
+                <div class="objsCounter">Objectives: 0</div>
+                <br>
             </div>
 
-            <div class="gameChecksSelect" id="{{game.name}}_checks" style="display: none;">
-                <hr>
-                {% for check in game.checks_list %}
-                <div class="checkElement">
-                    <div class="checkGame">{{game.name}}</div>
-                    <div class="checkObjType">{{check.obj_type}}</div>
-                    <input type=checkbox onclick="tallyChecks()">
-                    <label>{{check.name}}</label>
+            <div class="scrollingGamesList">
+                {% for game in games %}
+                
+                <div class="gameSelect">
+                    <button class="expandButton" onclick="showGameChecks('{{game.name}}')" style="display: inline;" id="{{game.name}}_expandButton">+</button>
+                    <input type=checkbox 
+                        id="{{game.name}}_allSelect" 
+                        onclick="setAllGameChecks('{{game.name}}')">
+                    <div class="gameName">{{game.name}}</div>
+                    <div class="checksCount">({{game.checks_list|length}} checks)</div>
+                    <div class="objectivesCount">({{game.get_obj_type_count()}} objectives)</div></checkbox>
                 </div>
-                <br>
+
+                <div class="gameChecksSelect" id="{{game.name}}_checks" style="display: none;">
+                    <hr>
+                    {% for check in game.checks_list %}
+                    <div class="checkElement">
+                        <div class="checkGame">{{game.name}}</div>
+                        <div class="checkObjType">{{check.obj_type}}</div>
+                        <input type=checkbox onclick="tallyChecks()">
+                        <label>{{check.name}}</label>
+                    </div>
+                    <br>
+                    {% endfor %}
+                </div>
+                
                 {% endfor %}
             </div>
-            
-            {% endfor %}
         </div>
         
     </body>

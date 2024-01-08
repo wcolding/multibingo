@@ -28,7 +28,7 @@ body {
 }
 
 .gameSelectionBox {
-    margin-left: 40%;
+    margin-left: 30%;
     width: 25%;
 }
 
@@ -52,4 +52,10 @@ body {
     height: 20px;
     width: 20px;
     font-size: smaller;
+}
+
+.scrollingGamesList {
+    width: 500px;
+    height: 1000px;
+    overflow: auto;
 }
