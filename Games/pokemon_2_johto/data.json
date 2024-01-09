@@ -71,7 +71,10 @@
         },
         {
             "name": "Crobat",
-            "obj_type": 18
+            "obj_type": 18,
+            "shared": [
+                "Pok\u00e9mon (Kanto)"
+            ]
         },
         {
             "name": "Chinchou",
@@ -83,15 +86,24 @@
         },
         {
             "name": "Pichu",
-            "obj_type": 11
+            "obj_type": 11,
+            "shared": [
+                "Pok\u00e9mon (Kanto)"
+            ]
         },
         {
             "name": "Cleffa",
-            "obj_type": 15
+            "obj_type": 15,
+            "shared": [
+                "Pok\u00e9mon (Kanto)"
+            ]
         },
         {
             "name": "Igglybuff",
-            "obj_type": 17
+            "obj_type": 17,
+            "shared": [
+                "Pok\u00e9mon (Kanto)"
+            ]
         },
         {
             "name": "Togepi",
@@ -123,7 +135,10 @@
         },
         {
             "name": "Bellossom",
-            "obj_type": 19
+            "obj_type": 19,
+            "shared": [
+                "Pok\u00e9mon (Kanto)"
+            ]
         },
         {
             "name": "Marill",
@@ -139,7 +154,10 @@
         },
         {
             "name": "Politoed",
-            "obj_type": 27
+            "obj_type": 27,
+            "shared": [
+                "Pok\u00e9mon (Kanto)"
+            ]
         },
         {
             "name": "Hoppip",
@@ -179,11 +197,17 @@
         },
         {
             "name": "Espeon",
-            "obj_type": 58
+            "obj_type": 58,
+            "shared": [
+                "Pok\u00e9mon (Kanto)"
+            ]
         },
         {
             "name": "Umbreon",
-            "obj_type": 58
+            "obj_type": 58,
+            "shared": [
+                "Pok\u00e9mon (Kanto)"
+            ]
         },
         {
             "name": "Murkrow",
@@ -191,7 +215,10 @@
         },
         {
             "name": "Slowking",
-            "obj_type": 34
+            "obj_type": 34,
+            "shared": [
+                "Pok\u00e9mon (Kanto)"
+            ]
         },
         {
             "name": "Misdreavus",
@@ -227,7 +254,10 @@
         },
         {
             "name": "Steelix",
-            "obj_type": 41
+            "obj_type": 41,
+            "shared": [
+                "Pok\u00e9mon (Kanto)"
+            ]
         },
         {
             "name": "Snubbull",
@@ -243,7 +273,10 @@
         },
         {
             "name": "Scizor",
-            "obj_type": 53
+            "obj_type": 53,
+            "shared": [
+                "Pok\u00e9mon (Kanto)"
+            ]
         },
         {
             "name": "Shuckle",
@@ -315,7 +348,10 @@
         },
         {
             "name": "Kingdra",
-            "obj_type": 50
+            "obj_type": 50,
+            "shared": [
+                "Pok\u00e9mon (Kanto)"
+            ]
         },
         {
             "name": "Phanpy",
@@ -327,7 +363,10 @@
         },
         {
             "name": "Porygon2",
-            "obj_type": 59
+            "obj_type": 59,
+            "shared": [
+                "Pok\u00e9mon (Kanto)"
+            ]
         },
         {
             "name": "Stantler",
@@ -339,23 +378,38 @@
         },
         {
             "name": "Tyrogue",
-            "obj_type": 87
+            "obj_type": 87,
+            "shared": [
+                "Pok\u00e9mon (Kanto)"
+            ]
         },
         {
             "name": "Hitmontop",
-            "obj_type": 87
+            "obj_type": 87,
+            "shared": [
+                "Pok\u00e9mon (Kanto)"
+            ]
         },
         {
             "name": "Smoochum",
-            "obj_type": 54
+            "obj_type": 54,
+            "shared": [
+                "Pok\u00e9mon (Kanto)"
+            ]
         },
         {
             "name": "Elekid",
-            "obj_type": 55
+            "obj_type": 55,
+            "shared": [
+                "Pok\u00e9mon (Kanto)"
+            ]
         },
         {
             "name": "Magby",
-            "obj_type": 56
+            "obj_type": 56,
+            "shared": [
+                "Pok\u00e9mon (Kanto)"
+            ]
         },
         {
             "name": "Miltank",
@@ -363,7 +417,10 @@
         },
         {
             "name": "Blissey",
-            "obj_type": 49
+            "obj_type": 49,
+            "shared": [
+                "Pok\u00e9mon (Kanto)"
+            ]
         },
         {
             "name": "Raikou",
