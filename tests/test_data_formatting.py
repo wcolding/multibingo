@@ -50,3 +50,20 @@ class TestDataFormatting(unittest.TestCase):
 
                 self.assertEqual(check['name'], str(check['name']))
                 self.assertEqual(check['obj_type'], int(check['obj_type']))
+
+    def test_d_enforce_unique_check_names(self):
+        for game in self.game_dirs:
+            subdir = 'Games/{folder}'.format(folder=game)
+            file_path = '{_subdir}/data.json'.format(_subdir = subdir)
+
+            file = io.open(file_path, 'r')
+            json_string = file.read()
+            file.close()
+
+            game_dict = json.loads(json_string)
+            checks = game_dict['checks']
+            game_check_names = []
+
+            for check in checks:
+                self.assertNotIn(check['name'], game_check_names)
+                game_check_names.append(check['name'])
