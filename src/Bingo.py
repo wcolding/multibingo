@@ -41,7 +41,6 @@ def CheckObjectiveUsed(game_name: str, check: BingoCheck, collection: list) -> b
         return True
     else:
         collection.append(obj_string)
-        print(collection)
         return False
 
 def CheckSharedObjectiveUsed(game_name: str, check: BingoCheck, collection: list) -> bool:
@@ -49,7 +48,6 @@ def CheckSharedObjectiveUsed(game_name: str, check: BingoCheck, collection: list
         return True
     
     for shared_game in check.shared:
-        print(f'Checking "{check.name}" in shared game {shared_game}...')
         if (CheckObjectiveUsed(shared_game, check, collection)):
             return True
 
