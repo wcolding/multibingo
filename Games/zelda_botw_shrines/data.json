@@ -1,0 +1,457 @@
+{
+    "game": "BOTW Shrines",
+    "checks": [
+        {
+            "name": "Bosh Kala",
+            "obj_type": 0
+        },
+        {
+            "name": "Ta'loh Naeg",
+            "obj_type": 1
+        },
+        {
+            "name": "Ree Dahee",
+            "obj_type": 2
+        },
+        {
+            "name": "Hila Rao",
+            "obj_type": 3
+        },
+        {
+            "name": "Ha Dahamar",
+            "obj_type": 4
+        },
+        {
+            "name": "Shee Vaneer",
+            "obj_type": 5
+        },
+        {
+            "name": "Shee Venath",
+            "obj_type": 6
+        },
+        {
+            "name": "Lakna Rokee",
+            "obj_type": 7
+        },
+        {
+            "name": "Toto Sah",
+            "obj_type": 8
+        },
+        {
+            "name": "Daka Tuss",
+            "obj_type": 9
+        },
+        {
+            "name": "Rucco Maag",
+            "obj_type": 10
+        },
+        {
+            "name": "Kaya Wan",
+            "obj_type": 11
+        },
+        {
+            "name": "Sheh Rata",
+            "obj_type": 12
+        },
+        {
+            "name": "Shai Yota",
+            "obj_type": 13
+        },
+        {
+            "name": "Dagah Keek",
+            "obj_type": 14
+        },
+        {
+            "name": "Kah Mael",
+            "obj_type": 15
+        },
+        {
+            "name": "Ne'ez Yohma",
+            "obj_type": 16
+        },
+        {
+            "name": "Soh Kofi",
+            "obj_type": 17
+        },
+        {
+            "name": "Myahm Agana",
+            "obj_type": 18
+        },
+        {
+            "name": "Kam Urog",
+            "obj_type": 19
+        },
+        {
+            "name": "Dow Na'eh",
+            "obj_type": 20
+        },
+        {
+            "name": "Jitan Sa'mi",
+            "obj_type": 21
+        },
+        {
+            "name": "Mezza Lo",
+            "obj_type": 22
+        },
+        {
+            "name": "Tahno O'ah",
+            "obj_type": 23
+        },
+        {
+            "name": "Chaas Qeta",
+            "obj_type": 24
+        },
+        {
+            "name": "Ka'o Makagh",
+            "obj_type": 25
+        },
+        {
+            "name": "Ya Naga",
+            "obj_type": 26
+        },
+        {
+            "name": "Pumaag Nitae",
+            "obj_type": 27
+        },
+        {
+            "name": "Shae Katha",
+            "obj_type": 28
+        },
+        {
+            "name": "Ishto Soh",
+            "obj_type": 29
+        },
+        {
+            "name": "Shoqa Tatone",
+            "obj_type": 30
+        },
+        {
+            "name": "Dah Kaso",
+            "obj_type": 31
+        },
+        {
+            "name": "Wahgo Katta",
+            "obj_type": 32
+        },
+        {
+            "name": "Rota Ooh",
+            "obj_type": 33
+        },
+        {
+            "name": "Kaam Ya'tak",
+            "obj_type": 34
+        },
+        {
+            "name": "Katah Chuki",
+            "obj_type": 35
+        },
+        {
+            "name": "Noya Neha",
+            "obj_type": 36
+        },
+        {
+            "name": "Saas Ko'sah",
+            "obj_type": 37
+        },
+        {
+            "name": "Namika Ozz",
+            "obj_type": 38
+        },
+        {
+            "name": "Keo Ruug",
+            "obj_type": 39
+        },
+        {
+            "name": "Daag Chokah",
+            "obj_type": 40
+        },
+        {
+            "name": "Mirro Shaz",
+            "obj_type": 41
+        },
+        {
+            "name": "Monya Toma",
+            "obj_type": 42
+        },
+        {
+            "name": "Ketoh Wawai",
+            "obj_type": 43
+        },
+        {
+            "name": "Rona Kachta",
+            "obj_type": 44
+        },
+        {
+            "name": "Kuhn Sidajj",
+            "obj_type": 45
+        },
+        {
+            "name": "Maag Halan",
+            "obj_type": 46
+        },
+        {
+            "name": "Toh Yasa",
+            "obj_type": 47
+        },
+        {
+            "name": "Mogg Latan",
+            "obj_type": 48
+        },
+        {
+            "name": "Zalta Wa",
+            "obj_type": 49
+        },
+        {
+            "name": "Shae Loya",
+            "obj_type": 50
+        },
+        {
+            "name": "Maag No'rah",
+            "obj_type": 51
+        },
+        {
+            "name": "Sheem Dagoze",
+            "obj_type": 52
+        },
+        {
+            "name": "Kuh Takkar",
+            "obj_type": 53
+        },
+        {
+            "name": "Sasa Kai",
+            "obj_type": 54
+        },
+        {
+            "name": "Sho Dantu",
+            "obj_type": 55
+        },
+        {
+            "name": "Joloo Nah",
+            "obj_type": 56
+        },
+        {
+            "name": "Kema Kosassa",
+            "obj_type": 57
+        },
+        {
+            "name": "Keeha Yoog",
+            "obj_type": 58
+        },
+        {
+            "name": "Shoda Sah",
+            "obj_type": 59
+        },
+        {
+            "name": "Qukah Nata",
+            "obj_type": 60
+        },
+        {
+            "name": "Shai Utoh",
+            "obj_type": 61
+        },
+        {
+            "name": "Muwo Jeem",
+            "obj_type": 62
+        },
+        {
+            "name": "Tawa Jinn",
+            "obj_type": 63
+        },
+        {
+            "name": "Yah Rin",
+            "obj_type": 64
+        },
+        {
+            "name": "Kah Yah",
+            "obj_type": 65
+        },
+        {
+            "name": "Korgu Chideh",
+            "obj_type": 66
+        },
+        {
+            "name": "Katosa Aug",
+            "obj_type": 67
+        },
+        {
+            "name": "Dah Hesho",
+            "obj_type": 68
+        },
+        {
+            "name": "Ze Kasho",
+            "obj_type": 69
+        },
+        {
+            "name": "Tutsuwa Nima",
+            "obj_type": 70
+        },
+        {
+            "name": "Ke'nai Shakah",
+            "obj_type": 71
+        },
+        {
+            "name": "Zuna Kai",
+            "obj_type": 72
+        },
+        {
+            "name": "Tu Ka'loh",
+            "obj_type": 73
+        },
+        {
+            "name": "Ritaag Zumo",
+            "obj_type": 74
+        },
+        {
+            "name": "Rin Oyaa",
+            "obj_type": 75
+        },
+        {
+            "name": "Sha Gehma",
+            "obj_type": 76
+        },
+        {
+            "name": "Hia Miu",
+            "obj_type": 77
+        },
+        {
+            "name": "Mozo Shenno",
+            "obj_type": 78
+        },
+        {
+            "name": "Shada Naw",
+            "obj_type": 79
+        },
+        {
+            "name": "Goma Asaagh",
+            "obj_type": 80
+        },
+        {
+            "name": "To Quomo",
+            "obj_type": 81
+        },
+        {
+            "name": "Rok Uwog",
+            "obj_type": 82
+        },
+        {
+            "name": "Maka Rah",
+            "obj_type": 83
+        },
+        {
+            "name": "Lanno Kooh",
+            "obj_type": 84
+        },
+        {
+            "name": "Dunba Taag",
+            "obj_type": 85
+        },
+        {
+            "name": "Gee Ha'rah",
+            "obj_type": 86
+        },
+        {
+            "name": "Qaza Tokki",
+            "obj_type": 87
+        },
+        {
+            "name": "Daqo Chisay",
+            "obj_type": 88
+        },
+        {
+            "name": "Jee Noh",
+            "obj_type": 89
+        },
+        {
+            "name": "Kay Noh",
+            "obj_type": 90
+        },
+        {
+            "name": "Dako Tah",
+            "obj_type": 91
+        },
+        {
+            "name": "Tho Kayu",
+            "obj_type": 92
+        },
+        {
+            "name": "Hawa Koth",
+            "obj_type": 93
+        },
+        {
+            "name": "Dila Maag",
+            "obj_type": 94
+        },
+        {
+            "name": "Raqa Zunzo",
+            "obj_type": 95
+        },
+        {
+            "name": "Kema Zoos",
+            "obj_type": 96
+        },
+        {
+            "name": "Suma Sahma",
+            "obj_type": 97
+        },
+        {
+            "name": "Korsh O'hu",
+            "obj_type": 98
+        },
+        {
+            "name": "Misae Suma",
+            "obj_type": 99
+        },
+        {
+            "name": "Akh Va'quot",
+            "obj_type": 100
+        },
+        {
+            "name": "Kah Okeo",
+            "obj_type": 101
+        },
+        {
+            "name": "Sha Warvo",
+            "obj_type": 102
+        },
+        {
+            "name": "Tena Ko'sah",
+            "obj_type": 103
+        },
+        {
+            "name": "Mo'a Keet",
+            "obj_type": 104
+        },
+        {
+            "name": "Sah Dahaj",
+            "obj_type": 105
+        },
+        {
+            "name": "Qua Raym",
+            "obj_type": 106
+        },
+        {
+            "name": "Shae Mo'sah",
+            "obj_type": 107
+        },
+        {
+            "name": "Shora Hah",
+            "obj_type": 108
+        },
+        {
+            "name": "Daqa Koh",
+            "obj_type": 109
+        },
+        {
+            "name": "Gorae Torr",
+            "obj_type": 110
+        },
+        {
+            "name": "Tah Muhl",
+            "obj_type": 111
+        },
+        {
+            "name": "Kayra Mah",
+            "obj_type": 112
+        }
+    ]
+}
