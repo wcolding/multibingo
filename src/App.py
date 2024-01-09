@@ -12,9 +12,10 @@ def index():
 @app.route('/generate_bingosync', methods=['POST'])
 def generate_bingosync():
     data = json.loads(request.form.get('checksJSON'))
+    include_game_names = request.form.get('includeGameName')
     game_data = data['game_check_data']
 
-    board = GenerateBoard(game_data, 25)
+    board = GenerateBoard(game_data, 25, include_game_names)
     return render_template('App.html', games = games, generated = board)
 
 if __name__ == '__main__':

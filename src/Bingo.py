@@ -22,7 +22,7 @@ for game in games:
     for check in game.checks_list:
         print(f'{game.name}: {check.name}')
 
-def GenerateBoard(data: list, target: int, balancing = True) -> str:
+def GenerateBoard(data: list, target: int, include_game_name = False, balancing = True) -> str:
     generating = True
     board = []
     used_objectives = []
@@ -40,7 +40,9 @@ def GenerateBoard(data: list, target: int, balancing = True) -> str:
                         if obj_string not in used_objectives:
                             used_objectives.append(obj_string)
                             new_check = {}
-                            new_check["name"] = next_check["name"]
+                            new_check['name'] = next_check['name']
+                            if include_game_name:
+                                new_check['name'] = '[{game_name}] {check_name}'.format(game_name = game['game'], check_name = new_check['name']) 
                             board.append(new_check)
         else:
             pass # todo: make one new big list from which to generate
