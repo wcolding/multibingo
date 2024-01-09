@@ -4,6 +4,7 @@ class BingoCheck():
     name = ''
     obj_type = 0
     img_path = ''
+    shared = []
     enabled = False
 
     def __init__(self, name: str, obj_type: int):
@@ -25,6 +26,8 @@ class BingoGame():
             new_check = BingoCheck(check["name"], check["obj_type"])
             if "img_path" in check:
                 new_check.img_path = check["img_path"]
+            if "shared" in check:
+                new_check.shared = check["shared"]
             
             self.checks_list.append(new_check)
 
