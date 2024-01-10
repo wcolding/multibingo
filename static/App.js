@@ -3,6 +3,29 @@ let objectivesList = [];
 let randoCount = 25;
 let selectedChecks = [];
 
+function init() {
+    let lastSetting = document.getElementById("lastSetting").innerText;
+    if (lastSetting != "") {
+        loadSetting(lastSetting);
+    }
+}
+
+function loadSetting(settingString) {
+    let settings = JSON.parse(settingString);
+    let string = "";
+
+    settings.game_check_data.forEach((entry) => {
+
+        entry.checks.forEach((check) => {
+            let checkElement = getCheckElement(check, entry.game);
+            let box = checkElement.getElementsByTagName("input")[0];
+            box.checked = true;
+        });
+    });
+
+    tallyChecks();
+}
+
 function showGameChecks(game) {
     let checks = document.getElementById(game + "_checks");
     let button = document.getElementById(game + "_expandButton");
@@ -36,6 +59,18 @@ function getGameSelectByName(name) {
             return game;
         }
     };
+}
+
+function getCheckElement(checkName, gameName) {
+    let checkElements = document.getElementsByClassName("checkElement");
+    for (let check of checkElements) {
+        let curCheckName = check.getElementsByTagName("label")[0].innerHTML;
+        let curCheckGame = check.getElementsByClassName("checkGame")[0].innerHTML;
+
+        if ((checkName == curCheckName) && (gameName == curCheckGame)) {
+            return check;
+        }
+    }
 }
 
 function tallyChecks() {
