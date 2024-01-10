@@ -40,26 +40,26 @@ function tallyChecks() {
             let checkName = check.parentElement.getElementsByTagName("label")[0].innerHTML;
             let checkObjType = check.parentElement.getElementsByClassName("checkObjType")[0].innerHTML;
 
-            let newCheck = { name: checkName, obj_type: parseInt(checkObjType) };
             const checksIterator = selectedChecks.values();
             let gameExists = false;
 
             for (const checkVal of checksIterator) {
                 if (checkVal.game == checkGame){
                     gameExists = true;
-                    checkVal.checks.push(newCheck);
+                    checkVal.checks.push(checkName);
                     break;
                 }
             }
 
             if (!gameExists) {
-                selectedChecks.push({ game: checkGame, checks: [newCheck] });
+                selectedChecks.push({ game: checkGame, checks: [checkName] });
             }
 
             let newObjType = `${checkGame}:${checkObjType}`;
             if (!objectivesList.includes(newObjType)) {
                 objectivesList.push(newObjType);
             }
+
             selectCounter++;
         }
     }

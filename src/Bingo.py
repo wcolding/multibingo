@@ -32,7 +32,7 @@ def GetNextCheck(game_json: dict) -> BingoCheck | None:
 
     if selected_game != None:
         for check in selected_game.checks_list:
-            if check.name == next_json['name']:
+            if check.name == next_json:
                 return check
             
 def CheckObjectiveUsed(game_name: str, check: BingoCheck, collection: list) -> bool:
