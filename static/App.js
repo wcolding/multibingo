@@ -89,3 +89,8 @@ function setColor(object, counter, required) {
         return true;
     }
 }
+
+function copyBoard() {
+    generatedDiv = document.getElementById("generatedBoard");
+    navigator.clipboard.writeText(generatedDiv.innerText);
+}

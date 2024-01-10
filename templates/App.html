@@ -8,16 +8,17 @@
     </head>
     <body>
         <script type="text/javascript" src="../static/App.js"></script>
-        Generated:{{ generated }}
+        <div class="generatedBoardString" id="generatedBoard">{{ generated }}</div>
         <div class="gameSelectionBox" id="gameSelection">
             <div class="counterSection">
                 <div class="checksCounter">Checks: 0</div>
                 <div class="objsCounter">Objectives: 0</div>
                 <form method="post" action="/generate_bingosync">
                     <input type="hidden" id="checksJSONData" name="checksJSON" value="">
-                    <input class="genButton" id="generateButton" type="submit" value="Generate" disabled>
+                    <input class="bigButton" id="generateButton" type="submit" value="Generate" disabled>
                     <input type="checkbox" name="includeGameName">Include game name in squares
                 </form>
+                <button class="bigButton" onclick="copyBoard()" {% if generated == '' %}disabled{% endif %}>Copy to Clipboard</button>
                 <br>
             </div>
 
