@@ -1,7 +1,7 @@
 from flask import Flask, request, render_template
 import json
 
-from Bingo import games, GenerateBoard
+from src.Bingo import games, GenerateBoard
 
 app = Flask(__name__)
 
