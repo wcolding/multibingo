@@ -1,0 +1,37 @@
+{
+    "game": "Mega Man 4",
+    "checks": [
+        {
+            "name": "Bright Man",
+            "obj_type": 0
+        },
+        {
+            "name": "Toad Man",
+            "obj_type": 1
+        },
+        {
+            "name": "Drill Man",
+            "obj_type": 2
+        },
+        {
+            "name": "Pharaoh Man",
+            "obj_type": 3
+        },
+        {
+            "name": "Ring Man",
+            "obj_type": 4
+        },
+        {
+            "name": "Dust Man",
+            "obj_type": 5
+        },
+        {
+            "name": "Dive Man",
+            "obj_type": 6
+        },
+        {
+            "name": "Skull Man",
+            "obj_type": 7
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "game": "Mega Man 6",
+    "checks": [
+        {
+            "name": "Blizzard Man",
+            "obj_type": 0
+        },
+        {
+            "name": "Centaur Man",
+            "obj_type": 1
+        },
+        {
+            "name": "Flame Man",
+            "obj_type": 2
+        },
+        {
+            "name": "Knight Man",
+            "obj_type": 3
+        },
+        {
+            "name": "Plant Man",
+            "obj_type": 4
+        },
+        {
+            "name": "Tomahawk Man",
+            "obj_type": 5
+        },
+        {
+            "name": "Wind Man",
+            "obj_type": 6
+        },
+        {
+            "name": "Yamato Man",
+            "obj_type": 7
+        }
+    ]
+}

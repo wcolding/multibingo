@@ -1,0 +1,37 @@
+{
+    "game": "Mega Man 3",
+    "checks": [
+        {
+            "name": "Needle Man",
+            "obj_type": 0
+        },
+        {
+            "name": "Magnet Man",
+            "obj_type": 1
+        },
+        {
+            "name": "Gemini Man",
+            "obj_type": 2
+        },
+        {
+            "name": "Hard Man",
+            "obj_type": 3
+        },
+        {
+            "name": "Top Man",
+            "obj_type": 4
+        },
+        {
+            "name": "Snake Man",
+            "obj_type": 5
+        },
+        {
+            "name": "Spark Man",
+            "obj_type": 6
+        },
+        {
+            "name": "Shadow Man",
+            "obj_type": 7
+        }
+    ]
+}

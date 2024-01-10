@@ -1,0 +1,37 @@
+{
+    "game": "Mega Man 5",
+    "checks": [
+        {
+            "name": "Gravity Man",
+            "obj_type": 0
+        },
+        {
+            "name": "Wave Man",
+            "obj_type": 1
+        },
+        {
+            "name": "Stone Man",
+            "obj_type": 2
+        },
+        {
+            "name": "Gyro Man",
+            "obj_type": 3
+        },
+        {
+            "name": "Star Man",
+            "obj_type": 4
+        },
+        {
+            "name": "Charge Man",
+            "obj_type": 5
+        },
+        {
+            "name": "Napalm Man",
+            "obj_type": 6
+        },
+        {
+            "name": "Crystal Man",
+            "obj_type": 7
+        }
+    ]
+}

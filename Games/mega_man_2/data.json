@@ -1,0 +1,37 @@
+{
+    "game": "Mega Man 2",
+    "checks": [
+        {
+            "name": "Metal Man",
+            "obj_type": 0
+        },
+        {
+            "name": "Air Man",
+            "obj_type": 1
+        },
+        {
+            "name": "Bubble Man",
+            "obj_type": 2
+        },
+        {
+            "name": "Quick Man",
+            "obj_type": 3
+        },
+        {
+            "name": "Crash Man",
+            "obj_type": 4
+        },
+        {
+            "name": "Flash Man",
+            "obj_type": 5
+        },
+        {
+            "name": "Heat Man",
+            "obj_type": 6
+        },
+        {
+            "name": "Wood Man",
+            "obj_type": 7
+        }
+    ]
+}
