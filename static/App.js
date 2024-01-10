@@ -118,7 +118,29 @@ function tallyChecks() {
     updateCounterDisplay();
 }
 
+function checkEnabled(checkElement) {
+    let input = checkElement.getElementsByTagName("input")[0];
+    return input.checked;
+}
+
 function updateCounterDisplay() {
+    // Update individual game counts
+    let gameContainers = document.getElementsByClassName("gameContainer");
+    for (let i = 0; i < gameContainers.length; i++) {
+        let checkCount = 0;
+        let checks = gameContainers[i].getElementsByClassName("checkElement");
+
+        for (let c = 0; c < checks.length; c++) {
+            if (checkEnabled(checks[c])) {
+                checkCount++;
+            }
+        }
+        
+        let checksCountDisplay = gameContainers[i].getElementsByClassName("checksCount")[0];
+        checksCountDisplay.innerHTML = `(${checkCount} of ${checks.length} selected)`;
+    }
+
+    // Update totals / enable button
     let checksCounter = document.getElementsByClassName("checksCounter")[0];
     let objsCounter = document.getElementsByClassName("objsCounter")[0];
     checksCounter.innerHTML = `Checks: ${selectCounter}`;
