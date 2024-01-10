@@ -1,4 +1,4 @@
-from ..src.Game import *
+from ..Game import *
 
 my_json = '''{ 
     "game": "Test Game", 

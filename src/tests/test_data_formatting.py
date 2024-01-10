@@ -3,8 +3,6 @@ import os
 import io
 import json
 
-from ..src.Game import *
-
 class TestDataFormatting(unittest.TestCase):
     game_dirs = []
 
