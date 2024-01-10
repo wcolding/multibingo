@@ -28,6 +28,16 @@ function setAllGameChecks(game) {
     tallyChecks();
 }
 
+function getGameSelectByName(name) {
+    let gameSelects = document.getElementsByClassName("gameSelect");
+    for (let game of gameSelects) {
+        let curGameName = game.getElementsByClassName("gameName")[0].innerHTML;
+        if (name == curGameName){
+            return game;
+        }
+    };
+}
+
 function tallyChecks() {
     selectCounter = 0;
     objectivesList = [];
@@ -39,6 +49,10 @@ function tallyChecks() {
             let checkGame = check.parentElement.getElementsByClassName("checkGame")[0].innerHTML;
             let checkName = check.parentElement.getElementsByTagName("label")[0].innerHTML;
             let checkObjType = check.parentElement.getElementsByClassName("checkObjType")[0].innerHTML;
+
+            // Check game's box
+            let gameCheckBox = getGameSelectByName(checkGame).getElementsByTagName("input")[0];
+            gameCheckBox.checked = true;
 
             const checksIterator = selectedChecks.values();
             let gameExists = false;
