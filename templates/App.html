@@ -7,6 +7,10 @@
         <link rel="stylesheet" href="../static/App.css" />
     </head>
     <body onload="init()">
+        <script type="text/javascript">
+            const games_obj = {{ games|tojson }};
+            console.log(games_obj);
+        </script>
         <script type="text/javascript" src="../static/App.js"></script>
         <div class="generatedBoardString" id="generatedBoard">{{ generated }}</div>
         <div class="lastSettingString" id="lastSetting">{{ last_setting }}</div>
@@ -32,18 +36,17 @@
                         <input type=checkbox 
                             id="{{game.name}}_allSelect" 
                             onclick="setAllGameChecks('{{game.name}}')">
-                        <div class="gameName">{{game.name}}</div>
-                        <div class="checksCount">(0 of {{game.checks_list|length}} selected)</div>
-                        <div class="objectivesCount">({{game.get_obj_type_count()}} objectives)</div></checkbox>
+                        <div class="gameName">{{game['game']}}</div>
+                        <div class="checksCount">(0 of {{game['checks']|length}} selected)</div></checkbox>
                     </div>
                     <div class="gameChecksSelect" id="{{game.name}}_checks" style="display: none;">
                         <hr>
-                        {% for check in game.checks_list %}
+                        {% for check in game['checks'] %}
                         <div class="checkElement">
-                            <div class="checkGame">{{game.name}}</div>
-                            <div class="checkObjType">{{check.obj_type}}</div>
+                            <div class="checkGame">{{game['name']}}</div>
+                            <div class="checkObjType">{{check['obj_type']}}</div>
                             <input type=checkbox onclick="tallyChecks()">
-                            <label>{{check.name}}</label>
+                            <label>{{check['name']}}</label>
                         </div>
                         <br>
                         {% endfor %}
