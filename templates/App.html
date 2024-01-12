@@ -28,25 +28,25 @@
             </div>
 
             <div class="scrollingGamesList">
-                {% for game in games %}
+                {% for entry in games %}
                 
                 <div class="gameContainer">
                     <div class="gameSelect">
-                        <button class="expandButton" onclick="showGameChecks('{{game.name}}')" style="display: inline;" id="{{game.name}}_expandButton">+</button>
+                        <button class="expandButton" onclick="showGameChecks('{{entry.game}}')" style="display: inline;" id="{{entry.game}}_expandButton">+</button>
                         <input type=checkbox 
-                            id="{{game.name}}_allSelect" 
-                            onclick="setAllGameChecks('{{game.name}}')">
-                        <div class="gameName">{{game['game']}}</div>
-                        <div class="checksCount">(0 of {{game['checks']|length}} selected)</div></checkbox>
+                            id="{{entry.game}}_allSelect" 
+                            onclick="setAllGameChecks('{{entry.game}}')">
+                        <div class="gameName">{{entry.game}}</div>
+                        <div class="checksCount">(0 of {{entry.checks|length}} selected)</div></checkbox>
                     </div>
-                    <div class="gameChecksSelect" id="{{game.name}}_checks" style="display: none;">
+                    <div class="gameChecksSelect" id="{{entry.game}}_checks" style="display: none;">
                         <hr>
-                        {% for check in game['checks'] %}
+                        {% for check in entry.checks %}
                         <div class="checkElement">
-                            <div class="checkGame">{{game['name']}}</div>
-                            <div class="checkObjType">{{check['obj_type']}}</div>
+                            <div class="checkGame">{{entry.game}}</div>
+                            <div class="checkObjType">{{check.obj_type}}</div>
                             <input type=checkbox onclick="tallyChecks()">
-                            <label>{{check['name']}}</label>
+                            <label>{{check.name}}</label>
                         </div>
                         <br>
                         {% endfor %}
