@@ -8,9 +8,9 @@
     </head>
     <body onload="init()">
         <script type="text/javascript">
-            const games_obj = {{ games|tojson }};
-            console.log(games_obj);
-        </script>
+            const gamesObj = {{ games|tojson }};
+            const lastSettingObj = {{ last_setting|tojson }}
+            </script>
         <script type="text/javascript" src="../static/App.js"></script>
         <div class="generatedBoardString" id="generatedBoard">{{ generated }}</div>
         <div class="lastSettingString" id="lastSetting">{{ last_setting }}</div>
@@ -29,13 +29,13 @@
 
             <div class="scrollingGamesList">
                 {% for entry in games %}
-                
+               
                 <div class="gameContainer">
                     <div class="gameSelect">
                         <button class="expandButton" onclick="showGameChecks('{{entry.game}}')" style="display: inline;" id="{{entry.game}}_expandButton">+</button>
                         <input type=checkbox 
                             id="{{entry.game}}_allSelect" 
-                            onclick="setAllGameChecks('{{entry.game}}')">
+                            onclick="setAllGameChecks({{entry}}, checked)">
                         <div class="gameName">{{entry.game}}</div>
                         <div class="checksCount">(0 of {{entry.checks|length}} selected)</div></checkbox>
                     </div>
@@ -45,7 +45,7 @@
                         <div class="checkElement">
                             <div class="checkGame">{{entry.game}}</div>
                             <div class="checkObjType">{{check.obj_type}}</div>
-                            <input type=checkbox onclick="tallyChecks()">
+                            <input type=checkbox onclick="setCheck({{entry}}, {{check}}, checked)">
                             <label>{{check.name}}</label>
                         </div>
                         <br>
