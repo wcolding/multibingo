@@ -9,8 +9,8 @@
     <body onload="init()">
         <script type="text/javascript">
             const gamesObj = {{ games|tojson }};
-            const lastSettingObj = {{ last_setting|tojson }}
-            </script>
+            const lastSettingString = {{ last_setting|tojson }};
+        </script>
         <script type="text/javascript" src="../static/App.js"></script>
         <div class="generatedBoardString" id="generatedBoard">{{ generated }}</div>
         <div class="lastSettingString" id="lastSetting">{{ last_setting }}</div>
@@ -42,7 +42,7 @@
                     <div class="gameChecksSelect" id="{{entry.game}}_checks" style="display: none;">
                         <hr>
                         {% for check in entry.checks %}
-                        <div class="checkElement">
+                        <div class="checkElement" id="{{entry.game}}_{{check.name}}">
                             <div class="checkGame">{{entry.game}}</div>
                             <div class="checkObjType">{{check.obj_type}}</div>
                             <input type=checkbox onclick="setCheck({{entry}}, {{check}}, checked)">

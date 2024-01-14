@@ -5,8 +5,8 @@ let randoCount = 25;
 
 function init() {
     // Load settings
-    if (lastSettingObj.length > 0) {
-        
+    if (lastSettingString !== "") {
+        loadSettings(JSON.parse(lastSettingString));
     } else {
         // Default all off
         gamesObj.forEach((entry) => {
@@ -17,15 +17,10 @@ function init() {
     }
 }
 
-function loadSettings() {
-    let settings = JSON.parse(settingString);
-
-    settings.game_check_data.forEach((entry) => {
-
+function loadSettings(lastSettingObj) {
+    lastSettingObj.games.forEach((entry) => {
         entry.checks.forEach((check) => {
-            let checkElement = getCheckElement(check, entry.game);
-            let box = checkElement.getElementsByTagName("input")[0];
-            box.checked = true;
+            setCheckFromSettings(entry.game, check);
         });
     });
 
@@ -103,6 +98,27 @@ function setCheck(gameObj, checkObj, checked) {
     gameCheckBox.checked = true;
 
     tallyChecks();
+}
+
+function setCheckFromSettings(gameName, checkName) {
+    let checkElement;
+    gamesObj.forEach((entry) => {
+        if (entry.game === gameName) {
+            entry.checks.forEach((check) => {
+                if (check.name === checkName) {
+                    check.enabled = true;
+                    checkElement = document.getElementById(`${gameName}_${checkName}`);
+                    if (checkElement != null) {
+                        checkElement.getElementsByTagName("input")[0].checked = true;
+                    }
+                }
+            });
+        }
+    });
+
+    // Check game's box
+    let gameCheckBox = getGameSelectByName(gameName).getElementsByTagName("input")[0];
+    gameCheckBox.checked = true;
 }
 
 function tallyChecks() {
