@@ -2,7 +2,6 @@ let selectCounter = 0;
 let objectivesCounter = 0;
 let objectivesList = [];
 let randoCount = 25;
-let selectedChecks = {};
 
 function init() {
     // Load settings
@@ -110,18 +109,21 @@ function tallyChecks() {
     selectCounter = 0;
     objectivesCounter = 0
     objectivesList = [];
-    selectedChecks = {};
-    selectedChecks.game_check_data = []
+    let selected = {}
+    selected.games = []
 
     gamesObj.forEach((entry) => {
+        let curGame = {
+            game: entry.game,
+            checks: []
+        }
+
         entry.checks.forEach((check) => {
             if (check.enabled) {
                 selectCounter++;
 
                 // Add check to selectedChecks
-                // if (selectedChecks.game_check_data[entry.game] == null) {
-                //     selectedChecks.game_check_data.a
-                // }
+                curGame.checks.push(check.name);
 
                 // Tally objectives
                 let newObjType;
@@ -133,7 +135,6 @@ function tallyChecks() {
                         }
                 }
                 else {
-                    console.log(`Check "${check.name}" has a shared obj_type`);
                     let instances = 0;
                     newObjType = `${entry.game}:${check.obj_type}`;
                         if (objectivesList.includes(newObjType)) {
@@ -156,50 +157,15 @@ function tallyChecks() {
                         }
                 }
             }
-
-
         });
+
+        if (curGame.checks.length > 0) {
+            selected.games.push(curGame)
+        }
     });
 
-
-    // let checkElements = document.getElementsByClassName("checkElement");
-    // for (let i = 0; i < checkElements.length; i++) {
-    //     let check = checkElements[i].getElementsByTagName("input")[0];
-    //     if (check.checked) {
-    //         let checkGame = check.parentElement.getElementsByClassName("checkGame")[0].innerHTML;
-    //         let checkName = check.parentElement.getElementsByTagName("label")[0].innerHTML;
-    //         let checkObjType = check.parentElement.getElementsByClassName("checkObjType")[0].innerHTML;
-
-    //         // // Check game's box
-    //         // let gameCheckBox = getGameSelectByName(checkGame).getElementsByTagName("input")[0];
-    //         // gameCheckBox.checked = true;
-
-    //         const checksIterator = selectedChecks.values();
-    //         let gameExists = false;
-
-    //         for (const checkVal of checksIterator) {
-    //             if (checkVal.game == checkGame){
-    //                 gameExists = true;
-    //                 checkVal.checks.push(checkName);
-    //                 break;
-    //             }
-    //         }
-
-    //         if (!gameExists) {
-    //             selectedChecks.push({ game: checkGame, checks: [checkName] });
-    //         }
-
-    //         let newObjType = `${checkGame}:${checkObjType}`;
-    //         if (!objectivesList.includes(newObjType)) {
-    //             objectivesList.push(newObjType);
-    //         }
-
-    //         //selectCounter++;
-    //     }
-    // }
-
-    // let jsonDataHolder = document.getElementById("checksJSONData");
-    // jsonDataHolder.value = JSON.stringify({game_check_data: selectedChecks});
+    let jsonDataHolder = document.getElementById("checksJSONData");
+    jsonDataHolder.value = JSON.stringify(selected);
     updateCounterDisplay();
 }
 

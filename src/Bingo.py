@@ -20,10 +20,11 @@ def GetNextCheck(game_json: dict) -> dict | None:
     next_json = game_json['checks'].pop()
     selected_game = game_json['game']
 
-    if selected_game in games:
-        for check in games[selected_game]['checks']:
-            if check['name'] == next_json:
-                return check
+    for entry in games:
+        if entry['game'] == selected_game:
+            for check in entry['checks']:
+                if check['name'] == next_json:
+                    return check
             
 def CheckObjectiveUsed(game_name: str, check: dict, collection: list) -> bool:
     obj_type_str = str(check['obj_type'])
@@ -70,6 +71,9 @@ def GenerateBoard(data: list, target: int, include_game_name = False, balancing 
                                     
                                 new_check['name'] = name
                                 board.append(new_check)
+                        else:
+                            pass
+                            #print(f'Game: {game_name} is out of checks!')
         else:
             pass # todo: make one new big list from which to generate
 
