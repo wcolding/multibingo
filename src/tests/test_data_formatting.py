@@ -1,6 +1,5 @@
 import unittest
 import os
-import io
 import json
 
 class TestDataFormatting(unittest.TestCase):
