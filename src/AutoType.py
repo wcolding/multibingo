@@ -3,17 +3,16 @@ import io
 import argparse
 import json
 
-def AutoType(game_name: str, starting_val, replacements = None):
-    game_dirs = os.listdir('../games')
+def AutoType(file_name: str, starting_val, replacements = None):
+    game_defs = os.listdir('../games')
     counter = 0
     if starting_val:
         counter = starting_val
-    if game_name in game_dirs:
-        file_path = '../games/{game}/data.json'.format(game = game_name)
+    if file_name in game_defs:
         try:
-            file = io.open(file_path, 'r')
-            data = json.loads(file.read())
-            file.close()
+            f = open(f'../games/{file_name}')
+            data = json.load(f)
+            f.close()
 
             if 'checks' in data:
                 for check in data['checks']:
@@ -25,24 +24,25 @@ def AutoType(game_name: str, starting_val, replacements = None):
                             check['obj_type'] = counter
                             counter += 1
                 
-                file = io.open(file_path, 'w')
-                file.write(json.dumps(data, indent=4))
-                file.close()
-                print(f'Wrote {str(counter - starting_val)} ids to {file_path}')
+                f = io.open(f'../games/{file_name}', 'w')
+                f.write(json.dumps(data, indent=4))
+                f.close()
+                print(f'Wrote {str(counter - starting_val)} ids to {file_name}')
             else:
-                print('data.json has no checks!')
+                print(f'Could not get data from "{file_name}"!')
             
         except:
-            print('Unable to open "data.json"')
+            print(f'Unable to open "{file_name}"')
     else:
-        print('Specified game not found!')
+        print('Specified game file not found!')
 
-def BuildGame(game_name: str, text_file: str):
-    file = io.open(text_file, 'r')
-    lines = file.readlines()
-    file.close()
+def BuildGame(text_file: str, game_name: str):
+    f = io.open(text_file, 'r')
+    lines = f.readlines()
+    f.close()
 
-    out_dir = text_file[:-4]
+    out_name = os.path.splitext(text_file)[0]
+    out_path = f'../games/{out_name}.json'
 
     data = {}
     data['game'] = game_name
@@ -61,15 +61,13 @@ def BuildGame(game_name: str, text_file: str):
     data['checks'] = checks
 
     data_string = json.dumps(data, indent=4)
-    os.chdir('../games')
-    os.mkdir(out_dir)
 
-    file = io.open(out_dir + '/data.json', 'w')
+    file = io.open(out_path, 'w')
     file.write(data_string)
     file.close()
 
 parser = argparse.ArgumentParser(description='Automatically assign obj_type ids for a game')
-parser.add_argument('-m', '--modify', dest='modify', metavar='folder_name', help='Modify an existing game')
+parser.add_argument('-m', '--modify', dest='modify', metavar='file_name', help='Modify an existing game')
 parser.add_argument('-c', '--create', dest='create', nargs=2, metavar=('file_name', 'display_name'), help='Create a new game from a txt file')
 parser.add_argument('-r', '--replacements', dest='replacements', type=int, nargs='+', metavar=('ids'),help='List of obj_type ids to replace')
 parser.add_argument('-s', '--start-value', dest='start_val', type=int, default=0, metavar=('value'), help='Starting value for new obj_type ids')
