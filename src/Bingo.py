@@ -6,7 +6,7 @@ games = []
 
 game_files = os.listdir('games')
 for file in game_files:
-    if '.json' in file:
+    if os.path.splitext(file)[1] == '.json':
         f = open(f'games/{file}')
         contents = json.load(f)
         f.close()
