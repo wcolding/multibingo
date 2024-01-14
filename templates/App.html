@@ -7,6 +7,10 @@
         <link rel="stylesheet" href="../static/App.css" />
     </head>
     <body onload="init()">
+        <script type="text/javascript">
+            const gamesObj = {{ games|tojson }};
+            const lastSettingObj = {{ last_setting|tojson }}
+            </script>
         <script type="text/javascript" src="../static/App.js"></script>
         <div class="generatedBoardString" id="generatedBoard">{{ generated }}</div>
         <div class="lastSettingString" id="lastSetting">{{ last_setting }}</div>
@@ -24,25 +28,24 @@
             </div>
 
             <div class="scrollingGamesList">
-                {% for game in games %}
-                
+                {% for entry in games %}
+               
                 <div class="gameContainer">
                     <div class="gameSelect">
-                        <button class="expandButton" onclick="showGameChecks('{{game.name}}')" style="display: inline;" id="{{game.name}}_expandButton">+</button>
+                        <button class="expandButton" onclick="showGameChecks('{{entry.game}}')" style="display: inline;" id="{{entry.game}}_expandButton">+</button>
                         <input type=checkbox 
-                            id="{{game.name}}_allSelect" 
-                            onclick="setAllGameChecks('{{game.name}}')">
-                        <div class="gameName">{{game.name}}</div>
-                        <div class="checksCount">(0 of {{game.checks_list|length}} selected)</div>
-                        <div class="objectivesCount">({{game.get_obj_type_count()}} objectives)</div></checkbox>
+                            id="{{entry.game}}_allSelect" 
+                            onclick="setAllGameChecks({{entry}}, checked)">
+                        <div class="gameName">{{entry.game}}</div>
+                        <div class="checksCount">(0 of {{entry.checks|length}} selected)</div></checkbox>
                     </div>
-                    <div class="gameChecksSelect" id="{{game.name}}_checks" style="display: none;">
+                    <div class="gameChecksSelect" id="{{entry.game}}_checks" style="display: none;">
                         <hr>
-                        {% for check in game.checks_list %}
+                        {% for check in entry.checks %}
                         <div class="checkElement">
-                            <div class="checkGame">{{game.name}}</div>
+                            <div class="checkGame">{{entry.game}}</div>
                             <div class="checkObjType">{{check.obj_type}}</div>
-                            <input type=checkbox onclick="tallyChecks()">
+                            <input type=checkbox onclick="setCheck({{entry}}, {{check}}, checked)">
                             <label>{{check.name}}</label>
                         </div>
                         <br>

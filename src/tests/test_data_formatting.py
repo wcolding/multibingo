@@ -1,45 +1,27 @@
 import unittest
 import os
-import io
 import json
 
 class TestDataFormatting(unittest.TestCase):
-    game_dirs = []
-
     @classmethod
-    def setUpClass(cls):
-        cls.game_dirs = os.listdir('Games')
-
-    def test_a_json_named_correctly(self):
-        for game in self.game_dirs:
-            subdir = 'Games/{folder}'.format(folder=game)
-            game_files = os.listdir(subdir)
-            self.assertIn('data.json', game_files)
+    def setUpClass(self):
+        game_defs = os.listdir('games')
+        self.game_data = []
+        for file in game_defs:
+            if os.path.splitext(file)[1] == '.json':
+                f = open(f'games/{file}')
+                game_dict = json.load(f)
+                f.close()
+                self.game_data.append(game_dict)
     
-    def test_b_json_format(self):
-        for game in self.game_dirs:
-            subdir = 'Games/{folder}'.format(folder=game)
-            file_path = '{_subdir}/data.json'.format(_subdir = subdir)
+    def test_a_json_format(self):
+        for game in self.game_data:
+            self.assertIn('game', game)
+            self.assertIn('checks', game)
 
-            file = io.open(file_path, 'r')
-            json_string = file.read()
-            file.close()
-
-            game_dict = json.loads(json_string)
-            self.assertIn('game', game_dict)
-            self.assertIn('checks', game_dict)
-
-    def test_c_checks_format(self):
-        for game in self.game_dirs:
-            subdir = 'Games/{folder}'.format(folder=game)
-            file_path = '{_subdir}/data.json'.format(_subdir = subdir)
-
-            file = io.open(file_path, 'r')
-            json_string = file.read()
-            file.close()
-
-            game_dict = json.loads(json_string)
-            checks = game_dict['checks']
+    def test_b_checks_format(self):
+        for game in self.game_data:
+            checks = game['checks']
             self.assertGreater(len(checks), 0)
 
             for check in checks:
@@ -49,17 +31,9 @@ class TestDataFormatting(unittest.TestCase):
                 self.assertEqual(check['name'], str(check['name']))
                 self.assertEqual(check['obj_type'], int(check['obj_type']))
 
-    def test_d_enforce_unique_check_names(self):
-        for game in self.game_dirs:
-            subdir = 'Games/{folder}'.format(folder=game)
-            file_path = '{_subdir}/data.json'.format(_subdir = subdir)
-
-            file = io.open(file_path, 'r')
-            json_string = file.read()
-            file.close()
-
-            game_dict = json.loads(json_string)
-            checks = game_dict['checks']
+    def test_c_enforce_unique_check_names(self):
+        for game in self.game_data:
+            checks = game['checks']
             game_check_names = []
 
             for check in checks:
