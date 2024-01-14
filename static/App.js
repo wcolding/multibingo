@@ -39,6 +39,20 @@ function loadSettings(settings) {
     tallyChecks();
 }
 
+function copySelectedAsPreset() {
+    let jsonDataHolder = document.getElementById("checksJSONData");
+    let presetData = JSON.parse(jsonDataHolder.value);
+
+    let newPreset = {
+        name: "",
+        desc: "",
+        games: presetData.games
+    };
+
+    let newPresetString = JSON.stringify(newPreset, null, 4);
+    navigator.clipboard.writeText(newPresetString);
+}
+
 function showGameChecks(game) {
     let checks = document.getElementById(game + "_checks");
     let button = document.getElementById(game + "_expandButton");

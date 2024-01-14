@@ -25,6 +25,7 @@
                     <input type="checkbox" name="includeGameName">Include game name in squares
                 </form>
                 <button class="bigButton" onclick="copyBoard()" {% if generated == '' %}disabled{% endif %}>Copy to Clipboard</button>
+                <button onclick="copySelectedAsPreset()">Copy selected as Preset</button>
                 <br>
             </div>
 
