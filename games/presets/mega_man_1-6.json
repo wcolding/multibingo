@@ -1,0 +1,82 @@
+{
+    "name": "Mega Man 1-6",
+    "desc": "",
+    "games": [
+        {
+            "game": "Mega Man",
+            "checks": [
+                "Guts Man",
+                "Cut Man",
+                "Elec Man",
+                "Ice Man",
+                "Fire Man",
+                "Bomb Man"
+            ]
+        },
+        {
+            "game": "Mega Man 2",
+            "checks": [
+                "Metal Man",
+                "Air Man",
+                "Bubble Man",
+                "Quick Man",
+                "Crash Man",
+                "Flash Man",
+                "Heat Man",
+                "Wood Man"
+            ]
+        },
+        {
+            "game": "Mega Man 3",
+            "checks": [
+                "Needle Man",
+                "Magnet Man",
+                "Gemini Man",
+                "Hard Man",
+                "Top Man",
+                "Snake Man",
+                "Spark Man",
+                "Shadow Man"
+            ]
+        },
+        {
+            "game": "Mega Man 4",
+            "checks": [
+                "Bright Man",
+                "Toad Man",
+                "Drill Man",
+                "Pharaoh Man",
+                "Ring Man",
+                "Dust Man",
+                "Dive Man",
+                "Skull Man"
+            ]
+        },
+        {
+            "game": "Mega Man 5",
+            "checks": [
+                "Gravity Man",
+                "Wave Man",
+                "Stone Man",
+                "Gyro Man",
+                "Star Man",
+                "Charge Man",
+                "Napalm Man",
+                "Crystal Man"
+            ]
+        },
+        {
+            "game": "Mega Man 6",
+            "checks": [
+                "Blizzard Man",
+                "Centaur Man",
+                "Flame Man",
+                "Knight Man",
+                "Plant Man",
+                "Tomahawk Man",
+                "Wind Man",
+                "Yamato Man"
+            ]
+        }
+    ]
+}
