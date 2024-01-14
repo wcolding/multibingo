@@ -28,6 +28,7 @@ body {
 }
 
 .gameSelectionBox {
+    display: inline-block;
     margin-left: 30%;
     width: 50%;
 }
@@ -73,4 +74,9 @@ body {
 
 .lastSettingString {
     display: none;
+}
+
+.presetLoad {
+    display: inline-block;
+    font-size: large;
 }

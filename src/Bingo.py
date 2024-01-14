@@ -3,6 +3,7 @@ import random
 import json
 
 games = []
+presets = []
 
 game_files = os.listdir('games')
 for file in game_files:
@@ -15,6 +16,17 @@ for file in game_files:
         checks_count = len(contents['checks'])
         print(f'Data found for "{game_name}" - {checks_count} checks')
         games.append(contents)
+
+preset_files = os.listdir('games/presets')
+for preset in preset_files:
+    if os.path.splitext(preset)[1] == '.json':
+        f = open(f'games/presets/{preset}')
+        contents = json.load(f)
+        f.close()
+
+        preset_name = contents['name']
+        print(f'Preset found: "{preset_name}"')
+        presets.append(contents)
 
 def GetNextCheck(game_json: dict) -> dict | None:
     next_json = game_json['checks'].pop()

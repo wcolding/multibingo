@@ -17,8 +17,20 @@ function init() {
     }
 }
 
-function loadSettings(lastSettingObj) {
-    lastSettingObj.games.forEach((entry) => {
+function loadSelectedPreset() {
+    let dropdown = document.getElementById("presetsDropdown");
+    let selected = dropdown.options[dropdown.options.selectedIndex].innerText;
+    console.log(`Loading preset: ${selected}`);
+
+    presets.forEach((preset) => {
+        if (preset.name === selected) {
+            loadSettings(preset);
+        }
+    });
+}
+
+function loadSettings(settings) {
+    settings.games.forEach((entry) => {
         entry.checks.forEach((check) => {
             setCheckFromSettings(entry.game, check);
         });

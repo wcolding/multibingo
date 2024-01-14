@@ -9,6 +9,7 @@
     <body onload="init()">
         <script type="text/javascript">
             const gamesObj = {{ games|tojson }};
+            const presets = {{ presets|tojson}};
             const lastSettingString = {{ last_setting|tojson }};
         </script>
         <script type="text/javascript" src="../static/App.js"></script>
@@ -55,6 +56,14 @@
                 
                 {% endfor %}
             </div>
+        </div>
+        <div class="presetLoad">
+            <select id="presetsDropdown">
+                {% for preset in presets %}
+                <option>{{preset.name}}</option>
+                {% endfor %}
+            </select>
+            <button id="loadPresetButton" onclick="loadSelectedPreset()">Load Preset</button>
         </div>
         
     </body>
