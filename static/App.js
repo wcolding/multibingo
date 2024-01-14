@@ -195,7 +195,7 @@ function updateCounterDisplay() {
     let checksCounter = document.getElementsByClassName("checksCounter")[0];
     let objsCounter = document.getElementsByClassName("objsCounter")[0];
     checksCounter.innerHTML = `Checks: ${selectCounter}`;
-    objsCounter.innerHTML = `Objectives: ${objectivesCounter}`;
+    objsCounter.innerHTML = `Exclusive Checks: ${objectivesCounter}`;
     setColor(checksCounter, selectCounter, randoCount);
     let enoughObjectives = setColor(objsCounter, objectivesCounter, randoCount);
     let generateButton = document.getElementById("generateButton");
