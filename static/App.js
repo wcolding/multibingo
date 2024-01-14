@@ -17,6 +17,18 @@ function init() {
     }
 }
 
+function clearAllChecks() {
+    gamesObj.forEach((entry) => {
+        let allSelect = document.getElementById(`${entry.game}_allSelect`);
+        allSelect.checked = false;
+        
+        entry.checks.forEach((check) => {
+            check.enabled = false;
+            setCheckFromSettings(entry.game, check.name, false);
+        });
+    });
+}
+
 function loadSelectedPreset() {
     let dropdown = document.getElementById("presetsDropdown");
     let selected = dropdown.options[dropdown.options.selectedIndex].innerText;
@@ -24,6 +36,7 @@ function loadSelectedPreset() {
 
     presets.forEach((preset) => {
         if (preset.name === selected) {
+            clearAllChecks();
             loadSettings(preset);
         }
     });
@@ -32,7 +45,7 @@ function loadSelectedPreset() {
 function loadSettings(settings) {
     settings.games.forEach((entry) => {
         entry.checks.forEach((check) => {
-            setCheckFromSettings(entry.game, check);
+            setCheckFromSettings(entry.game, check, true);
         });
     });
 
@@ -126,25 +139,27 @@ function setCheck(gameObj, checkObj, checked) {
     tallyChecks();
 }
 
-function setCheckFromSettings(gameName, checkName) {
+function setCheckFromSettings(gameName, checkName, checked) {
     let checkElement;
     gamesObj.forEach((entry) => {
         if (entry.game === gameName) {
             entry.checks.forEach((check) => {
                 if (check.name === checkName) {
-                    check.enabled = true;
+                    check.enabled = checked;
                     checkElement = document.getElementById(`${gameName}_${checkName}`);
                     if (checkElement != null) {
-                        checkElement.getElementsByTagName("input")[0].checked = true;
+                        checkElement.getElementsByTagName("input")[0].checked = checked;
                     }
                 }
             });
         }
     });
 
-    // Check game's box
-    let gameCheckBox = getGameSelectByName(gameName).getElementsByTagName("input")[0];
-    gameCheckBox.checked = true;
+    if (checked) {
+        // Check game's box
+        let gameCheckBox = getGameSelectByName(gameName).getElementsByTagName("input")[0];
+        gameCheckBox.checked = true;
+    }
 }
 
 function tallyChecks() {
