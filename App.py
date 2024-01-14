@@ -9,8 +9,8 @@ app = Flask(__name__)
 def index():
     return render_template('App.html', games = games, generated = '', last_setting = '')
 
-@app.route('/generate_bingosync', methods=['POST'])
-def generate_bingosync():
+@app.route('/generate', methods=['POST'])
+def generate():
     data_string = request.form.get('checksJSON')
     data = json.loads(data_string)
     include_game_names = request.form.get('includeGameName')
