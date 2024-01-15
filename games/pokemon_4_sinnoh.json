@@ -1,0 +1,390 @@
+{
+    "game": "Pok\u00e9mon (Sinnoh)",
+    "checks": [
+        {
+            "name": "Turtwig",
+            "obj_type": 0
+        },
+        {
+            "name": "Grotle",
+            "obj_type": 0
+        },
+        {
+            "name": "Torterra",
+            "obj_type": 0
+        },
+        {
+            "name": "Chimchar",
+            "obj_type": 1
+        },
+        {
+            "name": "Monferno",
+            "obj_type": 1
+        },
+        {
+            "name": "Infernape",
+            "obj_type": 1
+        },
+        {
+            "name": "Piplup",
+            "obj_type": 2
+        },
+        {
+            "name": "Prinplup",
+            "obj_type": 2
+        },
+        {
+            "name": "Empoleon",
+            "obj_type": 2
+        },
+        {
+            "name": "Starly",
+            "obj_type": 3
+        },
+        {
+            "name": "Staravia",
+            "obj_type": 3
+        },
+        {
+            "name": "Staraptor",
+            "obj_type": 3
+        },
+        {
+            "name": "Bidoof",
+            "obj_type": 4
+        },
+        {
+            "name": "Bibarel",
+            "obj_type": 4
+        },
+        {
+            "name": "Kricketot",
+            "obj_type": 5
+        },
+        {
+            "name": "Kricketune",
+            "obj_type": 5
+        },
+        {
+            "name": "Shinx",
+            "obj_type": 6
+        },
+        {
+            "name": "Luxio",
+            "obj_type": 6
+        },
+        {
+            "name": "Luxray",
+            "obj_type": 6
+        },
+        {
+            "name": "Budew",
+            "obj_type": 303,
+            "shared": [
+                "Pok\u00e9mon (Hoenn)"
+            ]
+        },
+        {
+            "name": "Roserade",
+            "obj_type": 303,
+            "shared": [
+                "Pok\u00e9mon (Hoenn)"
+            ]
+        },
+        {
+            "name": "Cranidos",
+            "obj_type": 8
+        },
+        {
+            "name": "Rampardos",
+            "obj_type": 8
+        },
+        {
+            "name": "Shieldon",
+            "obj_type": 9
+        },
+        {
+            "name": "Bastiodon",
+            "obj_type": 9
+        },
+        {
+            "name": "Burmy (Plant Cloak)",
+            "obj_type": 10
+        },
+        {
+            "name": "Burmy (Sandy Cloak)",
+            "obj_type": 10
+        },
+        {
+            "name": "Burmy (Trash Cloak)",
+            "obj_type": 10
+        },
+        {
+            "name": "Wormadam (Plant Cloak)",
+            "obj_type": 10
+        },
+        {
+            "name": "Wormadam (Sandy Cloak)",
+            "obj_type": 10
+        },
+        {
+            "name": "Wormadam (Trash Cloak)",
+            "obj_type": 10
+        },
+        {
+            "name": "Mothim",
+            "obj_type": 10
+        },
+        {
+            "name": "Combee",
+            "obj_type": 11
+        },
+        {
+            "name": "Vespiquen",
+            "obj_type": 11
+        },
+        {
+            "name": "Pachirisu",
+            "obj_type": 12
+        },
+        {
+            "name": "Buizel",
+            "obj_type": 13
+        },
+        {
+            "name": "Floatzel",
+            "obj_type": 13
+        },
+        {
+            "name": "Cherubi",
+            "obj_type": 14
+        },
+        {
+            "name": "Cherrim",
+            "obj_type": 14
+        },
+        {
+            "name": "Shellos (West Sea)",
+            "obj_type": 15
+        },
+        {
+            "name": "Shellos (East Sea)",
+            "obj_type": 15
+        },
+        {
+            "name": "Gastrodon (West Sea)",
+            "obj_type": 15
+        },
+        {
+            "name": "Gastrodon (East Sea)",
+            "obj_type": 15
+        },
+        {
+            "name": "Ambipom",
+            "obj_type": 201,
+            "shared": [
+                "Pok\u00e9mon (Johto)"
+            ]
+        },
+        {
+            "name": "Drifloon",
+            "obj_type": 17
+        },
+        {
+            "name": "Drifblim",
+            "obj_type": 17
+        },
+        {
+            "name": "Buneary",
+            "obj_type": 18
+        },
+        {
+            "name": "Lopunny",
+            "obj_type": 18
+        },
+        {
+            "name": "Mismagius",
+            "obj_type": 204,
+            "shared": [
+                "Pok\u00e9mon (Johto)"
+            ]
+        },
+        {
+            "name": "Honchkrow",
+            "obj_type": 203,
+            "shared": [
+                "Pok\u00e9mon (Johto)"
+            ]
+        },
+        {
+            "name": "Glameow",
+            "obj_type": 21
+        },
+        {
+            "name": "Purugly",
+            "obj_type": 21
+        },
+        {
+            "name": "Chingling",
+            "obj_type": 22
+        },
+        {
+            "name": "Chimecho",
+            "obj_type": 22
+        },
+        {
+            "name": "Stunky",
+            "obj_type": 23
+        },
+        {
+            "name": "Skuntank",
+            "obj_type": 23
+        },
+        {
+            "name": "Bronzor",
+            "obj_type": 24
+        },
+        {
+            "name": "Bronzong",
+            "obj_type": 24
+        },
+        {
+            "name": "Bonsly",
+            "obj_type": 200,
+            "shared": [
+                "Pok\u00e9mon (Johto)"
+            ]
+        },
+        {
+            "name": "Mime Jr.",
+            "obj_type": 204,
+            "shared": [
+                "Pok\u00e9mon (Kanto)"
+            ]
+        },
+        {
+            "name": "Happiny",
+            "obj_type": 49,
+            "shared": [
+                "Pok\u00e9mon (Kanto)", "Pok\u00e9mon (Johto)"
+            ]
+        },
+        {
+            "name": "Chatot",
+            "obj_type": 28
+        },
+        {
+            "name": "Spiritomb",
+            "obj_type": 29
+        },
+        {
+            "name": "Gible",
+            "obj_type": 30
+        },
+        {
+            "name": "Gabite",
+            "obj_type": 30
+        },
+        {
+            "name": "Garchomp",
+            "obj_type": 30
+        },
+        {
+            "name": "Munchlax",
+            "obj_type": 210,
+            "shared": [
+                "Pok\u00e9mon (Kanto)"
+            ]
+        },
+        {
+            "name": "Riolu",
+            "obj_type": 32
+        },
+        {
+            "name": "Lucario",
+            "obj_type": 32
+        },
+        {
+            "name": "Hippopotas",
+            "obj_type": 33
+        },
+        {
+            "name": "Hippowdon",
+            "obj_type": 33
+        },
+        {
+            "name": "Skorupi",
+            "obj_type": 34
+        },
+        {
+            "name": "Drapion",
+            "obj_type": 34
+        },
+        {
+            "name": "Croagunk",
+            "obj_type": 35
+        },
+        {
+            "name": "Toxicroak",
+            "obj_type": 35
+        },
+        {
+            "name": "Carnivine",
+            "obj_type": 36
+        },
+        {
+            "name": "Finneon",
+            "obj_type": 37
+        },
+        {
+            "name": "Lumineon",
+            "obj_type": 37
+        },
+        {
+            "name": "Mantyke",
+            "obj_type": 215,
+            "shared": [
+                "Pok\u00e9mon (Johto)"
+            ]
+        },
+        {
+            "name": "Snover",
+            "obj_type": 39
+        },
+        {
+            "name": "Abomasnow",
+            "obj_type": 39
+        },
+        {
+            "name": "Weavile",
+            "obj_type": 212,
+            "shared": [
+                "Pok\u00e9mon (Johto)"
+            ]
+        },
+        {
+            "name": "Uxie",
+            "obj_type": 41
+        },
+        {
+            "name": "Mesprit",
+            "obj_type": 42
+        },
+        {
+            "name": "Azelf",
+            "obj_type": 43
+        },
+        {
+            "name": "Dialga",
+            "obj_type": 44
+        },
+        {
+            "name": "Palkia",
+            "obj_type": 45
+        },
+        {
+            "name": "Manaphy",
+            "obj_type": 46
+        }
+    ]
+}
