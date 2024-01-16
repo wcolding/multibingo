@@ -1,0 +1,495 @@
+{
+    "game": "Pokemon (Gen VII)",
+    "checks": [
+        {
+            "name": "Rowlet",
+            "obj_type": 7001
+        },
+        {
+            "name": "Dartrix",
+            "obj_type": 7001
+        },
+        {
+            "name": "Decidueye",
+            "obj_type": 7001
+        },
+        {
+            "name": "Litten",
+            "obj_type": 7002
+        },
+        {
+            "name": "Torracat",
+            "obj_type": 7002
+        },
+        {
+            "name": "Incineroar",
+            "obj_type": 7002
+        },
+        {
+            "name": "Popplio",
+            "obj_type": 7003
+        },
+        {
+            "name": "Brionne",
+            "obj_type": 7003
+        },
+        {
+            "name": "Primarina",
+            "obj_type": 7003
+        },
+        {
+            "name": "Pikipek",
+            "obj_type": 7004
+        },
+        {
+            "name": "Trumbeak",
+            "obj_type": 7004
+        },
+        {
+            "name": "Toucannon",
+            "obj_type": 7004
+        },
+        {
+            "name": "Yungoos",
+            "obj_type": 7005
+        },
+        {
+            "name": "Gumshoos",
+            "obj_type": 7005
+        },
+        {
+            "name": "Grubbin",
+            "obj_type": 7006
+        },
+        {
+            "name": "Charjabug",
+            "obj_type": 7006
+        },
+        {
+            "name": "Vikavolt",
+            "obj_type": 7006
+        },
+        {
+            "name": "Crabrawler",
+            "obj_type": 7007
+        },
+        {
+            "name": "Crabominable",
+            "obj_type": 7007
+        },
+        {
+            "name": "Oricorio (Baile)",
+            "obj_type": 7008
+        },
+        {
+            "name": "Oricorio (Pom-Pom)",
+            "obj_type": 7008
+        },
+        {
+            "name": "Oricorio (Pa'u)",
+            "obj_type": 7008
+        },
+        {
+            "name": "Oricorio (Sensu)",
+            "obj_type": 7008
+        },
+        {
+            "name": "Cutiefly",
+            "obj_type": 7009
+        },
+        {
+            "name": "Ribombee",
+            "obj_type": 7009
+        },
+        {
+            "name": "Rockruff",
+            "obj_type": 7010
+        },
+        {
+            "name": "Lycanroc",
+            "obj_type": 7010
+        },
+        {
+            "name": "Wishiwashi",
+            "obj_type": 7011
+        },
+        {
+            "name": "Mareanie",
+            "obj_type": 7012
+        },
+        {
+            "name": "Toxapex",
+            "obj_type": 7012
+        },
+        {
+            "name": "Mudbray",
+            "obj_type": 7013
+        },
+        {
+            "name": "Mudsdale",
+            "obj_type": 7013
+        },
+        {
+            "name": "Dewpider",
+            "obj_type": 7014
+        },
+        {
+            "name": "Araquanid",
+            "obj_type": 7014
+        },
+        {
+            "name": "Fomantis",
+            "obj_type": 7015
+        },
+        {
+            "name": "Lurantis",
+            "obj_type": 7015
+        },
+        {
+            "name": "Morelull",
+            "obj_type": 7016
+        },
+        {
+            "name": "Shiinotic",
+            "obj_type": 7016
+        },
+        {
+            "name": "Salandit",
+            "obj_type": 7017
+        },
+        {
+            "name": "Salazzle",
+            "obj_type": 7017
+        },
+        {
+            "name": "Stufful",
+            "obj_type": 7018
+        },
+        {
+            "name": "Bewear",
+            "obj_type": 7018
+        },
+        {
+            "name": "Bounsweet",
+            "obj_type": 7019
+        },
+        {
+            "name": "Steenee",
+            "obj_type": 7019
+        },
+        {
+            "name": "Tsareena",
+            "obj_type": 7019
+        },
+        {
+            "name": "Comfey",
+            "obj_type": 7020
+        },
+        {
+            "name": "Oranguru",
+            "obj_type": 7021
+        },
+        {
+            "name": "Passimian",
+            "obj_type": 7022
+        },
+        {
+            "name": "Wimpod",
+            "obj_type": 7023
+        },
+        {
+            "name": "Golisopod",
+            "obj_type": 7023
+        },
+        {
+            "name": "Sandygast",
+            "obj_type": 7024
+        },
+        {
+            "name": "Palossand",
+            "obj_type": 7024
+        },
+        {
+            "name": "Pyukumuku",
+            "obj_type": 7025
+        },
+        {
+            "name": "Type: Null",
+            "obj_type": 7026
+        },
+        {
+            "name": "Silvally",
+            "obj_type": 7027
+        },
+        {
+            "name": "Minior",
+            "obj_type": 7028
+        },
+        {
+            "name": "Komala",
+            "obj_type": 7029
+        },
+        {
+            "name": "Turtonator",
+            "obj_type": 7030
+        },
+        {
+            "name": "Togedemaru",
+            "obj_type": 7031
+        },
+        {
+            "name": "Mimikyu",
+            "obj_type": 7032
+        },
+        {
+            "name": "Bruxish",
+            "obj_type": 7033
+        },
+        {
+            "name": "Drampa",
+            "obj_type": 7034
+        },
+        {
+            "name": "Dhelmise",
+            "obj_type": 7035
+        },
+        {
+            "name": "Jangmo-o",
+            "obj_type": 7036
+        },
+        {
+            "name": "Hakamo-o",
+            "obj_type": 7036
+        },
+        {
+            "name": "Kommo-o",
+            "obj_type": 7036
+        },
+        {
+            "name": "Tapu Koko",
+            "obj_type": 7037
+        },
+        {
+            "name": "Tapu Lele",
+            "obj_type": 7038
+        },
+        {
+            "name": "Tapu Bulu",
+            "obj_type": 7039
+        },
+        {
+            "name": "Tapu Fini",
+            "obj_type": 7040
+        },
+        {
+            "name": "Cosmog",
+            "obj_type": 7041
+        },
+        {
+            "name": "Cosmoem",
+            "obj_type": 7041
+        },
+        {
+            "name": "Solgaleo",
+            "obj_type": 7041
+        },
+        {
+            "name": "Lunala",
+            "obj_type": 7041
+        },
+        {
+            "name": "Nihilego",
+            "obj_type": 7042
+        },
+        {
+            "name": "Buzzwole",
+            "obj_type": 7043
+        },
+        {
+            "name": "Pheromosa",
+            "obj_type": 7044
+        },
+        {
+            "name": "Xurkitree",
+            "obj_type": 7045
+        },
+        {
+            "name": "Celesteela",
+            "obj_type": 7046
+        },
+        {
+            "name": "Kartana",
+            "obj_type": 7047
+        },
+        {
+            "name": "Guzzlord",
+            "obj_type": 7048
+        },
+        {
+            "name": "Necrozma",
+            "obj_type": 7049
+        },
+        {
+            "name": "Magearna",
+            "obj_type": 7050
+        },
+        {
+            "name": "Marshadow",
+            "obj_type": 7051
+        },
+        {
+            "name": "Poipole",
+            "obj_type": 7052
+        },
+        {
+            "name": "Naganadel",
+            "obj_type": 7053
+        },
+        {
+            "name": "Stakataka",
+            "obj_type": 7054
+        },
+        {
+            "name": "Blacephalon",
+            "obj_type": 7055
+        },
+        {
+            "name": "Zeraora",
+            "obj_type": 7056
+        },
+        {
+            "name": "Meltan",
+            "obj_type": 7057
+        },
+        {
+            "name": "Melmetal",
+            "obj_type": 7057
+        },
+        {
+            "name": "Rattata (Alolan)",
+            "obj_type": 1007,
+            "shared": [
+                "Pokemon (Gen I)"
+            ]
+        },
+        {
+            "name": "Raticate (Alolan)",
+            "obj_type": 1007,
+            "shared": [
+                "Pokemon (Gen I)"
+            ]
+        },
+        {
+            "name": "Raichu (Alolan)",
+            "obj_type": 1010,
+            "shared": [
+                "Pokemon (Gen I)", "Pokemon (Gen II)"
+            ]
+        },
+        {
+            "name": "Sandshrew (Alolan)",
+            "obj_type": 1011,
+            "shared": [
+                "Pokemon (Gen I)"
+            ]
+        },
+        {
+            "name": "Sandslash (Alolan)",
+            "obj_type": 1011,
+            "shared": [
+                "Pokemon (Gen I)"
+            ]
+        },
+        {
+            "name": "Vulpix (Alolan)",
+            "obj_type": 1015,
+            "shared": [
+                "Pokemon (Gen I)"
+            ]
+        },
+        {
+            "name": "Ninetales (Alolan)",
+            "obj_type": 1015,
+            "shared": [
+                "Pokemon (Gen I)"
+            ]
+        },
+        {
+            "name": "Diglett (Alolan)",
+            "obj_type": 1021,
+            "shared": [
+                "Pokemon (Gen I)"
+            ]
+        },
+        {
+            "name": "Dugtrio (Alolan)",
+            "obj_type": 1021,
+            "shared": [
+                "Pokemon (Gen I)"
+            ]
+        },
+        {
+            "name": "Meowth (Alolan)",
+            "obj_type": 1022,
+            "shared": [
+                "Pokemon (Gen I)"
+            ]
+        },
+        {
+            "name": "Persian (Alolan)",
+            "obj_type": 1022,
+            "shared": [
+                "Pokemon (Gen I)"
+            ]
+        },
+        {
+            "name": "Geodude (Alolan)",
+            "obj_type": 1031,
+            "shared": [
+                "Pokemon (Gen I)"
+            ]
+        },
+        {
+            "name": "Graveler (Alolan)",
+            "obj_type": 1031,
+            "shared": [
+                "Pokemon (Gen I)"
+            ]
+        },
+        {
+            "name": "Golem (Alolan)",
+            "obj_type": 1031,
+            "shared": [
+                "Pokemon (Gen I)"
+            ]
+        },
+        {
+            "name": "Grimer (Alolan)",
+            "obj_type": 1038,
+            "shared": [
+                "Pokemon (Gen I)"
+            ]
+        },
+        {
+            "name": "Muk (Alolan)",
+            "obj_type": 1038,
+            "shared": [
+                "Pokemon (Gen I)"
+            ]
+        },
+        {
+            "name": "Exeggutor (Alolan)",
+            "obj_type": 1045,
+            "shared": [
+                "Pokemon (Gen I)"
+            ]
+        },
+        {
+            "name": "Marowak (Alolan)",
+            "obj_type": 1046,
+            "shared": [
+                "Pokemon (Gen I)"
+            ]
+        }
+    ]
+}
