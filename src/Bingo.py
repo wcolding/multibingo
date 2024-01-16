@@ -30,6 +30,13 @@ for preset in preset_files:
         print(f'Preset found: "{preset_name}"')
         presets.append(contents)
 
+def GetCheck(selected_game, check_name) -> dict | None:
+    for entry in games:
+        if entry['game'] == selected_game:
+            for check in entry['checks']:
+                if check['name'] == check_name:
+                    return check
+
 def GetNextCheck(game_json: dict) -> dict | None:
     next_json = game_json['checks'].pop()
     selected_game = game_json['game']
@@ -39,7 +46,7 @@ def GetNextCheck(game_json: dict) -> dict | None:
             for check in entry['checks']:
                 if check['name'] == next_json:
                     return check
-            
+          
 def CheckObjectiveUsed(game_name: str, check: dict, collection: list) -> bool:
     obj_type_str = str(check['obj_type'])
     obj_string = f'{game_name}:{obj_type_str}'
@@ -68,6 +75,16 @@ def GenerateBoard(data: list, target: int, include_game_name = False, balancing 
     for game in data:
         random.shuffle(game['checks'])
 
+    if not balancing:
+        new_data = []
+        for game in data:
+            new_data_checks = game['checks']
+            for check_name in new_data_checks:
+                check = GetCheck(game['game'], check_name)
+                check['game'] = game['game']
+                new_data.append(check)
+        random.shuffle(new_data)
+
     while (generating):
         if balancing:
             for game in data:
@@ -85,11 +102,19 @@ def GenerateBoard(data: list, target: int, include_game_name = False, balancing 
                                     
                                 new_check['name'] = name
                                 board.append(new_check)
-                        else:
-                            pass
-                            #print(f'Game: {game_name} is out of checks!')
         else:
-            pass # todo: make one new big list from which to generate
+            next_check = new_data.pop()
+            name = next_check['name']
+            game_name = next_check['game']
+
+            if not CheckSharedObjectiveUsed(game_name, next_check, used_objectives):
+                new_check = {}
+                
+                if include_game_name:
+                    name = f'[{game_name}] {name}'
+                    
+                new_check['name'] = name
+                board.append(new_check)
 
         if len(board) >= target:
             generating = False

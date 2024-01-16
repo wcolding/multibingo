@@ -21,8 +21,17 @@
                 <div class="objsCounter">Exclusive Checks: 0</div>
                 <form method="post" action="/generate">
                     <input type="hidden" id="checksJSONData" name="checksJSON" value="">
-                    <input class="bigButton" id="generateButton" type="submit" value="Generate" disabled>
-                    <input type="checkbox" name="includeGameName">Include game name in squares
+                    <div class="generateSection">
+                        <input class="bigButton" id="generateButton" type="submit" value="Generate" disabled>
+                        <div class="optionsSection">
+                            <input type="checkbox" name="balanceGames" id="balanceGamesBox" checked="true">
+                            <label for="balanceGamesBox">Balance games</label>
+                            <br>
+                            <input type="checkbox" name="includeGameName" id="includeGameNameBox">
+                            <label for="includeGameNameBox">Include game name in squares</label>
+                        </div>
+                    </div>
+                    
                 </form>
                 <button class="bigButton" onclick="copyBoard()" {% if generated == '' %}disabled{% endif %}>Copy to Clipboard</button>
                 <button onclick="copySelectedAsPreset()">Copy selected as Preset</button>

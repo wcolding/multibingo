@@ -35,9 +35,12 @@ body {
 
 .bigButton {
     padding: 10px;
+    font-size: large;
+}
+
+.generateSection {
     margin-top: 10px;
     margin-bottom: 10px;
-    font-size: large;
 }
 
 .checksCount {
@@ -79,4 +82,9 @@ body {
 .presetLoad {
     display: inline-block;
     font-size: large;
+}
+
+.optionsSection {
+    display: inline-block;
+    vertical-align: middle;
 }

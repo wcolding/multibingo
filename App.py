@@ -14,10 +14,11 @@ def generate():
     data_string = request.form.get('checksJSON')
     data = json.loads(data_string)
     include_game_names = request.form.get('includeGameName')
+    balancing = request.form.get('balanceGames')
     game_data = data['games']
     print(game_data)
 
-    board = GenerateBoard(game_data, 25, include_game_names)
+    board = GenerateBoard(game_data, 25, include_game_names, balancing)
     return render_template('App.html', games = games, presets = presets, generated = board, last_setting = data_string)
 
 if __name__ == '__main__':
