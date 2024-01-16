@@ -1,5 +1,5 @@
 {
-    "game": "Pok\u00e9mon (Hoenn)",
+    "game": "Pokemon (Hoenn)",
     "checks": [
         {
             "name": "Treecko",
@@ -189,7 +189,7 @@
             "name": "Azurill",
             "obj_type": 74,
             "shared": [
-                "Pok\u00e9mon (Johto)"
+                "Pokemon (Johto)"
             ]
         },
         {
@@ -440,7 +440,7 @@
             "name": "Wynaut",
             "obj_type": 78,
             "shared": [
-                "Pok\u00e9mon (Johto)"
+                "Pokemon (Johto)"
             ]
         },
         {

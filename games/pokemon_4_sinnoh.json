@@ -1,5 +1,5 @@
 {
-    "game": "Pok\u00e9mon (Sinnoh)",
+    "game": "Pokemon (Sinnoh)",
     "checks": [
         {
             "name": "Turtwig",
@@ -81,14 +81,14 @@
             "name": "Budew",
             "obj_type": 303,
             "shared": [
-                "Pok\u00e9mon (Hoenn)"
+                "Pokemon (Hoenn)"
             ]
         },
         {
             "name": "Roserade",
             "obj_type": 303,
             "shared": [
-                "Pok\u00e9mon (Hoenn)"
+                "Pokemon (Hoenn)"
             ]
         },
         {
@@ -183,7 +183,7 @@
             "name": "Ambipom",
             "obj_type": 201,
             "shared": [
-                "Pok\u00e9mon (Johto)"
+                "Pokemon (Johto)"
             ]
         },
         {
@@ -206,14 +206,14 @@
             "name": "Mismagius",
             "obj_type": 204,
             "shared": [
-                "Pok\u00e9mon (Johto)"
+                "Pokemon (Johto)"
             ]
         },
         {
             "name": "Honchkrow",
             "obj_type": 203,
             "shared": [
-                "Pok\u00e9mon (Johto)"
+                "Pokemon (Johto)"
             ]
         },
         {
@@ -252,21 +252,21 @@
             "name": "Bonsly",
             "obj_type": 200,
             "shared": [
-                "Pok\u00e9mon (Johto)"
+                "Pokemon (Johto)"
             ]
         },
         {
             "name": "Mime Jr.",
             "obj_type": 204,
             "shared": [
-                "Pok\u00e9mon (Kanto)"
+                "Pokemon (Kanto)"
             ]
         },
         {
             "name": "Happiny",
             "obj_type": 49,
             "shared": [
-                "Pok\u00e9mon (Kanto)", "Pok\u00e9mon (Johto)"
+                "Pokemon (Kanto)", "Pokemon (Johto)"
             ]
         },
         {
@@ -293,7 +293,7 @@
             "name": "Munchlax",
             "obj_type": 210,
             "shared": [
-                "Pok\u00e9mon (Kanto)"
+                "Pokemon (Kanto)"
             ]
         },
         {
@@ -344,7 +344,7 @@
             "name": "Mantyke",
             "obj_type": 215,
             "shared": [
-                "Pok\u00e9mon (Johto)"
+                "Pokemon (Johto)"
             ]
         },
         {
@@ -359,21 +359,21 @@
             "name": "Weavile",
             "obj_type": 212,
             "shared": [
-                "Pok\u00e9mon (Johto)"
+                "Pokemon (Johto)"
             ]
         },
         {
             "name": "Magnezone",
             "obj_type": 35,
             "shared": [
-                "Pok\u00e9mon (Kanto)"
+                "Pokemon (Kanto)"
             ]
         },
         {
             "name": "Lickilicky",
             "obj_type": 101,
             "shared": [
-                "Pok\u00e9mon (Kanto)"
+                "Pokemon (Kanto)"
             ]
         },
         {

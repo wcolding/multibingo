@@ -1,5 +1,5 @@
 {
-    "game": "Pok\u00e9mon (Johto)",
+    "game": "Pokemon (Johto)",
     "checks": [
         {
             "name": "Chikorita",
@@ -73,7 +73,7 @@
             "name": "Crobat",
             "obj_type": 18,
             "shared": [
-                "Pok\u00e9mon (Kanto)"
+                "Pokemon (Kanto)"
             ]
         },
         {
@@ -88,21 +88,21 @@
             "name": "Pichu",
             "obj_type": 11,
             "shared": [
-                "Pok\u00e9mon (Kanto)"
+                "Pokemon (Kanto)"
             ]
         },
         {
             "name": "Cleffa",
             "obj_type": 15,
             "shared": [
-                "Pok\u00e9mon (Kanto)"
+                "Pokemon (Kanto)"
             ]
         },
         {
             "name": "Igglybuff",
             "obj_type": 17,
             "shared": [
-                "Pok\u00e9mon (Kanto)"
+                "Pokemon (Kanto)"
             ]
         },
         {
@@ -137,7 +137,7 @@
             "name": "Bellossom",
             "obj_type": 19,
             "shared": [
-                "Pok\u00e9mon (Kanto)"
+                "Pokemon (Kanto)"
             ]
         },
         {
@@ -156,7 +156,7 @@
             "name": "Politoed",
             "obj_type": 27,
             "shared": [
-                "Pok\u00e9mon (Kanto)"
+                "Pokemon (Kanto)"
             ]
         },
         {
@@ -199,14 +199,14 @@
             "name": "Espeon",
             "obj_type": 58,
             "shared": [
-                "Pok\u00e9mon (Kanto)"
+                "Pokemon (Kanto)"
             ]
         },
         {
             "name": "Umbreon",
             "obj_type": 58,
             "shared": [
-                "Pok\u00e9mon (Kanto)"
+                "Pokemon (Kanto)"
             ]
         },
         {
@@ -217,7 +217,7 @@
             "name": "Slowking",
             "obj_type": 34,
             "shared": [
-                "Pok\u00e9mon (Kanto)"
+                "Pokemon (Kanto)"
             ]
         },
         {
@@ -256,7 +256,7 @@
             "name": "Steelix",
             "obj_type": 41,
             "shared": [
-                "Pok\u00e9mon (Kanto)"
+                "Pokemon (Kanto)"
             ]
         },
         {
@@ -275,7 +275,7 @@
             "name": "Scizor",
             "obj_type": 53,
             "shared": [
-                "Pok\u00e9mon (Kanto)"
+                "Pokemon (Kanto)"
             ]
         },
         {
@@ -350,7 +350,7 @@
             "name": "Kingdra",
             "obj_type": 50,
             "shared": [
-                "Pok\u00e9mon (Kanto)"
+                "Pokemon (Kanto)"
             ]
         },
         {
@@ -365,7 +365,7 @@
             "name": "Porygon2",
             "obj_type": 59,
             "shared": [
-                "Pok\u00e9mon (Kanto)"
+                "Pokemon (Kanto)"
             ]
         },
         {
@@ -380,35 +380,35 @@
             "name": "Tyrogue",
             "obj_type": 87,
             "shared": [
-                "Pok\u00e9mon (Kanto)"
+                "Pokemon (Kanto)"
             ]
         },
         {
             "name": "Hitmontop",
             "obj_type": 87,
             "shared": [
-                "Pok\u00e9mon (Kanto)"
+                "Pokemon (Kanto)"
             ]
         },
         {
             "name": "Smoochum",
             "obj_type": 54,
             "shared": [
-                "Pok\u00e9mon (Kanto)"
+                "Pokemon (Kanto)"
             ]
         },
         {
             "name": "Elekid",
             "obj_type": 55,
             "shared": [
-                "Pok\u00e9mon (Kanto)"
+                "Pokemon (Kanto)"
             ]
         },
         {
             "name": "Magby",
             "obj_type": 56,
             "shared": [
-                "Pok\u00e9mon (Kanto)"
+                "Pokemon (Kanto)"
             ]
         },
         {
@@ -419,7 +419,7 @@
             "name": "Blissey",
             "obj_type": 49,
             "shared": [
-                "Pok\u00e9mon (Kanto)"
+                "Pokemon (Kanto)"
             ]
         },
         {
