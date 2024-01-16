@@ -1,9 +1,9 @@
 {
-    "name": "Pok\u00e9mon Johto Standard",
+    "name": "Pokemon Johto Standard",
     "desc": "No base starters, no legendaries, no trade evolutions, no going to Kanto",
     "games": [
         {
-            "game": "Pok\u00e9mon (Kanto)",
+            "game": "Pokemon (Gen I)",
             "checks": [
                 "Caterpie",
                 "Metapod",
@@ -101,7 +101,7 @@
             ]
         },
         {
-            "game": "Pok\u00e9mon (Johto)",
+            "game": "Pokemon (Gen II)",
             "checks": [
                 "Bayleef",
                 "Meganium",

@@ -1,462 +1,462 @@
 {
-    "game": "Pok\u00e9mon (Johto)",
+    "game": "Pokemon (Gen II)",
     "checks": [
         {
             "name": "Chikorita",
-            "obj_type": 63
+            "obj_type": 2001
         },
         {
             "name": "Bayleef",
-            "obj_type": 63
+            "obj_type": 2001
         },
         {
             "name": "Meganium",
-            "obj_type": 63
+            "obj_type": 2001
         },
         {
             "name": "Cyndaquil",
-            "obj_type": 64
+            "obj_type": 2002
         },
         {
             "name": "Quilava",
-            "obj_type": 64
+            "obj_type": 2002
         },
         {
             "name": "Typhlosion",
-            "obj_type": 64
+            "obj_type": 2002
         },
         {
             "name": "Totodile",
-            "obj_type": 65
+            "obj_type": 2003
         },
         {
             "name": "Croconaw",
-            "obj_type": 65
+            "obj_type": 2003
         },
         {
             "name": "Feraligatr",
-            "obj_type": 65
+            "obj_type": 2003
         },
         {
             "name": "Sentret",
-            "obj_type": 66
+            "obj_type": 2004
         },
         {
             "name": "Furret",
-            "obj_type": 66
+            "obj_type": 2004
         },
         {
             "name": "Hoothoot",
-            "obj_type": 67
+            "obj_type": 2005
         },
         {
             "name": "Noctowl",
-            "obj_type": 67
+            "obj_type": 2005
         },
         {
             "name": "Ledyba",
-            "obj_type": 68
+            "obj_type": 2006
         },
         {
             "name": "Ledian",
-            "obj_type": 68
+            "obj_type": 2006
         },
         {
             "name": "Spinarak",
-            "obj_type": 69
+            "obj_type": 2007
         },
         {
             "name": "Ariados",
-            "obj_type": 69
+            "obj_type": 2007
         },
         {
             "name": "Crobat",
-            "obj_type": 18,
+            "obj_type": 1017,
             "shared": [
-                "Pok\u00e9mon (Kanto)"
+                "Pokemon (Gen I)"
             ]
         },
         {
             "name": "Chinchou",
-            "obj_type": 70
+            "obj_type": 2008
         },
         {
             "name": "Lanturn",
-            "obj_type": 70
+            "obj_type": 2008
         },
         {
             "name": "Pichu",
-            "obj_type": 11,
+            "obj_type": 1010,
             "shared": [
-                "Pok\u00e9mon (Kanto)"
+                "Pokemon (Gen I)"
             ]
         },
         {
             "name": "Cleffa",
-            "obj_type": 15,
+            "obj_type": 1014,
             "shared": [
-                "Pok\u00e9mon (Kanto)"
+                "Pokemon (Gen I)"
             ]
         },
         {
             "name": "Igglybuff",
-            "obj_type": 17,
+            "obj_type": 1016,
             "shared": [
-                "Pok\u00e9mon (Kanto)"
+                "Pokemon (Gen I)"
             ]
         },
         {
             "name": "Togepi",
-            "obj_type": 71
+            "obj_type": 2009
         },
         {
             "name": "Togetic",
-            "obj_type": 71
+            "obj_type": 2009
         },
         {
             "name": "Natu",
-            "obj_type": 72
+            "obj_type": 2010
         },
         {
             "name": "Xatu",
-            "obj_type": 72
+            "obj_type": 2010
         },
         {
             "name": "Mareep",
-            "obj_type": 73
+            "obj_type": 2011
         },
         {
             "name": "Flaaffy",
-            "obj_type": 73
+            "obj_type": 2011
         },
         {
             "name": "Ampharos",
-            "obj_type": 73
+            "obj_type": 2011
         },
         {
             "name": "Bellossom",
-            "obj_type": 19,
+            "obj_type": 1018,
             "shared": [
-                "Pok\u00e9mon (Kanto)"
+                "Pokemon (Gen I)"
             ]
         },
         {
             "name": "Marill",
-            "obj_type": 74
+            "obj_type": 2012
         },
         {
             "name": "Azumarill",
-            "obj_type": 74
+            "obj_type": 2012
         },
         {
             "name": "Sudowoodo",
-            "obj_type": 200
+            "obj_type": 2013
         },
         {
             "name": "Politoed",
-            "obj_type": 27,
+            "obj_type": 1026,
             "shared": [
-                "Pok\u00e9mon (Kanto)"
+                "Pokemon (Gen I)"
             ]
         },
         {
             "name": "Hoppip",
-            "obj_type": 75
+            "obj_type": 2014
         },
         {
             "name": "Skiploom",
-            "obj_type": 75
+            "obj_type": 2014
         },
         {
             "name": "Jumpluff",
-            "obj_type": 75
+            "obj_type": 2014
         },
         {
             "name": "Aipom",
-            "obj_type": 201
+            "obj_type": 2015
         },
         {
             "name": "Sunkern",
-            "obj_type": 76
+            "obj_type": 2016
         },
         {
             "name": "Sunflora",
-            "obj_type": 76
+            "obj_type": 2016
         },
         {
             "name": "Yanma",
-            "obj_type": 202
+            "obj_type": 2017
         },
         {
             "name": "Wooper",
-            "obj_type": 77
+            "obj_type": 2018
         },
         {
             "name": "Quagsire",
-            "obj_type": 77
+            "obj_type": 2018
         },
         {
             "name": "Espeon",
-            "obj_type": 58,
+            "obj_type": 1067,
             "shared": [
-                "Pok\u00e9mon (Kanto)"
+                "Pokemon (Gen I)"
             ]
         },
         {
             "name": "Umbreon",
-            "obj_type": 58,
+            "obj_type": 1067,
             "shared": [
-                "Pok\u00e9mon (Kanto)"
+                "Pokemon (Gen I)"
             ]
         },
         {
             "name": "Murkrow",
-            "obj_type": 203
+            "obj_type": 2019
         },
         {
             "name": "Slowking",
-            "obj_type": 34,
+            "obj_type": 1033,
             "shared": [
-                "Pok\u00e9mon (Kanto)"
+                "Pokemon (Gen I)"
             ]
         },
         {
             "name": "Misdreavus",
-            "obj_type": 204
+            "obj_type": 2020
         },
         {
             "name": "Unown",
-            "obj_type": 205
+            "obj_type": 2021
         },
         {
             "name": "Wobbuffet",
-            "obj_type": 78
+            "obj_type": 2022
         },
         {
             "name": "Girafarig",
-            "obj_type": 206
+            "obj_type": 2023
         },
         {
             "name": "Pineco",
-            "obj_type": 79
+            "obj_type": 2024
         },
         {
             "name": "Forretress",
-            "obj_type": 79
+            "obj_type": 2024
         },
         {
             "name": "Dunsparce",
-            "obj_type": 207
+            "obj_type": 2025
         },
         {
             "name": "Gligar",
-            "obj_type": 208
+            "obj_type": 2026
         },
         {
             "name": "Steelix",
-            "obj_type": 41,
+            "obj_type": 1041,
             "shared": [
-                "Pok\u00e9mon (Kanto)"
+                "Pokemon (Gen I)"
             ]
         },
         {
             "name": "Snubbull",
-            "obj_type": 80
+            "obj_type": 2027
         },
         {
             "name": "Granbull",
-            "obj_type": 80
+            "obj_type": 2027
         },
         {
             "name": "Qwilfish",
-            "obj_type": 209
+            "obj_type": 2028
         },
         {
             "name": "Scizor",
-            "obj_type": 53,
+            "obj_type": 1058,
             "shared": [
-                "Pok\u00e9mon (Kanto)"
+                "Pokemon (Gen I)"
             ]
         },
         {
             "name": "Shuckle",
-            "obj_type": 210
+            "obj_type": 2029
         },
         {
             "name": "Heracross",
-            "obj_type": 211
+            "obj_type": 2030
         },
         {
             "name": "Sneasel",
-            "obj_type": 212
+            "obj_type": 2031
         },
         {
             "name": "Teddiursa",
-            "obj_type": 81
+            "obj_type": 2032
         },
         {
             "name": "Ursaring",
-            "obj_type": 81
+            "obj_type": 2032
         },
         {
             "name": "Slugma",
-            "obj_type": 82
+            "obj_type": 2033
         },
         {
             "name": "Magcargo",
-            "obj_type": 82
+            "obj_type": 2033
         },
         {
             "name": "Swinub",
-            "obj_type": 83
+            "obj_type": 2034
         },
         {
             "name": "Piloswine",
-            "obj_type": 83
+            "obj_type": 2034
         },
         {
             "name": "Corsola",
-            "obj_type": 213
+            "obj_type": 2035
         },
         {
             "name": "Remoraid",
-            "obj_type": 84
+            "obj_type": 2036
         },
         {
             "name": "Octillery",
-            "obj_type": 84
+            "obj_type": 2036
         },
         {
             "name": "Delibird",
-            "obj_type": 214
+            "obj_type": 2037
         },
         {
             "name": "Mantine",
-            "obj_type": 215
+            "obj_type": 2038
         },
         {
             "name": "Skarmory",
-            "obj_type": 216
+            "obj_type": 2039
         },
         {
             "name": "Houndour",
-            "obj_type": 85
+            "obj_type": 2040
         },
         {
             "name": "Houndoom",
-            "obj_type": 85
+            "obj_type": 2040
         },
         {
             "name": "Kingdra",
-            "obj_type": 50,
+            "obj_type": 1054,
             "shared": [
-                "Pok\u00e9mon (Kanto)"
+                "Pokemon (Gen I)"
             ]
         },
         {
             "name": "Phanpy",
-            "obj_type": 86
+            "obj_type": 2041
         },
         {
             "name": "Donphan",
-            "obj_type": 86
+            "obj_type": 2041
         },
         {
             "name": "Porygon2",
-            "obj_type": 59,
+            "obj_type": 1068,
             "shared": [
-                "Pok\u00e9mon (Kanto)"
+                "Pokemon (Gen I)"
             ]
         },
         {
             "name": "Stantler",
-            "obj_type": 217
+            "obj_type": 2042
         },
         {
             "name": "Smeargle",
-            "obj_type": 218
+            "obj_type": 2043
         },
         {
             "name": "Tyrogue",
-            "obj_type": 87,
+            "obj_type": 1047,
             "shared": [
-                "Pok\u00e9mon (Kanto)"
+                "Pokemon (Gen I)"
             ]
         },
         {
             "name": "Hitmontop",
-            "obj_type": 87,
+            "obj_type": 1047,
             "shared": [
-                "Pok\u00e9mon (Kanto)"
+                "Pokemon (Gen I)"
             ]
         },
         {
             "name": "Smoochum",
-            "obj_type": 54,
+            "obj_type": 1059,
             "shared": [
-                "Pok\u00e9mon (Kanto)"
+                "Pokemon (Gen I)"
             ]
         },
         {
             "name": "Elekid",
-            "obj_type": 55,
+            "obj_type": 1060,
             "shared": [
-                "Pok\u00e9mon (Kanto)"
+                "Pokemon (Gen I)"
             ]
         },
         {
             "name": "Magby",
-            "obj_type": 56,
+            "obj_type": 1061,
             "shared": [
-                "Pok\u00e9mon (Kanto)"
+                "Pokemon (Gen I)"
             ]
         },
         {
             "name": "Miltank",
-            "obj_type": 219
+            "obj_type": 2044
         },
         {
             "name": "Blissey",
-            "obj_type": 49,
+            "obj_type": 1051,
             "shared": [
-                "Pok\u00e9mon (Kanto)"
+                "Pokemon (Gen I)"
             ]
         },
         {
             "name": "Raikou",
-            "obj_type": 220
+            "obj_type": 2045
         },
         {
             "name": "Entei",
-            "obj_type": 221
+            "obj_type": 2046
         },
         {
             "name": "Suicune",
-            "obj_type": 222
+            "obj_type": 2047
         },
         {
             "name": "Larvitar",
-            "obj_type": 88
+            "obj_type": 2048
         },
         {
             "name": "Pupitar",
-            "obj_type": 88
+            "obj_type": 2048
         },
         {
             "name": "Tyranitar",
-            "obj_type": 88
+            "obj_type": 2048
         },
         {
             "name": "Lugia",
-            "obj_type": 223
+            "obj_type": 2049
         },
         {
             "name": "Ho-Oh",
-            "obj_type": 224
+            "obj_type": 2050
         },
         {
             "name": "Celebi",
-            "obj_type": 225
+            "obj_type": 2051
         }
     ]
 }

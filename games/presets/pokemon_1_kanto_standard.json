@@ -1,9 +1,9 @@
 {
-    "name": "Pok\u00e9mon Kanto Standard",
+    "name": "Pokemon Kanto Standard",
     "desc": "No base starters, no legendaries, no trade evolutions",
     "games": [
         {
-            "game": "Pok\u00e9mon (Kanto)",
+            "game": "Pokemon (Gen I)",
             "checks": [
                 "Ivysaur",
                 "Venusaur",
