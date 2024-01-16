@@ -1,0 +1,633 @@
+{
+    "game": "Pokemon (Unova)",
+    "checks": [
+        {
+            "name": "Victini",
+            "obj_type": 5001
+        },
+        {
+            "name": "Snivy",
+            "obj_type": 5002
+        },
+        {
+            "name": "Servine",
+            "obj_type": 5002
+        },
+        {
+            "name": "Serperior",
+            "obj_type": 5002
+        },
+        {
+            "name": "Tepig",
+            "obj_type": 5003
+        },
+        {
+            "name": "Pignite",
+            "obj_type": 5003
+        },
+        {
+            "name": "Emboar",
+            "obj_type": 5003
+        },
+        {
+            "name": "Oshawott",
+            "obj_type": 5004
+        },
+        {
+            "name": "Dewott",
+            "obj_type": 5004
+        },
+        {
+            "name": "Samurott",
+            "obj_type": 5004
+        },
+        {
+            "name": "Patrat",
+            "obj_type": 5005
+        },
+        {
+            "name": "Watchog",
+            "obj_type": 5005
+        },
+        {
+            "name": "Lillipup",
+            "obj_type": 5006
+        },
+        {
+            "name": "Herdier",
+            "obj_type": 5006
+        },
+        {
+            "name": "Stoutland",
+            "obj_type": 5006
+        },
+        {
+            "name": "Purrloin",
+            "obj_type": 5007
+        },
+        {
+            "name": "Liepard",
+            "obj_type": 5007
+        },
+        {
+            "name": "Pansage",
+            "obj_type": 5008
+        },
+        {
+            "name": "Simisage",
+            "obj_type": 5008
+        },
+        {
+            "name": "Pansear",
+            "obj_type": 5009
+        },
+        {
+            "name": "Simisear",
+            "obj_type": 5009
+        },
+        {
+            "name": "Panpour",
+            "obj_type": 5010
+        },
+        {
+            "name": "Simipour",
+            "obj_type": 5010
+        },
+        {
+            "name": "Munna",
+            "obj_type": 5011
+        },
+        {
+            "name": "Mushama",
+            "obj_type": 5011
+        },
+        {
+            "name": "Pidove",
+            "obj_type": 5012
+        },
+        {
+            "name": "Tranquill",
+            "obj_type": 5012
+        },
+        {
+            "name": "Unfezant",
+            "obj_type": 5012
+        },
+        {
+            "name": "Blitzle",
+            "obj_type": 5013
+        },
+        {
+            "name": "Zebstrika",
+            "obj_type": 5013
+        },
+        {
+            "name": "Roggenrola",
+            "obj_type": 5014
+        },
+        {
+            "name": "Boldore",
+            "obj_type": 5014
+        },
+        {
+            "name": "Gigalith",
+            "obj_type": 5014
+        },
+        {
+            "name": "Woobat",
+            "obj_type": 5015
+        },
+        {
+            "name": "Swoobat",
+            "obj_type": 5015
+        },
+        {
+            "name": "Drillbur",
+            "obj_type": 5016
+        },
+        {
+            "name": "Exacdrill",
+            "obj_type": 5016
+        },
+        {
+            "name": "Audino",
+            "obj_type": 5017
+        },
+        {
+            "name": "Timburr",
+            "obj_type": 5018
+        },
+        {
+            "name": "Gurdurr",
+            "obj_type": 5018
+        },
+        {
+            "name": "Conkeldurr",
+            "obj_type": 5018
+        },
+        {
+            "name": "Tympole",
+            "obj_type": 5019
+        },
+        {
+            "name": "Palpitoad",
+            "obj_type": 5019
+        },
+        {
+            "name": "Seismitoad",
+            "obj_type": 5019
+        },
+        {
+            "name": "Throh",
+            "obj_type": 5020
+        },
+        {
+            "name": "Sawk",
+            "obj_type": 5021
+        },
+        {
+            "name": "Sewaddle",
+            "obj_type": 5022
+        },
+        {
+            "name": "Swadloon",
+            "obj_type": 5022
+        },
+        {
+            "name": "Leavanny",
+            "obj_type": 5022
+        },
+        {
+            "name": "Venipede",
+            "obj_type": 5023
+        },
+        {
+            "name": "Whirlipede",
+            "obj_type": 5023
+        },
+        {
+            "name": "Scolipede",
+            "obj_type": 5023
+        },
+        {
+            "name": "Cottonee",
+            "obj_type": 5024
+        },
+        {
+            "name": "Whimsicott",
+            "obj_type": 5024
+        },
+        {
+            "name": "Petilil",
+            "obj_type": 5025
+        },
+        {
+            "name": "Lilligant",
+            "obj_type": 5025
+        },
+        {
+            "name": "Basculin (Red-Striped)",
+            "obj_type": 5026
+        },
+        {
+            "name": "Basculin (Blue-Striped)",
+            "obj_type": 5026
+        },
+        {
+            "name": "Sandile",
+            "obj_type": 5027
+        },
+        {
+            "name": "Krokorok",
+            "obj_type": 5027
+        },
+        {
+            "name": "Krookodile",
+            "obj_type": 5027
+        },
+        {
+            "name": "Darumaka",
+            "obj_type": 5028
+        },
+        {
+            "name": "Darmanitan",
+            "obj_type": 5028
+        },
+        {
+            "name": "Maractus",
+            "obj_type": 5029
+        },
+        {
+            "name": "Dwebble",
+            "obj_type": 5030
+        },
+        {
+            "name": "Crustle",
+            "obj_type": 5030
+        },
+        {
+            "name": "Scraggy",
+            "obj_type": 5031
+        },
+        {
+            "name": "Scrafty",
+            "obj_type": 5031
+        },
+        {
+            "name": "Sigilyph",
+            "obj_type": 5032
+        },
+        {
+            "name": "Yamask",
+            "obj_type": 5033
+        },
+        {
+            "name": "Cofagrigus",
+            "obj_type": 5033
+        },
+        {
+            "name": "Tirtouga",
+            "obj_type": 5034
+        },
+        {
+            "name": "Carracosta",
+            "obj_type": 5034
+        },
+        {
+            "name": "Archen",
+            "obj_type": 5035
+        },
+        {
+            "name": "Archeops",
+            "obj_type": 5035
+        },
+        {
+            "name": "Trubbish",
+            "obj_type": 5036
+        },
+        {
+            "name": "Garbodor",
+            "obj_type": 5036
+        },
+        {
+            "name": "Zorua",
+            "obj_type": 5037
+        },
+        {
+            "name": "Zoroark",
+            "obj_type": 5037
+        },
+        {
+            "name": "Minccino",
+            "obj_type": 5038
+        },
+        {
+            "name": "Cinccino",
+            "obj_type": 5038
+        },
+        {
+            "name": "Gothita",
+            "obj_type": 5039
+        },
+        {
+            "name": "Gothorita",
+            "obj_type": 5039
+        },
+        {
+            "name": "Gothitelle",
+            "obj_type": 5039
+        },
+        {
+            "name": "Solosis",
+            "obj_type": 5040
+        },
+        {
+            "name": "Duosion",
+            "obj_type": 5040
+        },
+        {
+            "name": "Reuniclus",
+            "obj_type": 5040
+        },
+        {
+            "name": "Ducklett",
+            "obj_type": 5041
+        },
+        {
+            "name": "Swanna",
+            "obj_type": 5041
+        },
+        {
+            "name": "Vanillite",
+            "obj_type": 5042
+        },
+        {
+            "name": "Vanillish",
+            "obj_type": 5042
+        },
+        {
+            "name": "Vanilluxe",
+            "obj_type": 5042
+        },
+        {
+            "name": "Deerling",
+            "obj_type": 5043
+        },
+        {
+            "name": "Sawsbuck",
+            "obj_type": 5043
+        },
+        {
+            "name": "Emolga",
+            "obj_type": 5044
+        },
+        {
+            "name": "Karrablast",
+            "obj_type": 5045
+        },
+        {
+            "name": "Escavalier",
+            "obj_type": 5045
+        },
+        {
+            "name": "Foongus",
+            "obj_type": 5046
+        },
+        {
+            "name": "Amoonguss",
+            "obj_type": 5046
+        },
+        {
+            "name": "Frillish",
+            "obj_type": 5047
+        },
+        {
+            "name": "Jellicent",
+            "obj_type": 5047
+        },
+        {
+            "name": "Alomomola",
+            "obj_type": 5048
+        },
+        {
+            "name": "Joltik",
+            "obj_type": 5049
+        },
+        {
+            "name": "Galvantula",
+            "obj_type": 5049
+        },
+        {
+            "name": "Ferroseed",
+            "obj_type": 5050
+        },
+        {
+            "name": "Ferrothorn",
+            "obj_type": 5050
+        },
+        {
+            "name": "Klink",
+            "obj_type": 5051
+        },
+        {
+            "name": "Klang",
+            "obj_type": 5051
+        },
+        {
+            "name": "Klinklang",
+            "obj_type": 5051
+        },
+        {
+            "name": "Tynamo",
+            "obj_type": 5052
+        },
+        {
+            "name": "Eelektrik",
+            "obj_type": 5052
+        },
+        {
+            "name": "Eelektross",
+            "obj_type": 5052
+        },
+        {
+            "name": "Elgyem",
+            "obj_type": 5053
+        },
+        {
+            "name": "Beheeyem",
+            "obj_type": 5053
+        },
+        {
+            "name": "Litwick",
+            "obj_type": 5054
+        },
+        {
+            "name": "Lampent",
+            "obj_type": 5054
+        },
+        {
+            "name": "Chandelure",
+            "obj_type": 5054
+        },
+        {
+            "name": "Axew",
+            "obj_type": 5055
+        },
+        {
+            "name": "Fraxure",
+            "obj_type": 5055
+        },
+        {
+            "name": "Haxorus",
+            "obj_type": 5055
+        },
+        {
+            "name": "Cubchoo",
+            "obj_type": 5056
+        },
+        {
+            "name": "Beartic",
+            "obj_type": 5056
+        },
+        {
+            "name": "Cryogonal",
+            "obj_type": 5057
+        },
+        {
+            "name": "Shelmet",
+            "obj_type": 5058
+        },
+        {
+            "name": "Accelgor",
+            "obj_type": 5058
+        },
+        {
+            "name": "Stunfisk",
+            "obj_type": 5059
+        },
+        {
+            "name": "Mienfoo",
+            "obj_type": 5060
+        },
+        {
+            "name": "Mienshao",
+            "obj_type": 5060
+        },
+        {
+            "name": "Druddigon",
+            "obj_type": 5061
+        },
+        {
+            "name": "Golett",
+            "obj_type": 5062
+        },
+        {
+            "name": "Golurk",
+            "obj_type": 5062
+        },
+        {
+            "name": "Pawniard",
+            "obj_type": 5063
+        },
+        {
+            "name": "Bisharp",
+            "obj_type": 5063
+        },
+        {
+            "name": "Bouffalant",
+            "obj_type": 5064
+        },
+        {
+            "name": "Rufflet",
+            "obj_type": 5065
+        },
+        {
+            "name": "Braviary",
+            "obj_type": 5065
+        },
+        {
+            "name": "Vullaby",
+            "obj_type": 5066
+        },
+        {
+            "name": "Mandibuzz",
+            "obj_type": 5066
+        },
+        {
+            "name": "Heatmor",
+            "obj_type": 5067
+        },
+        {
+            "name": "Durant",
+            "obj_type": 5068
+        },
+        {
+            "name": "Deino",
+            "obj_type": 5069
+        },
+        {
+            "name": "Zweilous",
+            "obj_type": 5069
+        },
+        {
+            "name": "Hydreigon",
+            "obj_type": 5069
+        },
+        {
+            "name": "Larvesta",
+            "obj_type": 5070
+        },
+        {
+            "name": "Volcarona",
+            "obj_type": 5070
+        },
+        {
+            "name": "Cobalion",
+            "obj_type": 5071
+        },
+        {
+            "name": "Terrakion",
+            "obj_type": 5072
+        },
+        {
+            "name": "Virizion",
+            "obj_type": 5073
+        },
+        {
+            "name": "Tornadus",
+            "obj_type": 5074
+        },
+        {
+            "name": "Thundurus",
+            "obj_type": 5075
+        },
+        {
+            "name": "Reshiram",
+            "obj_type": 5076
+        },
+        {
+            "name": "Zekrom",
+            "obj_type": 5077
+        },
+        {
+            "name": "Landorus",
+            "obj_type": 5078
+        },
+        {
+            "name": "Kyurem",
+            "obj_type": 5079
+        },
+        {
+            "name": "Keldeo",
+            "obj_type": 5080
+        },
+        {
+            "name": "Meloetta",
+            "obj_type": 5081
+        },
+        {
+            "name": "Genesect",
+            "obj_type": 5082
+        }
+    ]
+}
