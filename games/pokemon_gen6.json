@@ -1,0 +1,296 @@
+{
+    "game": "Pokemon (Gen VI)",
+    "checks": [
+        {
+            "name": "Chespin",
+            "obj_type": 6001
+        },
+        {
+            "name": "Quilladin",
+            "obj_type": 6001
+        },
+        {
+            "name": "Chesnaught",
+            "obj_type": 6001
+        },
+        {
+            "name": "Fennekin",
+            "obj_type": 6002
+        },
+        {
+            "name": "Braixen",
+            "obj_type": 6002
+        },
+        {
+            "name": "Delphox",
+            "obj_type": 6002
+        },
+        {
+            "name": "Froakie",
+            "obj_type": 6003
+        },
+        {
+            "name": "Frogadier",
+            "obj_type": 6003
+        },
+        {
+            "name": "Greninja",
+            "obj_type": 6003
+        },
+        {
+            "name": "Bunnelby",
+            "obj_type": 6004
+        },
+        {
+            "name": "Diggersby",
+            "obj_type": 6004
+        },
+        {
+            "name": "Fletchling",
+            "obj_type": 6005
+        },
+        {
+            "name": "Fletchinder",
+            "obj_type": 6005
+        },
+        {
+            "name": "Talonflame",
+            "obj_type": 6005
+        },
+        {
+            "name": "Scatterbug",
+            "obj_type": 6006
+        },
+        {
+            "name": "Spewpa",
+            "obj_type": 6006
+        },
+        {
+            "name": "Vivillon",
+            "obj_type": 6006
+        },
+        {
+            "name": "Litleo",
+            "obj_type": 6007
+        },
+        {
+            "name": "Pyroar",
+            "obj_type": 6007
+        },
+        {
+            "name": "Flab\u00e9b\u00e9",
+            "obj_type": 6008
+        },
+        {
+            "name": "Floette",
+            "obj_type": 6008
+        },
+        {
+            "name": "Florges",
+            "obj_type": 6008
+        },
+        {
+            "name": "Skiddo",
+            "obj_type": 6009
+        },
+        {
+            "name": "Gogoat",
+            "obj_type": 6009
+        },
+        {
+            "name": "Pancham",
+            "obj_type": 6010
+        },
+        {
+            "name": "Pangoro",
+            "obj_type": 6010
+        },
+        {
+            "name": "Furfrou",
+            "obj_type": 6011
+        },
+        {
+            "name": "Espurr",
+            "obj_type": 6012
+        },
+        {
+            "name": "Meowstic",
+            "obj_type": 6012
+        },
+        {
+            "name": "Honedge",
+            "obj_type": 6013
+        },
+        {
+            "name": "Doublade",
+            "obj_type": 6013
+        },
+        {
+            "name": "Aegislash",
+            "obj_type": 6013
+        },
+        {
+            "name": "Spritzee",
+            "obj_type": 6014
+        },
+        {
+            "name": "Aromatisse",
+            "obj_type": 6014
+        },
+        {
+            "name": "Swirlix",
+            "obj_type": 6015
+        },
+        {
+            "name": "Slurpuff",
+            "obj_type": 6015
+        },
+        {
+            "name": "Inkay",
+            "obj_type": 6016
+        },
+        {
+            "name": "Malamar",
+            "obj_type": 6016
+        },
+        {
+            "name": "Binacle",
+            "obj_type": 6017
+        },
+        {
+            "name": "Barbaracle",
+            "obj_type": 6017
+        },
+        {
+            "name": "Skrelp",
+            "obj_type": 6018
+        },
+        {
+            "name": "Dragalge",
+            "obj_type": 6018
+        },
+        {
+            "name": "Clauncher",
+            "obj_type": 6019
+        },
+        {
+            "name": "Clawitzer",
+            "obj_type": 6019
+        },
+        {
+            "name": "Helioptile",
+            "obj_type": 6020
+        },
+        {
+            "name": "Heliolisk",
+            "obj_type": 6020
+        },
+        {
+            "name": "Tyrunt",
+            "obj_type": 6021
+        },
+        {
+            "name": "Tyrantrum",
+            "obj_type": 6021
+        },
+        {
+            "name": "Amaura",
+            "obj_type": 6022
+        },
+        {
+            "name": "Aurorus",
+            "obj_type": 6022
+        },
+        {
+            "name": "Sylveon",
+            "obj_type": 1067,
+            "shared": [
+                "Pokemon (Gen I)", "Pokemon (Gen II)", "Pokemon (Gen IV)"
+            ]
+        },
+        {
+            "name": "Hawlucha",
+            "obj_type": 6023
+        },
+        {
+            "name": "Dedenne",
+            "obj_type": 6024
+        },
+        {
+            "name": "Carbink",
+            "obj_type": 6025
+        },
+        {
+            "name": "Goomy",
+            "obj_type": 6026
+        },
+        {
+            "name": "Sliggoo",
+            "obj_type": 6026
+        },
+        {
+            "name": "Goodra",
+            "obj_type": 6026
+        },
+        {
+            "name": "Klefki",
+            "obj_type": 6027
+        },
+        {
+            "name": "Phantump",
+            "obj_type": 6028
+        },
+        {
+            "name": "Trevenant",
+            "obj_type": 6028
+        },
+        {
+            "name": "Pumpkaboo",
+            "obj_type": 6029
+        },
+        {
+            "name": "Gourgeist",
+            "obj_type": 6029
+        },
+        {
+            "name": "Bergmite",
+            "obj_type": 6030
+        },
+        {
+            "name": "Avalugg",
+            "obj_type": 6030
+        },
+        {
+            "name": "Noibat",
+            "obj_type": 6031
+        },
+        {
+            "name": "Noivern",
+            "obj_type": 6031
+        },
+        {
+            "name": "Xerneas",
+            "obj_type": 6032
+        },
+        {
+            "name": "Yveltal",
+            "obj_type": 6033
+        },
+        {
+            "name": "Zygarde",
+            "obj_type": 6034
+        },
+        {
+            "name": "Diancie",
+            "obj_type": 6035
+        },
+        {
+            "name": "Hoopa",
+            "obj_type": 6036
+        },
+        {
+            "name": "Volcanion",
+            "obj_type": 6037
+        }
+    ]
+}
