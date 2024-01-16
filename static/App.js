@@ -4,6 +4,8 @@ let objectivesList = [];
 let randoCount = 25;
 
 function init() {
+    updatePresetDesc(0);
+
     // Load settings
     if (lastSettingString !== "") {
         loadSettings(JSON.parse(lastSettingString));
@@ -27,6 +29,11 @@ function clearAllChecks() {
             setCheckFromSettings(entry.game, check.name, false);
         });
     });
+}
+
+function updatePresetDesc(index) {
+    let descElement = document.getElementById("presetDesc");
+    descElement.innerText = presets[index].desc;
 }
 
 function loadSelectedPreset() {

@@ -59,12 +59,13 @@
             </div>
         </div>
         <div class="presetLoad">
-            <select id="presetsDropdown">
+            <select id="presetsDropdown" onclick="updatePresetDesc(options.selectedIndex)">
                 {% for preset in presets %}
                 <option>{{preset.name}}</option>
                 {% endfor %}
             </select>
             <button id="loadPresetButton" onclick="loadSelectedPreset()">Load Preset</button>
+            <div id="presetDesc"></div>
         </div>
         
     </body>
