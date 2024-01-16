@@ -52,13 +52,22 @@ def BuildGame(text_file: str, game_name: str, starting_val):
         obj_counter = starting_val
 
     for line in lines:
+        skip_counter = False
+        if '#' in line:
+            line = line.replace('#','')
+            skip_counter = True
         entries = line.replace('\n','').split('|')
         for entry in entries:
             new_check = {}
             new_check['name'] = entry
-            new_check['obj_type'] = obj_counter
+            if skip_counter:
+                new_check['obj_type'] = -1
+                new_check['shared'] = []
+            else:
+                new_check['obj_type'] = obj_counter
             checks.append(new_check)
-        obj_counter += 1
+        if not skip_counter:
+            obj_counter += 1
 
     data['checks'] = checks
 
