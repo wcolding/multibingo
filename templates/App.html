@@ -47,8 +47,8 @@
                         <div class="checkElement" id="{{entry.game}}_{{check.name}}">
                             <div class="checkGame">{{entry.game}}</div>
                             <div class="checkObjType">{{check.obj_type}}</div>
-                            <input type=checkbox onclick="setCheck({{entry}}, {{check}}, checked)">
-                            <label>{{check.name}}</label>
+                            <input type=checkbox id="{{entry.game}}_{{check.name}}_box" onclick="setCheck({{entry}}, {{check}}, checked)">
+                            <label for="{{entry.game}}_{{check.name}}_box">{{check.name}}</label>
                         </div>
                         <br>
                         {% endfor %}
