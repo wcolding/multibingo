@@ -363,6 +363,20 @@
             ]
         },
         {
+            "name": "Magnezone",
+            "obj_type": 35,
+            "shared": [
+                "Pok\u00e9mon (Kanto)"
+            ]
+        },
+        {
+            "name": "Lickilicky",
+            "obj_type": 101,
+            "shared": [
+                "Pok\u00e9mon (Kanto)"
+            ]
+        },
+        {
             "name": "Uxie",
             "obj_type": 41
         },
