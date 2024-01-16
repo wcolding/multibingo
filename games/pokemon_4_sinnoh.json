@@ -3,402 +3,542 @@
     "checks": [
         {
             "name": "Turtwig",
-            "obj_type": 0
+            "obj_type": 4001
         },
         {
             "name": "Grotle",
-            "obj_type": 0
+            "obj_type": 4001
         },
         {
             "name": "Torterra",
-            "obj_type": 0
+            "obj_type": 4001
         },
         {
             "name": "Chimchar",
-            "obj_type": 1
+            "obj_type": 4002
         },
         {
             "name": "Monferno",
-            "obj_type": 1
+            "obj_type": 4002
         },
         {
             "name": "Infernape",
-            "obj_type": 1
+            "obj_type": 4002
         },
         {
             "name": "Piplup",
-            "obj_type": 2
+            "obj_type": 4003
         },
         {
             "name": "Prinplup",
-            "obj_type": 2
+            "obj_type": 4003
         },
         {
             "name": "Empoleon",
-            "obj_type": 2
+            "obj_type": 4003
         },
         {
             "name": "Starly",
-            "obj_type": 3
+            "obj_type": 4004
         },
         {
             "name": "Staravia",
-            "obj_type": 3
+            "obj_type": 4004
         },
         {
             "name": "Staraptor",
-            "obj_type": 3
+            "obj_type": 4004
         },
         {
             "name": "Bidoof",
-            "obj_type": 4
+            "obj_type": 4005
         },
         {
             "name": "Bibarel",
-            "obj_type": 4
+            "obj_type": 4005
         },
         {
             "name": "Kricketot",
-            "obj_type": 5
+            "obj_type": 4006
         },
         {
             "name": "Kricketune",
-            "obj_type": 5
+            "obj_type": 4006
         },
         {
             "name": "Shinx",
-            "obj_type": 6
+            "obj_type": 4007
         },
         {
             "name": "Luxio",
-            "obj_type": 6
+            "obj_type": 4007
         },
         {
             "name": "Luxray",
-            "obj_type": 6
+            "obj_type": 4007
         },
         {
             "name": "Budew",
-            "obj_type": 303,
+            "obj_type": 3029,
             "shared": [
                 "Pokemon (Hoenn)"
             ]
         },
         {
             "name": "Roserade",
-            "obj_type": 303,
+            "obj_type": 3029,
             "shared": [
                 "Pokemon (Hoenn)"
             ]
         },
         {
             "name": "Cranidos",
-            "obj_type": 8
+            "obj_type": 4008
         },
         {
             "name": "Rampardos",
-            "obj_type": 8
+            "obj_type": 4008
         },
         {
             "name": "Shieldon",
-            "obj_type": 9
+            "obj_type": 4009
         },
         {
             "name": "Bastiodon",
-            "obj_type": 9
+            "obj_type": 4009
         },
         {
             "name": "Burmy (Plant Cloak)",
-            "obj_type": 10
+            "obj_type": 4010
         },
         {
             "name": "Burmy (Sandy Cloak)",
-            "obj_type": 10
+            "obj_type": 4010
         },
         {
             "name": "Burmy (Trash Cloak)",
-            "obj_type": 10
+            "obj_type": 4010
         },
         {
             "name": "Wormadam (Plant Cloak)",
-            "obj_type": 10
+            "obj_type": 4010
         },
         {
             "name": "Wormadam (Sandy Cloak)",
-            "obj_type": 10
+            "obj_type": 4010
         },
         {
             "name": "Wormadam (Trash Cloak)",
-            "obj_type": 10
+            "obj_type": 4010
         },
         {
             "name": "Mothim",
-            "obj_type": 10
+            "obj_type": 4010
         },
         {
             "name": "Combee",
-            "obj_type": 11
+            "obj_type": 4011
         },
         {
             "name": "Vespiquen",
-            "obj_type": 11
+            "obj_type": 4011
         },
         {
             "name": "Pachirisu",
-            "obj_type": 12
+            "obj_type": 4012
         },
         {
             "name": "Buizel",
-            "obj_type": 13
+            "obj_type": 4013
         },
         {
             "name": "Floatzel",
-            "obj_type": 13
+            "obj_type": 4013
         },
         {
             "name": "Cherubi",
-            "obj_type": 14
+            "obj_type": 4014
         },
         {
             "name": "Cherrim",
-            "obj_type": 14
+            "obj_type": 4014
         },
         {
             "name": "Shellos (West Sea)",
-            "obj_type": 15
+            "obj_type": 4015
         },
         {
             "name": "Shellos (East Sea)",
-            "obj_type": 15
+            "obj_type": 4015
         },
         {
             "name": "Gastrodon (West Sea)",
-            "obj_type": 15
+            "obj_type": 4015
         },
         {
             "name": "Gastrodon (East Sea)",
-            "obj_type": 15
+            "obj_type": 4015
         },
         {
             "name": "Ambipom",
-            "obj_type": 201,
+            "obj_type": 2015,
             "shared": [
                 "Pokemon (Johto)"
             ]
         },
         {
             "name": "Drifloon",
-            "obj_type": 17
+            "obj_type": 4016
         },
         {
             "name": "Drifblim",
-            "obj_type": 17
+            "obj_type": 4016
         },
         {
             "name": "Buneary",
-            "obj_type": 18
+            "obj_type": 4017
         },
         {
             "name": "Lopunny",
-            "obj_type": 18
+            "obj_type": 4017
         },
         {
             "name": "Mismagius",
-            "obj_type": 204,
+            "obj_type": 2020,
             "shared": [
                 "Pokemon (Johto)"
             ]
         },
         {
             "name": "Honchkrow",
-            "obj_type": 203,
+            "obj_type": 2019,
             "shared": [
                 "Pokemon (Johto)"
             ]
         },
         {
             "name": "Glameow",
-            "obj_type": 21
+            "obj_type": 4018
         },
         {
             "name": "Purugly",
-            "obj_type": 21
+            "obj_type": 4018
         },
         {
             "name": "Chingling",
-            "obj_type": 22
-        },
-        {
-            "name": "Chimecho",
-            "obj_type": 22
+            "obj_type": 3054,
+            "shared": [
+                "Pokemon (Hoenn)"
+            ]
         },
         {
             "name": "Stunky",
-            "obj_type": 23
+            "obj_type": 4019
         },
         {
             "name": "Skuntank",
-            "obj_type": 23
+            "obj_type": 4019
         },
         {
             "name": "Bronzor",
-            "obj_type": 24
+            "obj_type": 4020
         },
         {
             "name": "Bronzong",
-            "obj_type": 24
+            "obj_type": 4020
         },
         {
             "name": "Bonsly",
-            "obj_type": 200,
+            "obj_type": 2013,
             "shared": [
                 "Pokemon (Johto)"
             ]
         },
         {
             "name": "Mime Jr.",
-            "obj_type": 204,
+            "obj_type": 1057,
             "shared": [
                 "Pokemon (Kanto)"
             ]
         },
         {
             "name": "Happiny",
-            "obj_type": 49,
+            "obj_type": 1051,
             "shared": [
                 "Pokemon (Kanto)", "Pokemon (Johto)"
             ]
         },
         {
             "name": "Chatot",
-            "obj_type": 28
+            "obj_type": 4021
         },
         {
             "name": "Spiritomb",
-            "obj_type": 29
+            "obj_type": 4022
         },
         {
             "name": "Gible",
-            "obj_type": 30
+            "obj_type": 4023
         },
         {
             "name": "Gabite",
-            "obj_type": 30
+            "obj_type": 4023
         },
         {
             "name": "Garchomp",
-            "obj_type": 30
+            "obj_type": 4023
         },
         {
             "name": "Munchlax",
-            "obj_type": 210,
+            "obj_type": 1072,
             "shared": [
                 "Pokemon (Kanto)"
             ]
         },
         {
             "name": "Riolu",
-            "obj_type": 32
+            "obj_type": 4024
         },
         {
             "name": "Lucario",
-            "obj_type": 32
+            "obj_type": 4024
         },
         {
             "name": "Hippopotas",
-            "obj_type": 33
+            "obj_type": 4025
         },
         {
             "name": "Hippowdon",
-            "obj_type": 33
+            "obj_type": 4025
         },
         {
             "name": "Skorupi",
-            "obj_type": 34
+            "obj_type": 4026
         },
         {
             "name": "Drapion",
-            "obj_type": 34
+            "obj_type": 4026
         },
         {
             "name": "Croagunk",
-            "obj_type": 35
+            "obj_type": 4027
         },
         {
             "name": "Toxicroak",
-            "obj_type": 35
+            "obj_type": 4027
         },
         {
             "name": "Carnivine",
-            "obj_type": 36
+            "obj_type": 4028
         },
         {
             "name": "Finneon",
-            "obj_type": 37
+            "obj_type": 4029
         },
         {
             "name": "Lumineon",
-            "obj_type": 37
+            "obj_type": 4029
         },
         {
             "name": "Mantyke",
-            "obj_type": 215,
+            "obj_type": 2038,
             "shared": [
                 "Pokemon (Johto)"
             ]
         },
         {
             "name": "Snover",
-            "obj_type": 39
+            "obj_type": 4030
         },
         {
             "name": "Abomasnow",
-            "obj_type": 39
+            "obj_type": 4030
         },
         {
             "name": "Weavile",
-            "obj_type": 212,
+            "obj_type": 2031,
             "shared": [
                 "Pokemon (Johto)"
             ]
         },
         {
             "name": "Magnezone",
-            "obj_type": 35,
+            "obj_type": 1034,
             "shared": [
                 "Pokemon (Kanto)"
             ]
         },
         {
             "name": "Lickilicky",
-            "obj_type": 101,
+            "obj_type": 1048,
             "shared": [
                 "Pokemon (Kanto)"
             ]
         },
         {
+            "name": "Rhyperior",
+            "obj_type": 1050,
+            "shared": [
+                "Pokemon (Kanto)"
+            ]
+        },
+        {
+            "name": "Tangrowth",
+            "obj_type": 1052,
+            "shared": [
+                "Pokemon (Kanto)"
+            ]
+        },
+        {
+            "name": "Electivire",
+            "obj_type": 1060,
+            "shared": [
+                "Pokemon (Kanto)", "Pokemon (Johto)"
+            ]
+        },
+        {
+            "name": "Magmortar",
+            "obj_type": 1061,
+            "shared": [
+                "Pokemon (Kanto)", "Pokemon (Johto)"
+            ]
+        },
+        {
+            "name": "Togekiss",
+            "obj_type": 2009,
+            "shared": [
+                "Pokemon (Johto)"
+            ]
+        },
+        {
+            "name": "Yanmega",
+            "obj_type": 2017,
+            "shared": [
+                "Pokemon (Johto)"
+            ]
+        },
+        {
+            "name": "Leafeon",
+            "obj_type": 1067,
+            "shared": [
+                "Pokemon (Kanto)", "Pokemon (Johto)"
+            ]
+        },
+        {
+            "name": "Glaceon",
+            "obj_type": 1067,
+            "shared": [
+                "Pokemon (Kanto)", "Pokemon (Johto)"
+            ]
+        },
+        {
+            "name": "Gliscor",
+            "obj_type": 2026,
+            "shared": [
+                "Pokemon (Johto)"
+            ]
+        },
+        {
+            "name": "Mamoswine",
+            "obj_type": 2034,
+            "shared": [
+                "Pokemon (Johto)"
+            ]
+        },
+        {
+            "name": "Porygon-Z",
+            "obj_type": 1068,
+            "shared": [
+                "Pokemon (Kanto)", "Pokemon (Johto)"
+            ]
+        },
+        {
+            "name": "Gallade",
+            "obj_type": 3011,
+            "shared": [
+                "Pokemon (Hoenn)"
+            ]
+        },
+        {
+            "name": "Probopass",
+            "obj_type": 3018,
+            "shared": [
+                "Pokemon (Hoenn)"
+            ]
+        },
+        {
+            "name": "Dusknoir",
+            "obj_type": 3052,
+            "shared": [
+                "Pokemon (Hoenn)"
+            ]
+        },
+        {
+            "name": "Frosslass",
+            "obj_type": 3056,
+            "shared": [
+                "Pokemon (Hoenn)"
+            ]
+        },
+        {
+            "name": "Rotom",
+            "obj_type": 4031
+        },
+        {
             "name": "Uxie",
-            "obj_type": 41
+            "obj_type": 4032
         },
         {
             "name": "Mesprit",
-            "obj_type": 42
+            "obj_type": 4033
         },
         {
             "name": "Azelf",
-            "obj_type": 43
+            "obj_type": 4034
         },
         {
             "name": "Dialga",
-            "obj_type": 44
+            "obj_type": 4035
         },
         {
             "name": "Palkia",
-            "obj_type": 45
+            "obj_type": 4036
+        },
+        {
+            "name": "Heatran",
+            "obj_type": 4037
+        },
+        {
+            "name": "Regigigas",
+            "obj_type": 4038
+        },
+        {
+            "name": "Giratina",
+            "obj_type": 4039
+        },
+        {
+            "name": "Cresselia",
+            "obj_type": 4040
+        },
+        {
+            "name": "Phione",
+            "obj_type": 4041
         },
         {
             "name": "Manaphy",
-            "obj_type": 46
+            "obj_type": 4042
+        },
+        {
+            "name": "Darkrai",
+            "obj_type": 4043
+        },
+        {
+            "name": "Shaymin",
+            "obj_type": 4044
+        },
+        {
+            "name": "Arceus",
+            "obj_type": 4045
         }
     ]
 }
