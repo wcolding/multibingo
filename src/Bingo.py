@@ -19,6 +19,7 @@ for file in game_files:
         games.append(contents)
 
 preset_files = os.listdir('games/presets')
+preset_files = sorted(preset_files)
 for preset in preset_files:
     if os.path.splitext(preset)[1] == '.json':
         f = open(f'games/presets/{preset}')
