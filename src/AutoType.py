@@ -36,7 +36,7 @@ def AutoType(file_name: str, starting_val, replacements = None):
     else:
         print('Specified game file not found!')
 
-def BuildGame(text_file: str, game_name: str):
+def BuildGame(text_file: str, game_name: str, starting_val):
     f = io.open(text_file, 'r')
     lines = f.readlines()
     f.close()
@@ -48,6 +48,8 @@ def BuildGame(text_file: str, game_name: str):
     data['game'] = game_name
     checks = []
     obj_counter = 0
+    if starting_val:
+        obj_counter = starting_val
 
     for line in lines:
         entries = line.replace('\n','').split('|')
@@ -76,6 +78,6 @@ args = parser.parse_args()
 if args.modify:
     AutoType(args.modify, args.start_val, args.replacements)
 elif args.create:
-    BuildGame(args.create[0], args.create[1])
+    BuildGame(args.create[0], args.create[1], args.start_val)
 else:
     parser.print_help()
