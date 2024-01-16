@@ -3,549 +3,549 @@
     "checks": [
         {
             "name": "Treecko",
-            "obj_type": 89
+            "obj_type": 3001
         },
         {
             "name": "Grovyle",
-            "obj_type": 89
+            "obj_type": 3001
         },
         {
             "name": "Sceptile",
-            "obj_type": 89
+            "obj_type": 3001
         },
         {
             "name": "Torchic",
-            "obj_type": 90
+            "obj_type": 3002
         },
         {
             "name": "Combusken",
-            "obj_type": 90
+            "obj_type": 3002
         },
         {
             "name": "Blaziken",
-            "obj_type": 90
+            "obj_type": 3002
         },
         {
             "name": "Mudkip",
-            "obj_type": 91
+            "obj_type": 3003
         },
         {
             "name": "Marshtomp",
-            "obj_type": 91
+            "obj_type": 3003
         },
         {
             "name": "Swampert",
-            "obj_type": 91
+            "obj_type": 3003
         },
         {
             "name": "Poochyena",
-            "obj_type": 92
+            "obj_type": 3004
         },
         {
             "name": "Mightyena",
-            "obj_type": 92
+            "obj_type": 3004
         },
         {
             "name": "Zigzagoon",
-            "obj_type": 93
+            "obj_type": 3005
         },
         {
             "name": "Linoone",
-            "obj_type": 93
+            "obj_type": 3005
         },
         {
             "name": "Wurmple",
-            "obj_type": 94
+            "obj_type": 3006
         },
         {
             "name": "Silcoon",
-            "obj_type": 94
+            "obj_type": 3006
         },
         {
             "name": "Beautifly",
-            "obj_type": 94
+            "obj_type": 3006
         },
         {
             "name": "Cascoon",
-            "obj_type": 94
+            "obj_type": 3006
         },
         {
             "name": "Dustox",
-            "obj_type": 94
+            "obj_type": 3006
         },
         {
             "name": "Lotad",
-            "obj_type": 95
+            "obj_type": 3007
         },
         {
             "name": "Lombre",
-            "obj_type": 95
+            "obj_type": 3007
         },
         {
             "name": "Ludicolo",
-            "obj_type": 95
+            "obj_type": 3007
         },
         {
             "name": "Seedot",
-            "obj_type": 96
+            "obj_type": 3008
         },
         {
             "name": "Nuzleaf",
-            "obj_type": 96
+            "obj_type": 3008
         },
         {
             "name": "Shiftry",
-            "obj_type": 96
+            "obj_type": 3008
         },
         {
             "name": "Taillow",
-            "obj_type": 98
+            "obj_type": 3009
         },
         {
             "name": "Swellow",
-            "obj_type": 98
+            "obj_type": 3009
         },
         {
             "name": "Wingull",
-            "obj_type": 100
+            "obj_type": 3010
         },
         {
             "name": "Pelipper",
-            "obj_type": 100
+            "obj_type": 3010
         },
         {
             "name": "Ralts",
-            "obj_type": 128
+            "obj_type": 3011
         },
         {
             "name": "Kirlia",
-            "obj_type": 128
+            "obj_type": 3011
         },
         {
             "name": "Gardevoir",
-            "obj_type": 128
+            "obj_type": 3011
         },
         {
             "name": "Surskit",
-            "obj_type": 101
+            "obj_type": 3012
         },
         {
             "name": "Masquerain",
-            "obj_type": 101
+            "obj_type": 3012
         },
         {
             "name": "Shroomish",
-            "obj_type": 99
+            "obj_type": 3013
         },
         {
             "name": "Breloom",
-            "obj_type": 99
+            "obj_type": 3013
         },
         {
             "name": "Slakoth",
-            "obj_type": 120
+            "obj_type": 3014
         },
         {
             "name": "Vigoroth",
-            "obj_type": 120
+            "obj_type": 3014
         },
         {
             "name": "Slaking",
-            "obj_type": 120
+            "obj_type": 3014
         },
         {
             "name": "Nincada",
-            "obj_type": 97
+            "obj_type": 3015
         },
         {
             "name": "Ninjask",
-            "obj_type": 97
+            "obj_type": 3015
         },
         {
             "name": "Shedinja",
-            "obj_type": 97
+            "obj_type": 3015
         },
         {
             "name": "Whismur",
-            "obj_type": 122
+            "obj_type": 3016
         },
         {
             "name": "Loudred",
-            "obj_type": 122
+            "obj_type": 3016
         },
         {
             "name": "Exploud",
-            "obj_type": 122
+            "obj_type": 3016
         },
         {
             "name": "Makuhita",
-            "obj_type": 110
+            "obj_type": 3017
         },
         {
             "name": "Hariyama",
-            "obj_type": 110
+            "obj_type": 3017
         },
         {
             "name": "Azurill",
-            "obj_type": 74,
+            "obj_type": 2012,
             "shared": [
                 "Pokemon (Johto)"
             ]
         },
         {
             "name": "Nosepass",
-            "obj_type": 300
+            "obj_type": 3018
         },
         {
             "name": "Skitty",
-            "obj_type": 103
+            "obj_type": 3019
         },
         {
             "name": "Delcatty",
-            "obj_type": 103
+            "obj_type": 3019
         },
         {
             "name": "Sableye",
-            "obj_type": 301
+            "obj_type": 3020
         },
         {
             "name": "Mawile",
-            "obj_type": 302
+            "obj_type": 3021
         },
         {
             "name": "Aron",
-            "obj_type": 125
+            "obj_type": 3022
         },
         {
             "name": "Lairon",
-            "obj_type": 125
+            "obj_type": 3022
         },
         {
             "name": "Aggron",
-            "obj_type": 125
+            "obj_type": 3022
         },
         {
             "name": "Meditite",
-            "obj_type": 117
+            "obj_type": 3023
         },
         {
             "name": "Medicham",
-            "obj_type": 117
+            "obj_type": 3023
         },
         {
             "name": "Electrike",
-            "obj_type": 111
+            "obj_type": 3024
         },
         {
             "name": "Manectric",
-            "obj_type": 111
+            "obj_type": 3024
         },
         {
             "name": "Plusle",
-            "obj_type": 131
+            "obj_type": 3025
         },
         {
             "name": "Minun",
-            "obj_type": 131
+            "obj_type": 3025
         },
         {
             "name": "Volbeat",
-            "obj_type": 132
+            "obj_type": 3027
         },
         {
             "name": "Illumise",
-            "obj_type": 132
+            "obj_type": 3027
         },
         {
             "name": "Roselia",
-            "obj_type": 303
+            "obj_type": 3029
         },
         {
             "name": "Gulpin",
-            "obj_type": 121
+            "obj_type": 3030
         },
         {
             "name": "Swalot",
-            "obj_type": 121
+            "obj_type": 3030
         },
         {
             "name": "Carvanha",
-            "obj_type": 108
+            "obj_type": 3031
         },
         {
             "name": "Sharpedo",
-            "obj_type": 108
+            "obj_type": 3031
         },
         {
             "name": "Wailmer",
-            "obj_type": 102
+            "obj_type": 3032
         },
         {
             "name": "Wailord",
-            "obj_type": 102
+            "obj_type": 3032
         },
         {
             "name": "Numel",
-            "obj_type": 112
+            "obj_type": 3033
         },
         {
             "name": "Camerupt",
-            "obj_type": 112
+            "obj_type": 3033
         },
         {
             "name": "Torkoal",
-            "obj_type": 304
+            "obj_type": 3034
         },
         {
             "name": "Spoink",
-            "obj_type": 116
+            "obj_type": 3035
         },
         {
             "name": "Grumpig",
-            "obj_type": 116
+            "obj_type": 3035
         },
         {
             "name": "Spinda",
-            "obj_type": 305
+            "obj_type": 3036
         },
         {
             "name": "Trapinch",
-            "obj_type": 109
+            "obj_type": 3037
         },
         {
             "name": "Vibrava",
-            "obj_type": 109
+            "obj_type": 3037
         },
         {
             "name": "Flygon",
-            "obj_type": 109
+            "obj_type": 3037
         },
         {
             "name": "Cacnea",
-            "obj_type": 114
+            "obj_type": 3038
         },
         {
             "name": "Cacturne",
-            "obj_type": 114
+            "obj_type": 3038
         },
         {
             "name": "Swablu",
-            "obj_type": 118
+            "obj_type": 3039
         },
         {
             "name": "Altaria",
-            "obj_type": 118
+            "obj_type": 3039
         },
         {
             "name": "Zangoose",
-            "obj_type": 306
+            "obj_type": 3040
         },
         {
             "name": "Seviper",
-            "obj_type": 307
+            "obj_type": 3041
         },
         {
             "name": "Lunatone",
-            "obj_type": 133
+            "obj_type": 3042
         },
         {
             "name": "Solrock",
-            "obj_type": 133
+            "obj_type": 3042
         },
         {
             "name": "Barboach",
-            "obj_type": 105
+            "obj_type": 3043
         },
         {
             "name": "Whiscash",
-            "obj_type": 105
+            "obj_type": 3043
         },
         {
             "name": "Corphish",
-            "obj_type": 106
+            "obj_type": 3044
         },
         {
             "name": "Crawdaunt",
-            "obj_type": 106
+            "obj_type": 3044
         },
         {
             "name": "Baltoy",
-            "obj_type": 104
+            "obj_type": 3045
         },
         {
             "name": "Claydol",
-            "obj_type": 104
+            "obj_type": 3045
         },
         {
             "name": "Lileep",
-            "obj_type": 126
+            "obj_type": 3046
         },
         {
             "name": "Cradily",
-            "obj_type": 126
+            "obj_type": 3046
         },
         {
             "name": "Anorith",
-            "obj_type": 127
+            "obj_type": 3047
         },
         {
             "name": "Armaldo",
-            "obj_type": 127
+            "obj_type": 3047
         },
         {
             "name": "Feebas",
-            "obj_type": 107
+            "obj_type": 3048
         },
         {
             "name": "Milotic",
-            "obj_type": 107
+            "obj_type": 3048
         },
         {
             "name": "Castform",
-            "obj_type": 308
+            "obj_type": 3049
         },
         {
             "name": "Kecleon",
-            "obj_type": 309
+            "obj_type": 3050
         },
         {
             "name": "Shuppet",
-            "obj_type": 124
+            "obj_type": 3051
         },
         {
             "name": "Banette",
-            "obj_type": 124
+            "obj_type": 3051
         },
         {
             "name": "Duskull",
-            "obj_type": 119
+            "obj_type": 3052
         },
         {
             "name": "Dusclops",
-            "obj_type": 119
+            "obj_type": 3052
         },
         {
             "name": "Tropius",
-            "obj_type": 310
+            "obj_type": 3053
         },
         {
             "name": "Chimecho",
-            "obj_type": 311
+            "obj_type": 3054
         },
         {
             "name": "Absol",
-            "obj_type": 312
+            "obj_type": 3055
         },
         {
             "name": "Wynaut",
-            "obj_type": 78,
+            "obj_type": 2022,
             "shared": [
                 "Pokemon (Johto)"
             ]
         },
         {
             "name": "Snorunt",
-            "obj_type": 115
+            "obj_type": 3056
         },
         {
             "name": "Glalie",
-            "obj_type": 115
+            "obj_type": 3056
         },
         {
             "name": "Spheal",
-            "obj_type": 113
+            "obj_type": 3057
         },
         {
             "name": "Sealeo",
-            "obj_type": 113
+            "obj_type": 3057
         },
         {
             "name": "Walrein",
-            "obj_type": 113
+            "obj_type": 3057
         },
         {
             "name": "Clamperl",
-            "obj_type": 123
+            "obj_type": 3058
         },
         {
             "name": "Huntail",
-            "obj_type": 123
+            "obj_type": 3058
         },
         {
             "name": "Gorebyss",
-            "obj_type": 123
+            "obj_type": 3058
         },
         {
             "name": "Relicanth",
-            "obj_type": 313
+            "obj_type": 3059
         },
         {
             "name": "Luvdisc",
-            "obj_type": 314
+            "obj_type": 3060
         },
         {
             "name": "Bagon",
-            "obj_type": 129
+            "obj_type": 3061
         },
         {
             "name": "Shelgon",
-            "obj_type": 129
+            "obj_type": 3061
         },
         {
             "name": "Salamence",
-            "obj_type": 129
+            "obj_type": 3061
         },
         {
             "name": "Beldum",
-            "obj_type": 130
+            "obj_type": 3062
         },
         {
             "name": "Metang",
-            "obj_type": 130
+            "obj_type": 3062
         },
         {
             "name": "Metagross",
-            "obj_type": 130
+            "obj_type": 3062
         },
         {
             "name": "Regirock",
-            "obj_type": 315
+            "obj_type": 3063
         },
         {
             "name": "Regice",
-            "obj_type": 316
+            "obj_type": 3064
         },
         {
             "name": "Registeel",
-            "obj_type": 317
+            "obj_type": 3065
         },
         {
             "name": "Latias",
-            "obj_type": 318
+            "obj_type": 3066
         },
         {
             "name": "Latios",
-            "obj_type": 319
+            "obj_type": 3067
         },
         {
             "name": "Kyogre",
-            "obj_type": 320
+            "obj_type": 3068
         },
         {
             "name": "Groudon",
-            "obj_type": 321
+            "obj_type": 3069
         },
         {
             "name": "Rayquaza",
-            "obj_type": 322
+            "obj_type": 3070
         },
         {
             "name": "Jirachi",
-            "obj_type": 323
+            "obj_type": 3071
         },
         {
             "name": "Deoxys",
-            "obj_type": 324
+            "obj_type": 3072
         }
     ]
 }
