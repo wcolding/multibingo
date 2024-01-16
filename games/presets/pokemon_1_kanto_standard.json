@@ -3,7 +3,7 @@
     "desc": "No base starters, no legendaries, no trade evolutions",
     "games": [
         {
-            "game": "Pokemon (Kanto)",
+            "game": "Pokemon (Gen I)",
             "checks": [
                 "Ivysaur",
                 "Venusaur",

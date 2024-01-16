@@ -1,5 +1,5 @@
 {
-    "game": "Pokemon (Johto)",
+    "game": "Pokemon (Gen II)",
     "checks": [
         {
             "name": "Chikorita",
@@ -73,7 +73,7 @@
             "name": "Crobat",
             "obj_type": 1017,
             "shared": [
-                "Pokemon (Kanto)"
+                "Pokemon (Gen I)"
             ]
         },
         {
@@ -88,21 +88,21 @@
             "name": "Pichu",
             "obj_type": 1010,
             "shared": [
-                "Pokemon (Kanto)"
+                "Pokemon (Gen I)"
             ]
         },
         {
             "name": "Cleffa",
             "obj_type": 1014,
             "shared": [
-                "Pokemon (Kanto)"
+                "Pokemon (Gen I)"
             ]
         },
         {
             "name": "Igglybuff",
             "obj_type": 1016,
             "shared": [
-                "Pokemon (Kanto)"
+                "Pokemon (Gen I)"
             ]
         },
         {
@@ -137,7 +137,7 @@
             "name": "Bellossom",
             "obj_type": 1018,
             "shared": [
-                "Pokemon (Kanto)"
+                "Pokemon (Gen I)"
             ]
         },
         {
@@ -156,7 +156,7 @@
             "name": "Politoed",
             "obj_type": 1026,
             "shared": [
-                "Pokemon (Kanto)"
+                "Pokemon (Gen I)"
             ]
         },
         {
@@ -199,14 +199,14 @@
             "name": "Espeon",
             "obj_type": 1067,
             "shared": [
-                "Pokemon (Kanto)"
+                "Pokemon (Gen I)"
             ]
         },
         {
             "name": "Umbreon",
             "obj_type": 1067,
             "shared": [
-                "Pokemon (Kanto)"
+                "Pokemon (Gen I)"
             ]
         },
         {
@@ -217,7 +217,7 @@
             "name": "Slowking",
             "obj_type": 1033,
             "shared": [
-                "Pokemon (Kanto)"
+                "Pokemon (Gen I)"
             ]
         },
         {
@@ -256,7 +256,7 @@
             "name": "Steelix",
             "obj_type": 1041,
             "shared": [
-                "Pokemon (Kanto)"
+                "Pokemon (Gen I)"
             ]
         },
         {
@@ -275,7 +275,7 @@
             "name": "Scizor",
             "obj_type": 1058,
             "shared": [
-                "Pokemon (Kanto)"
+                "Pokemon (Gen I)"
             ]
         },
         {
@@ -350,7 +350,7 @@
             "name": "Kingdra",
             "obj_type": 1054,
             "shared": [
-                "Pokemon (Kanto)"
+                "Pokemon (Gen I)"
             ]
         },
         {
@@ -365,7 +365,7 @@
             "name": "Porygon2",
             "obj_type": 1068,
             "shared": [
-                "Pokemon (Kanto)"
+                "Pokemon (Gen I)"
             ]
         },
         {
@@ -380,35 +380,35 @@
             "name": "Tyrogue",
             "obj_type": 1047,
             "shared": [
-                "Pokemon (Kanto)"
+                "Pokemon (Gen I)"
             ]
         },
         {
             "name": "Hitmontop",
             "obj_type": 1047,
             "shared": [
-                "Pokemon (Kanto)"
+                "Pokemon (Gen I)"
             ]
         },
         {
             "name": "Smoochum",
             "obj_type": 1059,
             "shared": [
-                "Pokemon (Kanto)"
+                "Pokemon (Gen I)"
             ]
         },
         {
             "name": "Elekid",
             "obj_type": 1060,
             "shared": [
-                "Pokemon (Kanto)"
+                "Pokemon (Gen I)"
             ]
         },
         {
             "name": "Magby",
             "obj_type": 1061,
             "shared": [
-                "Pokemon (Kanto)"
+                "Pokemon (Gen I)"
             ]
         },
         {
@@ -419,7 +419,7 @@
             "name": "Blissey",
             "obj_type": 1051,
             "shared": [
-                "Pokemon (Kanto)"
+                "Pokemon (Gen I)"
             ]
         },
         {

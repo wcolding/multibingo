@@ -1,5 +1,5 @@
 {
-    "game": "Pokemon (Hoenn)",
+    "game": "Pokemon (Gen III)",
     "checks": [
         {
             "name": "Treecko",
@@ -189,7 +189,7 @@
             "name": "Azurill",
             "obj_type": 2012,
             "shared": [
-                "Pokemon (Johto)"
+                "Pokemon (Gen II)"
             ]
         },
         {
@@ -440,7 +440,7 @@
             "name": "Wynaut",
             "obj_type": 2022,
             "shared": [
-                "Pokemon (Johto)"
+                "Pokemon (Gen II)"
             ]
         },
         {

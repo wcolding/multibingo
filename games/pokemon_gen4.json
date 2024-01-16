@@ -1,5 +1,5 @@
 {
-    "game": "Pokemon (Sinnoh)",
+    "game": "Pokemon (Gen IV)",
     "checks": [
         {
             "name": "Turtwig",
@@ -81,14 +81,14 @@
             "name": "Budew",
             "obj_type": 3029,
             "shared": [
-                "Pokemon (Hoenn)"
+                "Pokemon (Gen III)"
             ]
         },
         {
             "name": "Roserade",
             "obj_type": 3029,
             "shared": [
-                "Pokemon (Hoenn)"
+                "Pokemon (Gen III)"
             ]
         },
         {
@@ -183,7 +183,7 @@
             "name": "Ambipom",
             "obj_type": 2015,
             "shared": [
-                "Pokemon (Johto)"
+                "Pokemon (Gen II)"
             ]
         },
         {
@@ -206,14 +206,14 @@
             "name": "Mismagius",
             "obj_type": 2020,
             "shared": [
-                "Pokemon (Johto)"
+                "Pokemon (Gen II)"
             ]
         },
         {
             "name": "Honchkrow",
             "obj_type": 2019,
             "shared": [
-                "Pokemon (Johto)"
+                "Pokemon (Gen II)"
             ]
         },
         {
@@ -228,7 +228,7 @@
             "name": "Chingling",
             "obj_type": 3054,
             "shared": [
-                "Pokemon (Hoenn)"
+                "Pokemon (Gen III)"
             ]
         },
         {
@@ -251,21 +251,21 @@
             "name": "Bonsly",
             "obj_type": 2013,
             "shared": [
-                "Pokemon (Johto)"
+                "Pokemon (Gen II)"
             ]
         },
         {
             "name": "Mime Jr.",
             "obj_type": 1057,
             "shared": [
-                "Pokemon (Kanto)"
+                "Pokemon (Gen I)"
             ]
         },
         {
             "name": "Happiny",
             "obj_type": 1051,
             "shared": [
-                "Pokemon (Kanto)", "Pokemon (Johto)"
+                "Pokemon (Gen I)", "Pokemon (Gen II)"
             ]
         },
         {
@@ -292,7 +292,7 @@
             "name": "Munchlax",
             "obj_type": 1072,
             "shared": [
-                "Pokemon (Kanto)"
+                "Pokemon (Gen I)"
             ]
         },
         {
@@ -343,7 +343,7 @@
             "name": "Mantyke",
             "obj_type": 2038,
             "shared": [
-                "Pokemon (Johto)"
+                "Pokemon (Gen II)"
             ]
         },
         {
@@ -358,126 +358,126 @@
             "name": "Weavile",
             "obj_type": 2031,
             "shared": [
-                "Pokemon (Johto)"
+                "Pokemon (Gen II)"
             ]
         },
         {
             "name": "Magnezone",
             "obj_type": 1034,
             "shared": [
-                "Pokemon (Kanto)"
+                "Pokemon (Gen I)"
             ]
         },
         {
             "name": "Lickilicky",
             "obj_type": 1048,
             "shared": [
-                "Pokemon (Kanto)"
+                "Pokemon (Gen I)"
             ]
         },
         {
             "name": "Rhyperior",
             "obj_type": 1050,
             "shared": [
-                "Pokemon (Kanto)"
+                "Pokemon (Gen I)"
             ]
         },
         {
             "name": "Tangrowth",
             "obj_type": 1052,
             "shared": [
-                "Pokemon (Kanto)"
+                "Pokemon (Gen I)"
             ]
         },
         {
             "name": "Electivire",
             "obj_type": 1060,
             "shared": [
-                "Pokemon (Kanto)", "Pokemon (Johto)"
+                "Pokemon (Gen I)", "Pokemon (Gen II)"
             ]
         },
         {
             "name": "Magmortar",
             "obj_type": 1061,
             "shared": [
-                "Pokemon (Kanto)", "Pokemon (Johto)"
+                "Pokemon (Gen I)", "Pokemon (Gen II)"
             ]
         },
         {
             "name": "Togekiss",
             "obj_type": 2009,
             "shared": [
-                "Pokemon (Johto)"
+                "Pokemon (Gen II)"
             ]
         },
         {
             "name": "Yanmega",
             "obj_type": 2017,
             "shared": [
-                "Pokemon (Johto)"
+                "Pokemon (Gen II)"
             ]
         },
         {
             "name": "Leafeon",
             "obj_type": 1067,
             "shared": [
-                "Pokemon (Kanto)", "Pokemon (Johto)"
+                "Pokemon (Gen I)", "Pokemon (Gen II)"
             ]
         },
         {
             "name": "Glaceon",
             "obj_type": 1067,
             "shared": [
-                "Pokemon (Kanto)", "Pokemon (Johto)"
+                "Pokemon (Gen I)", "Pokemon (Gen II)"
             ]
         },
         {
             "name": "Gliscor",
             "obj_type": 2026,
             "shared": [
-                "Pokemon (Johto)"
+                "Pokemon (Gen II)"
             ]
         },
         {
             "name": "Mamoswine",
             "obj_type": 2034,
             "shared": [
-                "Pokemon (Johto)"
+                "Pokemon (Gen II)"
             ]
         },
         {
             "name": "Porygon-Z",
             "obj_type": 1068,
             "shared": [
-                "Pokemon (Kanto)", "Pokemon (Johto)"
+                "Pokemon (Gen I)", "Pokemon (Gen II)"
             ]
         },
         {
             "name": "Gallade",
             "obj_type": 3011,
             "shared": [
-                "Pokemon (Hoenn)"
+                "Pokemon (Gen III)"
             ]
         },
         {
             "name": "Probopass",
             "obj_type": 3018,
             "shared": [
-                "Pokemon (Hoenn)"
+                "Pokemon (Gen III)"
             ]
         },
         {
             "name": "Dusknoir",
             "obj_type": 3052,
             "shared": [
-                "Pokemon (Hoenn)"
+                "Pokemon (Gen III)"
             ]
         },
         {
             "name": "Frosslass",
             "obj_type": 3056,
             "shared": [
-                "Pokemon (Hoenn)"
+                "Pokemon (Gen III)"
             ]
         },
         {
