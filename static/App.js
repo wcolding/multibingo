@@ -17,6 +17,15 @@ function init() {
             });
         });
     }
+
+    // Load generated
+    if (generatedChecks) {
+        let checkCells = document.getElementsByClassName("checkCell");
+        for (let i = 0; i < 25; i++) {
+            checkCells[i].innerText = generatedChecks[i].name;
+            scaleTextInElement(checkCells[i]);
+        }
+    }
 }
 
 function clearAllChecks() {
@@ -281,4 +290,39 @@ function setColor(object, counter, required) {
 function copyBoard() {
     generatedDiv = document.getElementById("generatedBoard");
     navigator.clipboard.writeText(generatedDiv.innerText);
+}
+
+function toggleBoardCheckState(cell) {
+    let state = cell.getAttribute("checked") === "true";
+    state = !state;
+    cell.setAttribute("checked", state.toString());
+
+    if (state) {
+        cell.style.color = "blanchedalmond";
+        cell.style.backgroundColor = "darkslategray";
+    } else {
+        cell.style.color = "black";
+        cell.style.backgroundColor = "inherit";
+    }
+}
+
+function setShowTable(checked) {
+    let table = document.getElementById("generatedTable");
+    if (checked) {
+        table.style.display = "block";
+    } else {
+        table.style.display = "none";
+    }
+}
+
+function scaleTextInElement(element) {
+    let textLength = element.innerText.length;
+    let scaleSetting = "";
+    if (textLength <= 10) {
+        scaleSetting = "inherit";
+    } else {
+        scaleSetting = "small";
+    }
+
+    element.style.fontSize = scaleSetting;
 }
