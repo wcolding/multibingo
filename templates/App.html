@@ -11,11 +11,28 @@
             const gamesObj = {{ games|tojson }};
             const presets = {{ presets|tojson}};
             const lastSettingString = {{ last_setting|tojson }};
+            let generatedChecks = null;
+            {% if generated != "" %}
+            generatedChecks = JSON.parse({{ generated|tojson }});
+            {% endif %}
         </script>
         <script type="text/javascript" src="../static/App.js"></script>
-        <div class="generatedBoardString" id="generatedBoard">{{ generated }}</div>
         <div class="lastSettingString" id="lastSetting">{{ last_setting }}</div>
-        <div class="gameSelectionBox" id="gameSelection">
+        
+        <div class="section" id="presetLoad">
+            <h3>Presets</h3>
+            <select id="presetsDropdown" onclick="updatePresetDesc(options.selectedIndex)">
+                {% for preset in presets %}
+                <option>{{preset.name}}</option>
+                {% endfor %}
+            </select>
+            <button id="loadPresetButton" onclick="loadSelectedPreset()">Load Preset</button><br>
+            <div class="presetNameLabel">Name:</div><div style="display: inline-block;" id="presetName"></div><br>
+            <div class="presetDescLabel">Description:</div><div style="display: inline-block;" id="presetDesc"></div>
+        </div>
+
+        <div class="section" id="checkSelection">
+            <h3>Check Selection</h3>
             <div class="counterSection">
                 <div class="checksCounter">Checks: 0</div>
                 <div class="objsCounter">Exclusive Checks: 0</div>
@@ -33,7 +50,6 @@
                     </div>
                     
                 </form>
-                <button class="bigButton" onclick="copyBoard()" {% if generated == '' %}disabled{% endif %}>Copy to Clipboard</button>
                 <button onclick="copySelectedAsPreset()">Copy selected as Preset</button>
                 <br>
             </div>
@@ -67,14 +83,23 @@
                 {% endfor %}
             </div>
         </div>
-        <div class="presetLoad">
-            <select id="presetsDropdown" onclick="updatePresetDesc(options.selectedIndex)">
-                {% for preset in presets %}
-                <option>{{preset.name}}</option>
+        
+        <div class="section" id="generatedSection">
+            <h3>Generated</h3>
+            <div class="generatedBoardString" id="generatedBoard">{{ generated }}</div>
+            <button class="bigButton" onclick="copyBoard()" {% if generated == '' %}disabled{% endif %}>Copy to Clipboard</button>
+            <label>
+                <input type="checkbox" onclick="setShowTable(checked)">Show Output
+            </label> <br><br>
+            <table id="generatedTable">
+                {% for row in range(5)%}
+                <tr>
+                    {% for cell in range(5) %}
+                    <td class="checkCell" onclick="toggleBoardCheckState(this)" checked=false></td>
+                    {% endfor %}
+                </tr>
                 {% endfor %}
-            </select>
-            <button id="loadPresetButton" onclick="loadSelectedPreset()">Load Preset</button>
-            <div id="presetDesc"></div>
+            </table>
         </div>
         
     </body>

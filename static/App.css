@@ -1,5 +1,43 @@
+html {
+    height: 100%;
+}
+
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 90%;
+    background-color: darkslategrey;
+    text-align: center;
+}
+
+h3 {
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.section {
+    display: inline-block;
+    vertical-align: top;
+    background-color: beige;
+    border-radius: 10px;
+    border: 5px;
+    border-style: solid;
+    border-color: rgb(24, 24, 24);
+    padding: 20px;
+    text-align: left;
+}
+
+#presetLoad {
+    width: 20%;
+    height: 400px;
+}
+
+#checkSelection {
+    width: 30%;
+}
+
+#generatedSection {
+    width: 30%;
 }
 
 .gameName {
@@ -27,15 +65,24 @@ body {
     display: none;
 }
 
-.gameSelectionBox {
-    display: inline-block;
-    margin-left: 30%;
-    width: 50%;
+#generatedTable {
+    display: none;
+    table-layout: fixed;
+}
+.checkCell {
+    margin:0;
+    padding: 0;
+    width: 110px;
+    height: 110px;
+    text-align: center;
+    border-style: solid;
+    border-color: black;
 }
 
 .bigButton {
     padding: 10px;
     font-size: large;
+    border-radius: 10px;
 }
 
 .generateSection {
@@ -66,8 +113,8 @@ body {
 }
 
 .scrollingGamesList {
-    width: 500px;
-    height: 700px;
+    margin-top: 10px;
+    height: 650px;
     overflow: auto;
 }
 
@@ -80,11 +127,27 @@ body {
 }
 
 .presetLoad {
+    vertical-align: top;
+    padding-left: 5%;
     display: inline-block;
-    font-size: large;
+    width: 20%;
+    height: 400px;
+    background-color: beige;
+    border-radius: 10px;
+    border: 5px;
+    border-style: solid;
+    border-color: rgb(24, 24, 24);
+    padding: 10px;
 }
 
 .optionsSection {
     display: inline-block;
     vertical-align: middle;
+}
+
+.presetNameLabel, .presetDescLabel {
+    display: inline-block;
+    font-size: small;
+    font-style: italic;
+    margin-right: 10px;
 }
