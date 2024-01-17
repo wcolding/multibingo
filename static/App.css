@@ -7,6 +7,7 @@ body {
     height: 90%;
     background-color: darkslategrey;
     text-align: center;
+    user-select: none;
 }
 
 h3 {
