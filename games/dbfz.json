@@ -1,0 +1,533 @@
+{
+    "game": "Dragon Ball FighterZ",
+    "checks": [
+        {
+            "name": "Goku (SSJ) A",
+            "obj_type": 0
+        },
+        {
+            "name": "Goku (SSJ) B",
+            "obj_type": 0
+        },
+        {
+            "name": "Goku (SSJ) C",
+            "obj_type": 0
+        },
+        {
+            "name": "Vegeta (SSJ) A",
+            "obj_type": 1
+        },
+        {
+            "name": "Vegeta (SSJ) B",
+            "obj_type": 1
+        },
+        {
+            "name": "Vegeta (SSJ) C",
+            "obj_type": 1
+        },
+        {
+            "name": "Piccolo A",
+            "obj_type": 2
+        },
+        {
+            "name": "Piccolo B",
+            "obj_type": 2
+        },
+        {
+            "name": "Piccolo C",
+            "obj_type": 2
+        },
+        {
+            "name": "Gohan (Teen) A",
+            "obj_type": 3
+        },
+        {
+            "name": "Gohan (Teen) B",
+            "obj_type": 3
+        },
+        {
+            "name": "Gohan (Teen) C",
+            "obj_type": 3
+        },
+        {
+            "name": "Frieza A",
+            "obj_type": 4
+        },
+        {
+            "name": "Frieza B",
+            "obj_type": 4
+        },
+        {
+            "name": "Frieza C",
+            "obj_type": 4
+        },
+        {
+            "name": "Captain Ginyu A",
+            "obj_type": 5
+        },
+        {
+            "name": "Captain Ginyu B",
+            "obj_type": 5
+        },
+        {
+            "name": "Captain Ginyu C",
+            "obj_type": 5
+        },
+        {
+            "name": "Trunks A",
+            "obj_type": 6
+        },
+        {
+            "name": "Trunks B",
+            "obj_type": 6
+        },
+        {
+            "name": "Trunks C",
+            "obj_type": 6
+        },
+        {
+            "name": "Cell A",
+            "obj_type": 7
+        },
+        {
+            "name": "Cell B",
+            "obj_type": 7
+        },
+        {
+            "name": "Cell C",
+            "obj_type": 7
+        },
+        {
+            "name": "Android 18 A",
+            "obj_type": 8
+        },
+        {
+            "name": "Android 18 B",
+            "obj_type": 8
+        },
+        {
+            "name": "Android 18 C",
+            "obj_type": 8
+        },
+        {
+            "name": "Gotenks A",
+            "obj_type": 9
+        },
+        {
+            "name": "Gotenks B",
+            "obj_type": 9
+        },
+        {
+            "name": "Gotenks C",
+            "obj_type": 9
+        },
+        {
+            "name": "Krillin A",
+            "obj_type": 10
+        },
+        {
+            "name": "Krillin B",
+            "obj_type": 10
+        },
+        {
+            "name": "Krillin C",
+            "obj_type": 10
+        },
+        {
+            "name": "Kid Buu A",
+            "obj_type": 11
+        },
+        {
+            "name": "Kid Buu B",
+            "obj_type": 11
+        },
+        {
+            "name": "Kid Buu C",
+            "obj_type": 11
+        },
+        {
+            "name": "Majin Buu A",
+            "obj_type": 12
+        },
+        {
+            "name": "Majin Buu B",
+            "obj_type": 12
+        },
+        {
+            "name": "Majin Buu C",
+            "obj_type": 12
+        },
+        {
+            "name": "Nappa A",
+            "obj_type": 13
+        },
+        {
+            "name": "Nappa B",
+            "obj_type": 13
+        },
+        {
+            "name": "Nappa C",
+            "obj_type": 13
+        },
+        {
+            "name": "Android 16 A",
+            "obj_type": 14
+        },
+        {
+            "name": "Android 16 B",
+            "obj_type": 14
+        },
+        {
+            "name": "Android 16 C",
+            "obj_type": 14
+        },
+        {
+            "name": "Yamcha A",
+            "obj_type": 15
+        },
+        {
+            "name": "Yamcha B",
+            "obj_type": 15
+        },
+        {
+            "name": "Yamcha C",
+            "obj_type": 15
+        },
+        {
+            "name": "Tien A",
+            "obj_type": 16
+        },
+        {
+            "name": "Tien B",
+            "obj_type": 16
+        },
+        {
+            "name": "Tien C",
+            "obj_type": 16
+        },
+        {
+            "name": "Gohan (Adult) A",
+            "obj_type": 17
+        },
+        {
+            "name": "Gohan (Adult) B",
+            "obj_type": 17
+        },
+        {
+            "name": "Gohan (Adult) C",
+            "obj_type": 17
+        },
+        {
+            "name": "Hit A",
+            "obj_type": 18
+        },
+        {
+            "name": "Hit B",
+            "obj_type": 18
+        },
+        {
+            "name": "Hit C",
+            "obj_type": 18
+        },
+        {
+            "name": "Goku (SSGSS) A",
+            "obj_type": 19
+        },
+        {
+            "name": "Goku (SSGSS) B",
+            "obj_type": 19
+        },
+        {
+            "name": "Goku (SSGSS) C",
+            "obj_type": 19
+        },
+        {
+            "name": "Vegeta (SSGSS) A",
+            "obj_type": 20
+        },
+        {
+            "name": "Vegeta (SSGSS) B",
+            "obj_type": 20
+        },
+        {
+            "name": "Vegeta (SSGSS) C",
+            "obj_type": 20
+        },
+        {
+            "name": "Beerus A",
+            "obj_type": 21
+        },
+        {
+            "name": "Beerus B",
+            "obj_type": 21
+        },
+        {
+            "name": "Beerus C",
+            "obj_type": 21
+        },
+        {
+            "name": "Goku Black A",
+            "obj_type": 22
+        },
+        {
+            "name": "Goku Black B",
+            "obj_type": 22
+        },
+        {
+            "name": "Goku Black C",
+            "obj_type": 22
+        },
+        {
+            "name": "Android 21 A",
+            "obj_type": 23
+        },
+        {
+            "name": "Android 21 B",
+            "obj_type": 23
+        },
+        {
+            "name": "Android 21 C",
+            "obj_type": 23
+        },
+        {
+            "name": "Goku A",
+            "obj_type": 24
+        },
+        {
+            "name": "Goku B",
+            "obj_type": 24
+        },
+        {
+            "name": "Goku C",
+            "obj_type": 24
+        },
+        {
+            "name": "Vegeta A",
+            "obj_type": 25
+        },
+        {
+            "name": "Vegeta B",
+            "obj_type": 25
+        },
+        {
+            "name": "Vegeta C",
+            "obj_type": 25
+        },
+        {
+            "name": "Broly A",
+            "obj_type": 26
+        },
+        {
+            "name": "Broly B",
+            "obj_type": 26
+        },
+        {
+            "name": "Broly C",
+            "obj_type": 26
+        },
+        {
+            "name": "Zamasu (Fused) A",
+            "obj_type": 27
+        },
+        {
+            "name": "Zamasu (Fused) B",
+            "obj_type": 27
+        },
+        {
+            "name": "Zamasu (Fused) C",
+            "obj_type": 27
+        },
+        {
+            "name": "Bardock A",
+            "obj_type": 28
+        },
+        {
+            "name": "Bardock B",
+            "obj_type": 28
+        },
+        {
+            "name": "Bardock C",
+            "obj_type": 28
+        },
+        {
+            "name": "Vegito (SSGSS) A",
+            "obj_type": 29
+        },
+        {
+            "name": "Vegito (SSGSS) B",
+            "obj_type": 29
+        },
+        {
+            "name": "Vegito (SSGSS) C",
+            "obj_type": 29
+        },
+        {
+            "name": "Android 17 A",
+            "obj_type": 30
+        },
+        {
+            "name": "Android 17 B",
+            "obj_type": 30
+        },
+        {
+            "name": "Android 17 C",
+            "obj_type": 30
+        },
+        {
+            "name": "Cooler A",
+            "obj_type": 31
+        },
+        {
+            "name": "Cooler B",
+            "obj_type": 31
+        },
+        {
+            "name": "Cooler C",
+            "obj_type": 31
+        },
+        {
+            "name": "Jiren A",
+            "obj_type": 32
+        },
+        {
+            "name": "Jiren B",
+            "obj_type": 32
+        },
+        {
+            "name": "Jiren C",
+            "obj_type": 32
+        },
+        {
+            "name": "Videl A",
+            "obj_type": 33
+        },
+        {
+            "name": "Videl B",
+            "obj_type": 33
+        },
+        {
+            "name": "Videl C",
+            "obj_type": 33
+        },
+        {
+            "name": "Goku (GT) A",
+            "obj_type": 34
+        },
+        {
+            "name": "Goku (GT) B",
+            "obj_type": 34
+        },
+        {
+            "name": "Goku (GT) C",
+            "obj_type": 34
+        },
+        {
+            "name": "Janemba A",
+            "obj_type": 35
+        },
+        {
+            "name": "Janemba B",
+            "obj_type": 35
+        },
+        {
+            "name": "Janemba C",
+            "obj_type": 35
+        },
+        {
+            "name": "Gogeta (SSGSS) A",
+            "obj_type": 36
+        },
+        {
+            "name": "Gogeta (SSGSS) B",
+            "obj_type": 36
+        },
+        {
+            "name": "Gogeta (SSGSS) C",
+            "obj_type": 36
+        },
+        {
+            "name": "Broly (DBS) A",
+            "obj_type": 37
+        },
+        {
+            "name": "Broly (DBS) B",
+            "obj_type": 37
+        },
+        {
+            "name": "Broly (DBS) C",
+            "obj_type": 37
+        },
+        {
+            "name": "Kefla A",
+            "obj_type": 38
+        },
+        {
+            "name": "Kefla B",
+            "obj_type": 38
+        },
+        {
+            "name": "Kefla C",
+            "obj_type": 38
+        },
+        {
+            "name": "Goku (Ultra Instinct) A",
+            "obj_type": 39
+        },
+        {
+            "name": "Goku (Ultra Instinct) B",
+            "obj_type": 39
+        },
+        {
+            "name": "Goku (Ultra Instinct) C",
+            "obj_type": 39
+        },
+        {
+            "name": "Master Roshi A",
+            "obj_type": 40
+        },
+        {
+            "name": "Master Roshi B",
+            "obj_type": 40
+        },
+        {
+            "name": "Master Roshi C",
+            "obj_type": 40
+        },
+        {
+            "name": "Super Baby 2 A",
+            "obj_type": 41
+        },
+        {
+            "name": "Super Baby 2 B",
+            "obj_type": 41
+        },
+        {
+            "name": "Super Baby 2 C",
+            "obj_type": 41
+        },
+        {
+            "name": "Gogeta (SS4) A",
+            "obj_type": 42
+        },
+        {
+            "name": "Gogeta (SS4) B",
+            "obj_type": 42
+        },
+        {
+            "name": "Gogeta (SS4) C",
+            "obj_type": 42
+        },
+        {
+            "name": "Android 21 (Lab Coat) A",
+            "obj_type": 43
+        },
+        {
+            "name": "Android 21 (Lab Coat) B",
+            "obj_type": 43
+        },
+        {
+            "name": "Android 21 (Lab Coat) C",
+            "obj_type": 43
+        }
+    ]
+}
