@@ -298,7 +298,7 @@ function toggleBoardCheckState(cell) {
     cell.setAttribute("checked", state.toString());
 
     if (state) {
-        cell.style.color = "blanchedalmond";
+        cell.style.color = "white";
         cell.style.backgroundColor = "darkslategray";
     } else {
         cell.style.color = "black";
