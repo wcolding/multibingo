@@ -32,7 +32,9 @@ function clearAllChecks() {
 }
 
 function updatePresetDesc(index) {
+    let nameElement = document.getElementById("presetName");
     let descElement = document.getElementById("presetDesc");
+    nameElement.innerText = presets[index].name;
     descElement.innerText = presets[index].desc;
 }
 
