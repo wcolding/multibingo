@@ -3,6 +3,10 @@ let objectivesCounter = 0;
 let objectivesList = [];
 let randoCount = 25;
 
+let selected = {};
+selected.games = [];
+selected.settings = {};
+
 function init() {
     updatePresetDesc(0);
 
@@ -67,6 +71,16 @@ function loadSettings(settings) {
         });
     });
 
+    if (settings.settings) {
+        let balanceGames = document.getElementById("balanceGamesBox");
+        let includeGameName = document.getElementById("includeGameNameBox");
+        let showOutput = document.getElementById("showOutput");
+
+        balanceGames.checked = settings.settings.balanceGames;
+        includeGameName.checked = settings.settings.includeGameName;
+        showOutput.checked = settings.settings.showOutput;
+        setShowTable(showOutput.checked);
+    }
     tallyChecks();
 }
 
@@ -182,16 +196,16 @@ function setCheckFromSettings(gameName, checkName, checked) {
 
 function tallyChecks() {
     selectCounter = 0;
-    objectivesCounter = 0
+    objectivesCounter = 0;
     objectivesList = [];
-    let selected = {}
-    selected.games = []
+    selected = {};
+    selected.games = [];
 
     gamesObj.forEach((entry) => {
         let curGame = {
             game: entry.game,
             checks: []
-        }
+        };
 
         entry.checks.forEach((check) => {
             if (check.enabled) {
@@ -239,9 +253,18 @@ function tallyChecks() {
         }
     });
 
+    writeSettings();
+    updateCounterDisplay();
+}
+
+function writeSettings(){
+    selected.settings = {};
+    selected.settings.balanceGames = document.getElementById("balanceGamesBox").checked;
+    selected.settings.includeGameName = document.getElementById("includeGameNameBox").checked;
+    selected.settings.showOutput = document.getElementById("showOutput").checked;
+    
     let jsonDataHolder = document.getElementById("checksJSONData");
     jsonDataHolder.value = JSON.stringify(selected);
-    updateCounterDisplay();
 }
 
 function checkEnabled(checkElement) {
@@ -313,6 +336,8 @@ function setShowTable(checked) {
     } else {
         table.style.display = "none";
     }
+
+    writeSettings();
 }
 
 function scaleTextInElement(element) {
