@@ -30,6 +30,8 @@ function init() {
             scaleTextInElement(checkCells[i]);
         }
     }
+
+    updateCounterDisplay();
 }
 
 function clearAllChecks() {
@@ -302,10 +304,10 @@ function updateCounterDisplay() {
 
 function setColor(object, counter, required) {
     if (counter < required) {
-        object.style.color = "red";
+        object.style.color = "#EE5622";
         return false;
     } else {
-        object.style.color = "green";
+        object.style.color = "#ECA72C";
         return true;
     }
 }
@@ -316,16 +318,14 @@ function copyBoard() {
 }
 
 function toggleBoardCheckState(cell) {
-    let state = cell.getAttribute("checked") === "true";
-    state = !state;
-    cell.setAttribute("checked", state.toString());
+    let checked = cell.getAttribute("checked") === "true";
+    checked = !checked;
+    cell.setAttribute("checked", checked.toString());
 
-    if (state) {
-        cell.style.color = "white";
-        cell.style.backgroundColor = "darkslategray";
+    if (checked) {
+        cell.style.backgroundColor = "#44355B";
     } else {
-        cell.style.color = "black";
-        cell.style.backgroundColor = "inherit";
+        cell.style.backgroundColor = "#221E22";
     }
 }
 

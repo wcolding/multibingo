@@ -26,7 +26,7 @@
                 <option>{{preset.name}}</option>
                 {% endfor %}
             </select>
-            <button id="loadPresetButton" onclick="loadSelectedPreset()">Load Preset</button><br>
+            <button class="smallButton" id="loadPresetButton" onclick="loadSelectedPreset()">Load Preset</button><br>
             <div class="presetNameLabel">Name:</div><div style="display: inline-block;" id="presetName"></div><br>
             <div class="presetDescLabel">Description:</div><div style="display: inline-block;" id="presetDesc"></div>
         </div>
@@ -50,7 +50,7 @@
                     </div>
                     
                 </form>
-                <button onclick="copySelectedAsPreset()">Copy selected as Preset</button>
+                <button class="smallButton" onclick="copySelectedAsPreset()">Copy selected as Preset</button>
                 <br>
             </div>
 
@@ -101,6 +101,5 @@
                 {% endfor %}
             </table>
         </div>
-        
     </body>
 </html>
