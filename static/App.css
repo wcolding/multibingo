@@ -186,6 +186,18 @@ button {
     background-position-x: 50%;
 }
 
+#bannerReset {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 15%;
+    position: absolute;
+    right: 0;
+    border: none;
+    background: transparent;
+    color: transparent;
+}
+
 img.resize {
     width:1039px;
     height: auto;
