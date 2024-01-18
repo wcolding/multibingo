@@ -25,7 +25,7 @@ Games are in JSON format and consist of the following fields: \
 The check objects in turn consist of the following fields: \
 `name` - a string \
 `obj_type` - a numerical id \
-*(optional)* `shared` - a list of game names with which this check is shared
+`shared` *(optional)* - a list of game names with which this check is shared
 
 Checks containing the same `obj_type` are considered exclusive from one another at generation; only one of any `obj_type` within a game can appear in a generated board.
 
