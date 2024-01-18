@@ -100,6 +100,11 @@ button {
     color: #44355B;
 }
 
+select {
+    background-color: #221E22;
+    color: white;
+}
+
 .bigButton {
     padding: 10px;
     font-size: large;
