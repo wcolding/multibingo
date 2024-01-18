@@ -19,87 +19,94 @@
         <script type="text/javascript" src="../static/App.js"></script>
         <div class="lastSettingString" id="lastSetting">{{ last_setting }}</div>
         
-        <div class="section" id="presetLoad">
-            <h3>Presets</h3>
-            <select id="presetsDropdown" onclick="updatePresetDesc(options.selectedIndex)">
-                {% for preset in presets %}
-                <option>{{preset.name}}</option>
-                {% endfor %}
-            </select>
-            <button class="smallButton" id="loadPresetButton" onclick="loadSelectedPreset()">Load Preset</button><br>
-            <div class="presetNameLabel">Name:</div><div style="display: inline-block;" id="presetName"></div><br>
-            <div class="presetDescLabel">Description:</div><div style="display: inline-block;" id="presetDesc"></div>
-        </div>
-
-        <div class="section" id="checkSelection">
-            <h3>Check Selection</h3>
-            <div class="counterSection">
-                <div class="checksCounter">Checks: 0</div>
-                <div class="objsCounter">Exclusive Checks: 0</div>
-                <form method="post" action="/generate">
-                    <input type="hidden" id="checksJSONData" name="checksJSON" value="">
-                    <div class="generateSection">
-                        <input class="bigButton" id="generateButton" type="submit" value="Generate" disabled>
-                        <div class="optionsSection">
-                            <input type="checkbox" name="balanceGames" id="balanceGamesBox" checked="true" onclick="writeSettings()">
-                            <label for="balanceGamesBox">Balance games</label>
+        <div id="banner"></div>
+        
+        <div id="mainForm">
+            <div class="section" id="presetLoad">
+                <h3>Presets</h3>
+                <select id="presetsDropdown" onclick="updatePresetDesc(options.selectedIndex)">
+                    {% for preset in presets %}
+                    <option>{{preset.name}}</option>
+                    {% endfor %}
+                </select>
+                <button class="smallButton" id="loadPresetButton" onclick="loadSelectedPreset()">Load Preset</button><br>
+                <div class="presetNameLabel">Name:</div><div style="display: inline-block;" id="presetName"></div><br>
+                <div class="presetDescLabel">Description:</div><div style="display: inline-block;" id="presetDesc"></div>
+            </div>
+    
+            <div class="section" id="checkSelection">
+                <h3>Check Selection</h3>
+                <div class="counterSection">
+                    <div class="checksCounter">Checks: 0</div>
+                    <div class="objsCounter">Exclusive Checks: 0</div>
+                    <form method="post" action="/generate">
+                        <input type="hidden" id="checksJSONData" name="checksJSON" value="">
+                        <div class="generateSection">
+                            <input class="bigButton" id="generateButton" type="submit" value="Generate" disabled>
+                            <div class="optionsSection">
+                                <input type="checkbox" name="balanceGames" id="balanceGamesBox" checked="true" onclick="writeSettings()">
+                                <label for="balanceGamesBox">Balance games</label>
+                                <br>
+                                <input type="checkbox" name="includeGameName" id="includeGameNameBox" onclick="writeSettings()">
+                                <label for="includeGameNameBox">Include game name in squares</label>
+                            </div>
+                        </div>
+                        
+                    </form>
+                    <button class="smallButton" onclick="copySelectedAsPreset()">Copy selected as Preset</button>
+                    <br>
+                </div>
+    
+                <div class="scrollingGamesList">
+                    {% for entry in games %}
+                   
+                    <div class="gameContainer">
+                        <div class="gameSelect">
+                            <button class="expandButton" onclick="showGameChecks('{{entry.game}}')" style="display: inline;" id="{{entry.game}}_expandButton">+</button>
+                            <input type=checkbox 
+                                id="{{entry.game}}_allSelect" 
+                                onclick="setAllGameChecks({{entry}}, checked)">
+                            <div class="gameName">{{entry.game}}</div>
+                            <div class="checksCount">(0 of {{entry.checks|length}} selected)</div></checkbox>
+                        </div>
+                        <div class="gameChecksSelect" id="{{entry.game}}_checks" style="display: none;">
+                            <hr>
+                            {% for check in entry.checks %}
+                            <div class="checkElement" id="{{entry.game}}_{{check.name}}">
+                                <div class="checkGame">{{entry.game}}</div>
+                                <div class="checkObjType">{{check.obj_type}}</div>
+                                <input type=checkbox id="{{entry.game}}_{{check.name}}_box" onclick="setCheck({{entry}}, {{check}}, checked)">
+                                <label for="{{entry.game}}_{{check.name}}_box">{{check.name}}</label>
+                            </div>
                             <br>
-                            <input type="checkbox" name="includeGameName" id="includeGameNameBox" onclick="writeSettings()">
-                            <label for="includeGameNameBox">Include game name in squares</label>
+                            {% endfor %}
                         </div>
                     </div>
                     
-                </form>
-                <button class="smallButton" onclick="copySelectedAsPreset()">Copy selected as Preset</button>
-                <br>
-            </div>
-
-            <div class="scrollingGamesList">
-                {% for entry in games %}
-               
-                <div class="gameContainer">
-                    <div class="gameSelect">
-                        <button class="expandButton" onclick="showGameChecks('{{entry.game}}')" style="display: inline;" id="{{entry.game}}_expandButton">+</button>
-                        <input type=checkbox 
-                            id="{{entry.game}}_allSelect" 
-                            onclick="setAllGameChecks({{entry}}, checked)">
-                        <div class="gameName">{{entry.game}}</div>
-                        <div class="checksCount">(0 of {{entry.checks|length}} selected)</div></checkbox>
-                    </div>
-                    <div class="gameChecksSelect" id="{{entry.game}}_checks" style="display: none;">
-                        <hr>
-                        {% for check in entry.checks %}
-                        <div class="checkElement" id="{{entry.game}}_{{check.name}}">
-                            <div class="checkGame">{{entry.game}}</div>
-                            <div class="checkObjType">{{check.obj_type}}</div>
-                            <input type=checkbox id="{{entry.game}}_{{check.name}}_box" onclick="setCheck({{entry}}, {{check}}, checked)">
-                            <label for="{{entry.game}}_{{check.name}}_box">{{check.name}}</label>
-                        </div>
-                        <br>
-                        {% endfor %}
-                    </div>
-                </div>
-                
-                {% endfor %}
-            </div>
-        </div>
-        
-        <div class="section" id="generatedSection">
-            <h3>Generated</h3>
-            <div class="generatedBoardString" id="generatedBoard">{{ generated }}</div>
-            <button class="bigButton" onclick="copyBoard()" {% if generated == '' %}disabled{% endif %}>Copy to Clipboard</button>
-            <label>
-                <input type="checkbox" id="showOutput" onclick="setShowTable(checked)">Show Output
-            </label> <br><br>
-            <table id="generatedTable">
-                {% for row in range(5)%}
-                <tr>
-                    {% for cell in range(5) %}
-                    <td class="checkCell" onclick="toggleBoardCheckState(this)" checked=false></td>
                     {% endfor %}
-                </tr>
-                {% endfor %}
-            </table>
+                </div>
+            </div>
+            
+            <div class="section" id="generatedSection">
+                <h3>Generated</h3>
+                <div class="generatedBoardString" id="generatedBoard">{{ generated }}</div>
+                <button class="bigButton" onclick="copyBoard()" {% if generated == '' %}disabled{% endif %}>Copy to Clipboard</button>
+                <label>
+                    <input type="checkbox" id="showOutput" onclick="setShowTable(checked)">Show Output
+                </label> <br><br>
+                <table id="generatedTable">
+                    {% for row in range(5)%}
+                    <tr>
+                        {% for cell in range(5) %}
+                        <td class="checkCell" onclick="toggleBoardCheckState(this)" checked=false></td>
+                        {% endfor %}
+                    </tr>
+                    {% endfor %}
+                </table>
+            </div>
         </div>
     </body>
+    <footer>
+        <span class="footerSpan"><a class="infoLink" href="https://github.com/wcolding/multibingo" target="_blank">GitHub</a></span>
+    </footer>
 </html>
