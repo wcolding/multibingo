@@ -19,13 +19,14 @@
         <script type="text/javascript" src="../static/App.js"></script>
         <div class="lastSettingString" id="lastSetting">{{ last_setting }}</div>
         
-        <div id="banner">
-            <form method="get" action="/">
-                <input id="bannerReset" type="submit"> 
-            </form>
-        </div>
-        
         <div id="mainForm">
+            
+            <div id="banner">
+                <form method="get" action="/">
+                    <input id="bannerReset" type="submit"> 
+                </form>
+            </div>
+            
             <div class="section" id="presetLoad">
                 <h3>Presets</h3>
                 <select id="presetsDropdown" onchange="updatePresetDesc(options.selectedIndex)">
@@ -34,8 +35,9 @@
                     {% endfor %}
                 </select>
                 <button class="smallButton" id="loadPresetButton" onclick="loadSelectedPreset()">Load Preset</button><br>
-                <div class="presetLabel">Name:</div><div style="display: inline-block;" id="presetName"></div><br>
-                <div class="presetLabel">Description:</div><div style="display: inline-block;" id="presetDesc"></div>
+                <div class="presetLabel">Name:</div><div class="presetInfo" id="presetName"></div><br>
+                <div class="presetLabel">Description:</div><div class="presetInfo" id="presetDesc"></div>
+                <button class="smallButton" id="loadPresetButtonMobile" onclick="loadSelectedPreset()">Load Preset</button>
             </div>
     
             <div class="section" id="checkSelection">
@@ -57,7 +59,7 @@
                         </div>
                         
                     </form>
-                    <button class="smallButton" onclick="copySelectedAsPreset()">Copy selected as Preset</button>
+                    <button class="smallButton" id="copyAsPresetButton" onclick="copySelectedAsPreset()">Copy selected as Preset</button>
                     <br>
                 </div>
     
@@ -68,11 +70,11 @@
                         <div class="gameSelect">
                             <button class="expandButton" onclick="showGameChecks('{{entry.game}}')" style="display: inline;" id="{{entry.game}}_expandButton">+</button>
                             <label>
-                            <input type=checkbox 
-                                id="{{entry.game}}_allSelect" 
-                                onclick="setAllGameChecks({{entry}}, checked)">
-                            <div class="gameName">{{entry.game}}</div>
-                            <div class="checksCount">(0 of {{entry.checks|length}} selected)</div></checkbox>
+                                <input type=checkbox 
+                                    id="{{entry.game}}_allSelect" 
+                                    onclick="setAllGameChecks({{entry}}, checked)">
+                                <div class="gameName">{{entry.game}}</div>
+                                <div class="checksCount">(0 of {{entry.checks|length}} selected)</div></checkbox>
                             </label>
                         </div>
                         <div class="gameChecksSelect" id="{{entry.game}}_checks" style="display: none;">

@@ -76,6 +76,7 @@ button {
 #generatedTable {
     display: none;
     table-layout: fixed;
+    width: 100%;
 }
 
 .checkCell {
@@ -98,6 +99,10 @@ button {
 
 .smallButton:disabled {
     color: #44355B;
+}
+
+#loadPresetButtonMobile {
+    display: none;
 }
 
 select {
@@ -171,6 +176,10 @@ select {
     margin-right: 10px;
 }
 
+.presetInfo {
+    display: inline-block;
+}
+
 .infoLink {
     color: white;
     text-decoration: none;
@@ -203,11 +212,6 @@ select {
     color: transparent;
 }
 
-img.resize {
-    width:1039px;
-    height: auto;
-}
-
 #mainForm {
     display: block;
     margin: 0;
@@ -225,4 +229,58 @@ footer {
     position: absolute;
     bottom: 10px;
     right: 10px;
+}
+
+/* Mobile */
+@media only screen and (max-width: 980px) {
+    #presetLoad, #checkSelection, #generatedSection {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    #presetLoad {
+        height: auto;
+    }
+
+    #banner {
+        margin-top: 10px;
+        width: 100%;
+        margin-left: 25px;
+    }
+
+    select {
+        width: 100%;
+        font-size: large;
+        margin-bottom: 5px;
+    }
+
+    #copyAsPresetButton {
+        display: none;
+    }
+
+    #loadPresetButton {
+        display: none;
+    }
+
+    #loadPresetButtonMobile 
+    {
+        width: 100%;
+        font-size: large;
+        font-weight: bold;
+        border-radius: 10px;
+        border-width: 4px;
+        margin-top: 20px;
+        padding: 10px;
+        font-size: x-large;
+        display: block;
+    }
+
+    .presetLabel {
+        margin-top: 5px;
+        font-size: large;
+    }
+
+    .presetInfo {
+        font-size: larger;
+    }
 }
