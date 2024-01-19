@@ -164,7 +164,7 @@ select {
     vertical-align: middle;
 }
 
-.presetNameLabel, .presetDescLabel {
+.presetLabel {
     display: inline-block;
     font-size: small;
     font-style: italic;
