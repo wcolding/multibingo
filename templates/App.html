@@ -37,7 +37,7 @@
                 <button class="smallButton" id="loadPresetButton" onclick="loadSelectedPreset()">Load Preset</button><br>
                 <div class="presetLabel">Name:</div><div class="presetInfo" id="presetName"></div><br>
                 <div class="presetLabel">Description:</div><div class="presetInfo" id="presetDesc"></div>
-                <button class="smallButton" id="loadPresetButtonMobile" onclick="loadSelectedPreset()">Load Preset</button>
+                <button class="mobileButton" id="loadPresetButtonMobile" onclick="loadSelectedPreset()">Load Preset</button>
             </div>
     
             <div class="section" id="checkSelection">
@@ -56,8 +56,9 @@
                                 <input type="checkbox" name="includeGameName" id="includeGameNameBox" onclick="writeSettings()">
                                 <label for="includeGameNameBox">Include game name in squares</label>
                             </div>
+                            
+                            <input class="mobileButton" id="generateButtonMobile" type="submit" value="Generate" disabled>
                         </div>
-                        
                     </form>
                     <button class="smallButton" id="copyAsPresetButton" onclick="copySelectedAsPreset()">Copy selected as Preset</button>
                     <br>
@@ -68,7 +69,9 @@
                    
                     <div class="gameContainer">
                         <div class="gameSelect">
-                            <button class="expandButton" onclick="showGameChecks('{{entry.game}}')" style="display: inline;" id="{{entry.game}}_expandButton">+</button>
+                            <div class="expandButtonHolder">
+                                <button class="expandButton" onclick="showGameChecks('{{entry.game}}')" id="{{entry.game}}_expandButton">+</button>
+                            </div>
                             <label>
                                 <input type=checkbox 
                                     id="{{entry.game}}_allSelect" 

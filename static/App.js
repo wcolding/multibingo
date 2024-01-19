@@ -316,8 +316,12 @@ function updateCounterDisplay() {
     objsCounter.innerHTML = `Exclusive Checks: ${objectivesCounter}`;
     setColor(checksCounter, selectCounter, randoCount);
     let enoughObjectives = setColor(objsCounter, objectivesCounter, randoCount);
+    
     let generateButton = document.getElementById("generateButton");
     generateButton.disabled = !enoughObjectives;
+
+    let mobileGenerateButton = document.getElementById("generateButtonMobile");
+    mobileGenerateButton.disabled = !enoughObjectives;
 }
 
 function setColor(object, counter, required) {

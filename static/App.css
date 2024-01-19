@@ -59,6 +59,10 @@ button {
     font-size: small;
 }
 
+.gameContainer {
+    height: auto;
+}
+
 .checkElement {
     margin: 0px;
     padding: 0px;
@@ -101,7 +105,7 @@ button {
     color: #44355B;
 }
 
-#loadPresetButtonMobile {
+.mobileButton {
     display: none;
 }
 
@@ -140,14 +144,26 @@ select {
     color: #BB342F;
 }
 
-.expandButton {
-    margin: 0px;
-    border: 0;
+.expandButtonHolder {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
     height: 20px;
     width: 20px;
+    vertical-align: text-top;
+}
+
+.expandButton {
+    display: block;
+    margin: 0;
+    padding:0;
+    border: 0;
+    height: 100%;
+    width: 100%;
     font-size: smaller;
-    background-color: #221E22;
+    background-color: transparent;
     color: white;
+    text-align: center;
 }
 
 .scrollingGamesList {
@@ -254,16 +270,23 @@ footer {
         margin-bottom: 5px;
     }
 
-    #copyAsPresetButton {
+    input[type=checkbox] {
+        transform: scale(1.5);
+        -webkit-transform: scale(1.5);
+    }
+
+    label {
+        font-size: larger;
+        padding-left: 10px;
+        margin-bottom: 20px;
+    }
+
+    #copyAsPresetButton, #loadPresetButton, #generateButton {
         display: none;
     }
 
-    #loadPresetButton {
-        display: none;
-    }
-
-    #loadPresetButtonMobile 
-    {
+    .mobileButton {
+        display: block;
         width: 100%;
         font-size: large;
         font-weight: bold;
@@ -272,7 +295,12 @@ footer {
         margin-top: 20px;
         padding: 10px;
         font-size: x-large;
-        display: block;
+        color: #ECA72C;
+        background-color: #221E22;
+    }
+    
+    .mobileButton:disabled {
+        color: #44355B;
     }
 
     .presetLabel {
@@ -282,5 +310,43 @@ footer {
 
     .presetInfo {
         font-size: larger;
+    }
+
+    .checksCounter, .objsCounter {
+        display: inline-block;
+        margin-right:10px;
+        font-size: large;
+    }
+
+    .optionsSection input[type=checkbox], .gameSelect input[type=checkbox]{
+        margin-bottom: 10px;
+    }
+    
+    .scrollingGamesList {
+        margin-top: 0;
+        height: auto;
+    }
+
+    .expandButtonHolder {
+        transform: scale(1.5);
+        -webkit-transform: scale(1.5);
+    }
+
+    .gameName {
+        padding-left: 10px;
+    }
+
+    .checksCount {
+        display: block;
+        padding-left: 80px;
+    }
+
+    .checkElement {
+        display: block;
+        padding-left: 10px;
+    }
+
+    footer {
+        display: none;
     }
 }
