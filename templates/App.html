@@ -67,11 +67,13 @@
                     <div class="gameContainer">
                         <div class="gameSelect">
                             <button class="expandButton" onclick="showGameChecks('{{entry.game}}')" style="display: inline;" id="{{entry.game}}_expandButton">+</button>
+                            <label>
                             <input type=checkbox 
                                 id="{{entry.game}}_allSelect" 
                                 onclick="setAllGameChecks({{entry}}, checked)">
                             <div class="gameName">{{entry.game}}</div>
                             <div class="checksCount">(0 of {{entry.checks|length}} selected)</div></checkbox>
+                            </label>
                         </div>
                         <div class="gameChecksSelect" id="{{entry.game}}_checks" style="display: none;">
                             <hr>
