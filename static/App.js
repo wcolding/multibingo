@@ -11,7 +11,10 @@ let nameElement;
 let descElement;
 
 function init() {
-    
+    // Check for mobile Apple devices and fix viewport
+    let devices = ['iphone', 'ipad'];
+    filterViewportByDeviceList(devices);
+
     nameElement = document.getElementById("presetName");
     descElement = document.getElementById("presetDesc");
     updatePresetDesc(0);
@@ -38,6 +41,17 @@ function init() {
     }
 
     updateCounterDisplay();
+}
+
+function filterViewportByDeviceList(listOfDevices) {
+    let navString = navigator.userAgent.toLowerCase();
+    listOfDevices.forEach((device) => {
+        if (navString.indexOf(device) != -1) {
+            let viewport = document.querySelector("meta[name=viewport]");
+            viewport.setAttribute('content', 'width=device-width, user-scalable=no');
+            return;
+        }
+    });
 }
 
 function clearAllChecks() {
