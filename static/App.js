@@ -7,7 +7,13 @@ let selected = {};
 selected.games = [];
 selected.settings = {};
 
+let nameElement;
+let descElement;
+
 function init() {
+    
+    nameElement = document.getElementById("presetName");
+    descElement = document.getElementById("presetDesc");
     updatePresetDesc(0);
 
     // Load settings
@@ -47,8 +53,6 @@ function clearAllChecks() {
 }
 
 function updatePresetDesc(index) {
-    let nameElement = document.getElementById("presetName");
-    let descElement = document.getElementById("presetDesc");
     nameElement.innerText = presets[index].name;
     descElement.innerText = presets[index].desc;
 }

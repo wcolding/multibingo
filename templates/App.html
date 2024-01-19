@@ -28,7 +28,7 @@
         <div id="mainForm">
             <div class="section" id="presetLoad">
                 <h3>Presets</h3>
-                <select id="presetsDropdown" onclick="updatePresetDesc(options.selectedIndex)">
+                <select id="presetsDropdown" onchange="updatePresetDesc(options.selectedIndex)">
                     {% for preset in presets %}
                     <option>{{preset.name}}</option>
                     {% endfor %}
