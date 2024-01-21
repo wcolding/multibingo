@@ -101,15 +101,16 @@
             <div class="section" id="generatedSection">
                 <h3>Generated</h3>
                 <div class="generatedBoardString" id="generatedBoard">{{ generated }}</div>
-                <button class="bigButton" onclick="copyBoard()" {% if generated == '' %}disabled{% endif %}>Copy to Clipboard</button>
-                <label>
-                    <input type="checkbox" id="showOutput" onclick="setShowTable(checked)">Show Output
-                </label> <br><br>
+                <button class="bigButton" id="copyButton" onclick="copyBoard()" {% if generated == '' %}disabled{% endif %}>Copy to Clipboard</button>
+                <button class="mobileButton" id="copyButtonMobile" onclick="copyBoard()" {% if generated == '' %}disabled{% endif %}>Copy to Clipboard</button>
+            
+                <input type="checkbox" id="showOutput" onclick="setShowTable(checked)">
+                <label for="showOutput">Show Output</label> <br><br>
                 <table id="generatedTable">
                     {% for row in range(5)%}
                     <tr>
                         {% for cell in range(5) %}
-                        <td class="checkCell" onclick="toggleBoardCheckState(this)" checked=false></td>
+                        <td><div class="checkCell" onclick="toggleBoardCheckState(this)" checked=false></div></td>
                         {% endfor %}
                     </tr>
                     {% endfor %}

@@ -45,7 +45,7 @@ button {
 }
 
 #generatedSection {
-    width: 30%;
+    width: auto;
 }
 
 .gameName {
@@ -79,20 +79,28 @@ button {
 
 #generatedTable {
     display: none;
+    border-collapse: collapse;
     table-layout: fixed;
     width: 100%;
 }
 
+td {
+    padding: 0;
+}
+
 .checkCell {
+    display: table-cell;
     margin:0;
     padding: 5px;
     width: 110px;
     height: 110px;
     text-align: center;
+    vertical-align: middle;
     background-color: #221E22;
+    color: white;
+    border-width: 1px;
     border-style: solid;
     border-color: black;
-    color: white;
 }
 
 .smallButton {
@@ -281,7 +289,7 @@ footer {
         margin-bottom: 20px;
     }
 
-    #copyAsPresetButton, #loadPresetButton, #generateButton {
+    #copyAsPresetButton, #loadPresetButton, #generateButton, #copyButton {
         display: none;
     }
 
@@ -344,6 +352,17 @@ footer {
     .checkElement {
         display: block;
         padding-left: 10px;
+    }
+
+    #showOutput {
+        margin-top: 20px;
+        padding-right: 10px;
+    }
+
+    .checkCell {
+        display: block;
+        width: 60px;
+        height: 60px;
     }
 
     footer {
