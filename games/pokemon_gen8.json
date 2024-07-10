@@ -1,0 +1,597 @@
+{
+    "game": "Pokemon (Gen VIII)",
+    "checks": [
+        {
+            "name": "Grookey",
+            "obj_type": 8001
+        },
+        {
+            "name": "Thwackey",
+            "obj_type": 8001
+        },
+        {
+            "name": "Rillaboom",
+            "obj_type": 8001
+        },
+        {
+            "name": "Scorbunny",
+            "obj_type": 8002
+        },
+        {
+            "name": "Raboot",
+            "obj_type": 8002
+        },
+        {
+            "name": "Cinderace",
+            "obj_type": 8002
+        },
+        {
+            "name": "Sobble",
+            "obj_type": 8003
+        },
+        {
+            "name": "Drizzile",
+            "obj_type": 8003
+        },
+        {
+            "name": "Inteleon",
+            "obj_type": 8003
+        },
+        {
+            "name": "Skwovet",
+            "obj_type": 8004
+        },
+        {
+            "name": "Greedent",
+            "obj_type": 8004
+        },
+        {
+            "name": "Rookidee",
+            "obj_type": 8005
+        },
+        {
+            "name": "Corvisquire",
+            "obj_type": 8005
+        },
+        {
+            "name": "Corviknight",
+            "obj_type": 8005
+        },
+        {
+            "name": "Blipbug",
+            "obj_type": 8006
+        },
+        {
+            "name": "Dottler",
+            "obj_type": 8006
+        },
+        {
+            "name": "Orbeetle",
+            "obj_type": 8006
+        },
+        {
+            "name": "Nickit",
+            "obj_type": 8007
+        },
+        {
+            "name": "Thievul",
+            "obj_type": 8007
+        },
+        {
+            "name": "Gossifleur",
+            "obj_type": 8008
+        },
+        {
+            "name": "Eldegoss",
+            "obj_type": 8008
+        },
+        {
+            "name": "Wooloo",
+            "obj_type": 8009
+        },
+        {
+            "name": "Dubwool",
+            "obj_type": 8009
+        },
+        {
+            "name": "Chewtle",
+            "obj_type": 8010
+        },
+        {
+            "name": "Drednaw",
+            "obj_type": 8010
+        },
+        {
+            "name": "Yamper",
+            "obj_type": 8011
+        },
+        {
+            "name": "Boltund",
+            "obj_type": 8011
+        },
+        {
+            "name": "Rolycoly",
+            "obj_type": 8012
+        },
+        {
+            "name": "Carkol",
+            "obj_type": 8012
+        },
+        {
+            "name": "Coalossal",
+            "obj_type": 8012
+        },
+        {
+            "name": "Applin",
+            "obj_type": 8013
+        },
+        {
+            "name": "Flapple",
+            "obj_type": 8013
+        },
+        {
+            "name": "Appletun",
+            "obj_type": 8013
+        },
+        {
+            "name": "Silicobra",
+            "obj_type": 8014
+        },
+        {
+            "name": "Sandaconda",
+            "obj_type": 8014
+        },
+        {
+            "name": "Cramorant",
+            "obj_type": 8015
+        },
+        {
+            "name": "Arrokuda",
+            "obj_type": 8016
+        },
+        {
+            "name": "Barraskewda",
+            "obj_type": 8016
+        },
+        {
+            "name": "Toxel",
+            "obj_type": 8017
+        },
+        {
+            "name": "Toxtricity",
+            "obj_type": 8017
+        },
+        {
+            "name": "Sizzlipede",
+            "obj_type": 8018
+        },
+        {
+            "name": "Centiskorch",
+            "obj_type": 8018
+        },
+        {
+            "name": "Clobbopus",
+            "obj_type": 8019
+        },
+        {
+            "name": "Grapploct",
+            "obj_type": 8019
+        },
+        {
+            "name": "Sinistea",
+            "obj_type": 8020
+        },
+        {
+            "name": "Polteageist",
+            "obj_type": 8020
+        },
+        {
+            "name": "Hatenna",
+            "obj_type": 8021
+        },
+        {
+            "name": "Hattrem",
+            "obj_type": 8021
+        },
+        {
+            "name": "Hatterene",
+            "obj_type": 8021
+        },
+        {
+            "name": "Impidimp",
+            "obj_type": 8022
+        },
+        {
+            "name": "Morgrem",
+            "obj_type": 8022
+        },
+        {
+            "name": "Grimmsnarl",
+            "obj_type": 8022
+        },
+        {
+            "name": "Zigzagoon (Galarian)",
+            "obj_type": 3005,
+            "shared": [
+                "Pokemon (Gen III)"
+            ]
+        },
+        {
+            "name": "Linoone (Galarian)",
+            "obj_type": 3005,
+            "shared": [
+                "Pokemon (Gen III)"
+            ]
+        },
+        {
+            "name": "Obstagoon",
+            "obj_type": 3005,
+            "shared": [
+                "Pokemon (Gen III)"
+            ]
+        },
+        {
+            "name": "Meowth (Galarian)",
+            "obj_type": 1022,
+            "shared": [
+                "Pokemon (Gen I)", "Pokemon (Gen VII)"
+            ]
+        },
+        {
+            "name": "Perrserker",
+            "obj_type": 1022,
+            "shared": [
+                "Pokemon (Gen I)", "Pokemon (Gen VII)"
+            ]
+        },
+        {
+            "name": "Corsola (Galarian)",
+            "obj_type": 2035,
+            "shared": [
+                "Pokemon (Gen II)"
+            ]
+        },
+        {
+            "name": "Cursola",
+            "obj_type": 2035,
+            "shared": [
+                "Pokemon (Gen II)"
+            ]
+        },
+        {
+            "name": "Farfetch'd (Galarian)",
+            "obj_type": 1035,
+            "shared": [
+                "Pokemon (Gen I)"
+            ]
+        },
+        {
+            "name": "Sirfetch'd",
+            "obj_type": 1035,
+            "shared": [
+                "Pokemon (Gen I)"
+            ]
+        },
+        {
+            "name": "Mr. Mime (Galarian)",
+            "obj_type": 1057,
+            "shared": [
+                "Pokemon (Gen I)"
+            ]
+        },
+        {
+            "name": "Mr. Rime",
+            "obj_type": 1057,
+            "shared": [
+                "Pokemon (Gen I)"
+            ]
+        },
+        {
+            "name": "Yamask (Galarian)",
+            "obj_type": 5033,
+            "shared": [
+                "Pokemon (Gen V)"
+            ]
+        },
+        {
+            "name": "Runerigus",
+            "obj_type": 5033,
+            "shared": [
+                "Pokemon (Gen V)"
+            ]
+        },
+        {
+            "name": "Milcery",
+            "obj_type": 8023
+        },
+        {
+            "name": "Alcremie",
+            "obj_type": 8023
+        },
+        {
+            "name": "Falinks",
+            "obj_type": 8024
+        },
+        {
+            "name": "Pinurchin",
+            "obj_type": 8025
+        },
+        {
+            "name": "Snom",
+            "obj_type": 8026
+        },
+        {
+            "name": "Frosmoth",
+            "obj_type": 8026
+        },
+        {
+            "name": "Stonjourner",
+            "obj_type": 8027
+        },
+        {
+            "name": "Eiscue",
+            "obj_type": 8028
+        },
+        {
+            "name": "Indeedee",
+            "obj_type": 8029
+        },
+        {
+            "name": "Morpeko",
+            "obj_type": 8030
+        },
+        {
+            "name": "Cufant",
+            "obj_type": 8031
+        },
+        {
+            "name": "Copperajah",
+            "obj_type": 8031
+        },
+        {
+            "name": "Dracozolt",
+            "obj_type": 8032
+        },
+        {
+            "name": "Arctozolt",
+            "obj_type": 8033
+        },
+        {
+            "name": "Dracovish",
+            "obj_type": 8034
+        },
+        {
+            "name": "Arctovish",
+            "obj_type": 8035
+        },
+        {
+            "name": "Duraludon",
+            "obj_type": 8036
+        },
+        {
+            "name": "Dreepy",
+            "obj_type": 8037
+        },
+        {
+            "name": "Drakloak",
+            "obj_type": 8037
+        },
+        {
+            "name": "Dragapult",
+            "obj_type": 8037
+        },
+        {
+            "name": "Zacian",
+            "obj_type": 8038
+        },
+        {
+            "name": "Zamazenta",
+            "obj_type": 8039
+        },
+        {
+            "name": "Eternatus",
+            "obj_type": 8040
+        },
+        {
+            "name": "Kubfu",
+            "obj_type": 8041
+        },
+        {
+            "name": "Urshifu (Single Strike)",
+            "obj_type": 8041
+        },
+        {
+            "name": "Urshifu (Rapid Strike)",
+            "obj_type": 8041
+        },
+        {
+            "name": "Zarude",
+            "obj_type": 8042
+        },
+        {
+            "name": "Regieleki",
+            "obj_type": 8043
+        },
+        {
+            "name": "Regidrago",
+            "obj_type": 8044
+        },
+        {
+            "name": "Glastrier",
+            "obj_type": 8045
+        },
+        {
+            "name": "Spectrier",
+            "obj_type": 8046
+        },
+        {
+            "name": "Calyrex",
+            "obj_type": 8047
+        },
+        {
+            "name": "Wyrdeer",
+            "obj_type": 2042,
+            "shared": [
+                "Pokemon (Gen II)"
+            ]
+        },
+        {
+            "name": "Kleavor",
+            "obj_type": 1058,
+            "shared": [
+                "Pokemon (Gen I)", "Pokemon (Gen II)"
+            ]
+        },
+        {
+            "name": "Ursaluna",
+            "obj_type": 2032,
+            "shared": [
+                "Pokemon (Gen II)"
+            ]
+        },
+        {
+            "name": "Basculin (White-Striped)",
+            "obj_type": 5026,
+            "shared": [
+                "Pokemon (Gen V)"
+            ]
+        },
+        {
+            "name": "Basculegion",
+            "obj_type": 5026,
+            "shared": [
+                "Pokemon (Gen V)"
+            ]
+        },
+        {
+            "name": "Sneasel (Hisuian)",
+            "obj_type": 2031,
+            "shared": [
+                "Pokemon (Gen II)", "Pokemon (Gen IV)"
+            ]
+        },
+        {
+            "name": "Sneasler",
+            "obj_type": 2031,
+            "shared": [
+                "Pokemon (Gen II)", "Pokemon (Gen IV)"
+            ]
+        },
+        {
+            "name": "Quilfish (Hisuian)",
+            "obj_type": 2028,
+            "shared": [
+                "Pokemon (Gen II)"
+            ]
+        },
+        {
+            "name": "Overqwil",
+            "obj_type": 2028,
+            "shared": [
+                "Pokemon (Gen II)"
+            ]
+        },
+        {
+            "name": "Enamorus",
+            "obj_type": 8048
+        },
+        {
+            "name": "Growlithe (Hisuian)",
+            "obj_type": 1025,
+            "shared": [
+                "Pokemon (Gen I)"
+            ]
+        },
+        {
+            "name": "Arcanine (Hisuian)",
+            "obj_type": 1025,
+            "shared": [
+                "Pokemon (Gen I)"
+            ]
+        },
+        {
+            "name": "Voltorb (Hisuian)",
+            "obj_type": 1044,
+            "shared": [
+                "Pokemon (Gen I)"
+            ]
+        },
+        {
+            "name": "Electrode (Hisuian)",
+            "obj_type": 1044,
+            "shared": [
+                "Pokemon (Gen I)"
+            ]
+        },
+        {
+            "name": "Typhlosion (Hisuian)",
+            "obj_type": 2002,
+            "shared": [
+                "Pokemon (Gen II)"
+            ]
+        },
+        {
+            "name": "Samurott (Hisuian)",
+            "obj_type": 5004,
+            "shared": [
+                "Pokemon (Gen V)"
+            ]
+        },
+        {
+            "name": "Lilligant (Hisuian)",
+            "obj_type": 5025,
+            "shared": [
+                "Pokemon (Gen V)"
+            ]
+        },
+        {
+            "name": "Zorua (Hisuian)",
+            "obj_type": 5037,
+            "shared": [
+                "Pokemon (Gen V)"
+            ]
+        },
+        {
+            "name": "Zoroark (Hisuian)",
+            "obj_type": 5037,
+            "shared": [
+                "Pokemon (Gen V)"
+            ]
+        },
+        {
+            "name": "Braviary (Hisuian)",
+            "obj_type": 5065,
+            "shared": [
+                "Pokemon (Gen V)"
+            ]
+        },
+        {
+            "name": "Sliggoo (Hisuian)",
+            "obj_type": 6026,
+            "shared": [
+                "Pokemon (Gen VI)"
+            ]
+        },
+        {
+            "name": "Goodra (Hisuian)",
+            "obj_type": 6026,
+            "shared": [
+                "Pokemon (Gen VI)"
+            ]
+        },
+        {
+            "name": "Avalugg (Hisuian)",
+            "obj_type": 6030,
+            "shared": [
+                "Pokemon (Gen VI)"
+            ]
+        },
+        {
+            "name": "Decidueye (Hisuian)",
+            "obj_type": 7001,
+            "shared": [
+                "Pokemon (Gen VII)"
+            ]
+        }
+    ]
+}
