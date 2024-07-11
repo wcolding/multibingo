@@ -1,0 +1,677 @@
+{
+    "game": "Marvel vs. Capcom 2: New Age of Heroes",
+    "checks": [
+        {
+            "name": "Akuma \u03B1",
+            "obj_type": 0
+        },
+        {
+            "name": "Akuma \u03B2",
+            "obj_type": 0
+        },
+        {
+            "name": "Akuma \u03B3",
+            "obj_type": 0
+        },
+        {
+            "name": "Amingo \u03B1",
+            "obj_type": 1
+        },
+        {
+            "name": "Amingo \u03B2",
+            "obj_type": 1
+        },
+        {
+            "name": "Amingo \u03B3",
+            "obj_type": 1
+        },
+        {
+            "name": "Anakaris \u03B1",
+            "obj_type": 2
+        },
+        {
+            "name": "Anakaris \u03B2",
+            "obj_type": 2
+        },
+        {
+            "name": "Anakaris \u03B3",
+            "obj_type": 2
+        },
+        {
+            "name": "B.B.Hood \u03B1",
+            "obj_type": 3
+        },
+        {
+            "name": "B.B.Hood \u03B2",
+            "obj_type": 3
+        },
+        {
+            "name": "B.B.Hood \u03B3",
+            "obj_type": 3
+        },
+        {
+            "name": "Blackheart \u03B1",
+            "obj_type": 4
+        },
+        {
+            "name": "Blackheart \u03B2",
+            "obj_type": 4
+        },
+        {
+            "name": "Blackheart \u03B3",
+            "obj_type": 4
+        },
+        {
+            "name": "Cable \u03B1",
+            "obj_type": 5
+        },
+        {
+            "name": "Cable \u03B2",
+            "obj_type": 5
+        },
+        {
+            "name": "Cable \u03B3",
+            "obj_type": 5
+        },
+        {
+            "name": "Cammy \u03B1",
+            "obj_type": 6
+        },
+        {
+            "name": "Cammy \u03B2",
+            "obj_type": 6
+        },
+        {
+            "name": "Cammy \u03B3",
+            "obj_type": 6
+        },
+        {
+            "name": "Captain America \u03B1",
+            "obj_type": 7
+        },
+        {
+            "name": "Captain America \u03B2",
+            "obj_type": 7
+        },
+        {
+            "name": "Captain America \u03B3",
+            "obj_type": 7
+        },
+        {
+            "name": "Captain Commando \u03B1",
+            "obj_type": 8
+        },
+        {
+            "name": "Captain Commando \u03B2",
+            "obj_type": 8
+        },
+        {
+            "name": "Captain Commando \u03B3",
+            "obj_type": 8
+        },
+        {
+            "name": "Charlie \u03B1",
+            "obj_type": 9
+        },
+        {
+            "name": "Charlie \u03B2",
+            "obj_type": 9
+        },
+        {
+            "name": "Charlie \u03B3",
+            "obj_type": 9
+        },
+        {
+            "name": "Chun-Li \u03B1",
+            "obj_type": 10
+        },
+        {
+            "name": "Chun-Li \u03B2",
+            "obj_type": 10
+        },
+        {
+            "name": "Chun-Li \u03B3",
+            "obj_type": 10
+        },
+        {
+            "name": "Colossus \u03B1",
+            "obj_type": 11
+        },
+        {
+            "name": "Colossus \u03B2",
+            "obj_type": 11
+        },
+        {
+            "name": "Colossus \u03B3",
+            "obj_type": 11
+        },
+        {
+            "name": "Cyclops \u03B1",
+            "obj_type": 12
+        },
+        {
+            "name": "Cyclops \u03B2",
+            "obj_type": 12
+        },
+        {
+            "name": "Cyclops \u03B3",
+            "obj_type": 12
+        },
+        {
+            "name": "Dan \u03B1",
+            "obj_type": 13
+        },
+        {
+            "name": "Dan \u03B2",
+            "obj_type": 13
+        },
+        {
+            "name": "Dan \u03B3",
+            "obj_type": 13
+        },
+        {
+            "name": "Dhalsim \u03B1",
+            "obj_type": 14
+        },
+        {
+            "name": "Dhalsim \u03B2",
+            "obj_type": 14
+        },
+        {
+            "name": "Dhalsim \u03B3",
+            "obj_type": 14
+        },
+        {
+            "name": "Doctor Doom \u03B1",
+            "obj_type": 15
+        },
+        {
+            "name": "Doctor Doom \u03B2",
+            "obj_type": 15
+        },
+        {
+            "name": "Doctor Doom \u03B3",
+            "obj_type": 15
+        },
+        {
+            "name": "Felicia \u03B1",
+            "obj_type": 16
+        },
+        {
+            "name": "Felicia \u03B2",
+            "obj_type": 16
+        },
+        {
+            "name": "Felicia \u03B3",
+            "obj_type": 16
+        },
+        {
+            "name": "Gambit \u03B1",
+            "obj_type": 17
+        },
+        {
+            "name": "Gambit \u03B2",
+            "obj_type": 17
+        },
+        {
+            "name": "Gambit \u03B3",
+            "obj_type": 17
+        },
+        {
+            "name": "Guile \u03B1",
+            "obj_type": 18
+        },
+        {
+            "name": "Guile \u03B2",
+            "obj_type": 18
+        },
+        {
+            "name": "Guile \u03B3",
+            "obj_type": 18
+        },
+        {
+            "name": "Hayato \u03B1",
+            "obj_type": 19
+        },
+        {
+            "name": "Hayato \u03B2",
+            "obj_type": 19
+        },
+        {
+            "name": "Hayato \u03B3",
+            "obj_type": 19
+        },
+        {
+            "name": "Hulk \u03B1",
+            "obj_type": 20
+        },
+        {
+            "name": "Hulk \u03B2",
+            "obj_type": 20
+        },
+        {
+            "name": "Hulk \u03B3",
+            "obj_type": 20
+        },
+        {
+            "name": "Iceman \u03B1",
+            "obj_type": 21
+        },
+        {
+            "name": "Iceman \u03B2",
+            "obj_type": 21
+        },
+        {
+            "name": "Iceman \u03B3",
+            "obj_type": 21
+        },
+        {
+            "name": "Iron Man \u03B1",
+            "obj_type": 22
+        },
+        {
+            "name": "Iron Man \u03B2",
+            "obj_type": 22
+        },
+        {
+            "name": "Iron Man \u03B3",
+            "obj_type": 22
+        },
+        {
+            "name": "Jill \u03B1",
+            "obj_type": 23
+        },
+        {
+            "name": "Jill \u03B2",
+            "obj_type": 23
+        },
+        {
+            "name": "Jill \u03B3",
+            "obj_type": 23
+        },
+        {
+            "name": "Jin \u03B1",
+            "obj_type": 24
+        },
+        {
+            "name": "Jin \u03B2",
+            "obj_type": 24
+        },
+        {
+            "name": "Jin \u03B3",
+            "obj_type": 24
+        },
+        {
+            "name": "Juggernaut \u03B1",
+            "obj_type": 25
+        },
+        {
+            "name": "Juggernaut \u03B2",
+            "obj_type": 25
+        },
+        {
+            "name": "Juggernaut \u03B3",
+            "obj_type": 25
+        },
+        {
+            "name": "Ken \u03B1",
+            "obj_type": 26
+        },
+        {
+            "name": "Ken \u03B2",
+            "obj_type": 26
+        },
+        {
+            "name": "Ken \u03B3",
+            "obj_type": 26
+        },
+        {
+            "name": "Magneto \u03B1",
+            "obj_type": 27
+        },
+        {
+            "name": "Magneto \u03B2",
+            "obj_type": 27
+        },
+        {
+            "name": "Magneto \u03B3",
+            "obj_type": 27
+        },
+        {
+            "name": "Marrow \u03B1",
+            "obj_type": 28
+        },
+        {
+            "name": "Marrow \u03B2",
+            "obj_type": 28
+        },
+        {
+            "name": "Marrow \u03B3",
+            "obj_type": 28
+        },
+        {
+            "name": "M.Bison \u03B1",
+            "obj_type": 29
+        },
+        {
+            "name": "M.Bison \u03B2",
+            "obj_type": 29
+        },
+        {
+            "name": "M.Bison \u03B3",
+            "obj_type": 29
+        },
+        {
+            "name": "Mega Man \u03B1",
+            "obj_type": 30
+        },
+        {
+            "name": "Mega Man \u03B2",
+            "obj_type": 30
+        },
+        {
+            "name": "Mega Man \u03B3",
+            "obj_type": 30
+        },
+        {
+            "name": "Morrigan \u03B1",
+            "obj_type": 31
+        },
+        {
+            "name": "Morrigan \u03B2",
+            "obj_type": 31
+        },
+        {
+            "name": "Morrigan \u03B3",
+            "obj_type": 31
+        },
+        {
+            "name": "Omega Red \u03B1",
+            "obj_type": 32
+        },
+        {
+            "name": "Omega Red \u03B2",
+            "obj_type": 32
+        },
+        {
+            "name": "Omega Red \u03B3",
+            "obj_type": 32
+        },
+        {
+            "name": "Psylocke \u03B1",
+            "obj_type": 33
+        },
+        {
+            "name": "Psylocke \u03B2",
+            "obj_type": 33
+        },
+        {
+            "name": "Psylocke \u03B3",
+            "obj_type": 33
+        },
+        {
+            "name": "Rogue \u03B1",
+            "obj_type": 34
+        },
+        {
+            "name": "Rogue \u03B2",
+            "obj_type": 34
+        },
+        {
+            "name": "Rogue \u03B3",
+            "obj_type": 34
+        },
+        {
+            "name": "Roll \u03B1",
+            "obj_type": 35
+        },
+        {
+            "name": "Roll \u03B2",
+            "obj_type": 35
+        },
+        {
+            "name": "Roll \u03B3",
+            "obj_type": 35
+        },
+        {
+            "name": "Ruby Heart \u03B1",
+            "obj_type": 36
+        },
+        {
+            "name": "Ruby Heart \u03B2",
+            "obj_type": 36
+        },
+        {
+            "name": "Ruby Heart \u03B3",
+            "obj_type": 36
+        },
+        {
+            "name": "Ryu \u03B1",
+            "obj_type": 37
+        },
+        {
+            "name": "Ryu \u03B2",
+            "obj_type": 37
+        },
+        {
+            "name": "Ryu \u03B3",
+            "obj_type": 37
+        },
+        {
+            "name": "Sabretooth \u03B1",
+            "obj_type": 38
+        },
+        {
+            "name": "Sabretooth \u03B2",
+            "obj_type": 38
+        },
+        {
+            "name": "Sabretooth \u03B3",
+            "obj_type": 38
+        },
+        {
+            "name": "Sakura \u03B1",
+            "obj_type": 39
+        },
+        {
+            "name": "Sakura \u03B2",
+            "obj_type": 39
+        },
+        {
+            "name": "Sakura \u03B3",
+            "obj_type": 39
+        },
+        {
+            "name": "Sentinel \u03B1",
+            "obj_type": 40
+        },
+        {
+            "name": "Sentinel \u03B2",
+            "obj_type": 40
+        },
+        {
+            "name": "Sentinel \u03B3",
+            "obj_type": 40
+        },
+        {
+            "name": "Servbot \u03B1",
+            "obj_type": 41
+        },
+        {
+            "name": "Servbot \u03B2",
+            "obj_type": 41
+        },
+        {
+            "name": "Servbot \u03B3",
+            "obj_type": 41
+        },
+        {
+            "name": "Shuma-Gorath \u03B1",
+            "obj_type": 42
+        },
+        {
+            "name": "Shuma-Gorath \u03B2",
+            "obj_type": 42
+        },
+        {
+            "name": "Shuma-Gorath \u03B3",
+            "obj_type": 42
+        },
+        {
+            "name": "Silver Samurai \u03B1",
+            "obj_type": 43
+        },
+        {
+            "name": "Silver Samurai \u03B2",
+            "obj_type": 43
+        },
+        {
+            "name": "Silver Samurai \u03B3",
+            "obj_type": 43
+        },
+        {
+            "name": "SonSon \u03B1",
+            "obj_type": 44
+        },
+        {
+            "name": "SonSon \u03B2",
+            "obj_type": 44
+        },
+        {
+            "name": "SonSon \u03B3",
+            "obj_type": 44
+        },
+        {
+            "name": "Spider-Man \u03B1",
+            "obj_type": 45
+        },
+        {
+            "name": "Spider-Man \u03B2",
+            "obj_type": 45
+        },
+        {
+            "name": "Spider-Man \u03B3",
+            "obj_type": 45
+        },
+        {
+            "name": "Spiral \u03B1",
+            "obj_type": 46
+        },
+        {
+            "name": "Spiral \u03B2",
+            "obj_type": 46
+        },
+        {
+            "name": "Spiral \u03B3",
+            "obj_type": 46
+        },
+        {
+            "name": "Storm \u03B1",
+            "obj_type": 47
+        },
+        {
+            "name": "Storm \u03B2",
+            "obj_type": 47
+        },
+        {
+            "name": "Storm \u03B3",
+            "obj_type": 47
+        },
+        {
+            "name": "Strider \u03B1",
+            "obj_type": 48
+        },
+        {
+            "name": "Strider \u03B2",
+            "obj_type": 48
+        },
+        {
+            "name": "Strider \u03B3",
+            "obj_type": 48
+        },
+        {
+            "name": "Thanos \u03B1",
+            "obj_type": 49
+        },
+        {
+            "name": "Thanos \u03B2",
+            "obj_type": 49
+        },
+        {
+            "name": "Thanos \u03B3",
+            "obj_type": 49
+        },
+        {
+            "name": "Tron Bonne \u03B1",
+            "obj_type": 50
+        },
+        {
+            "name": "Tron Bonne \u03B2",
+            "obj_type": 50
+        },
+        {
+            "name": "Tron Bonne \u03B3",
+            "obj_type": 50
+        },
+        {
+            "name": "Venom \u03B1",
+            "obj_type": 51
+        },
+        {
+            "name": "Venom \u03B2",
+            "obj_type": 51
+        },
+        {
+            "name": "Venom \u03B3",
+            "obj_type": 51
+        },
+        {
+            "name": "War Machine \u03B1",
+            "obj_type": 52
+        },
+        {
+            "name": "War Machine \u03B2",
+            "obj_type": 52
+        },
+        {
+            "name": "War Machine \u03B3",
+            "obj_type": 52
+        },
+        {
+            "name": "Wolverine (Bone) \u03B1",
+            "obj_type": 53
+        },
+        {
+            "name": "Wolverine (Bone) \u03B2",
+            "obj_type": 53
+        },
+        {
+            "name": "Wolverine (Bone) \u03B3",
+            "obj_type": 53
+        },
+        {
+            "name": "Wolverine (Claw) \u03B1",
+            "obj_type": 53
+        },
+        {
+            "name": "Wolverine (Claw) \u03B2",
+            "obj_type": 53
+        },
+        {
+            "name": "Wolverine (Claw) \u03B3",
+            "obj_type": 53
+        },
+        {
+            "name": "Zangief \u03B1",
+            "obj_type": 54
+        },
+        {
+            "name": "Zangief \u03B2",
+            "obj_type": 54
+        },
+        {
+            "name": "Zangief \u03B3",
+            "obj_type": 54
+        }
+    ]
+}
